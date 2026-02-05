@@ -339,22 +339,31 @@ export const prepareChartData = (data, groupBy = 'hour') => {
   const grouped = new Map();
   
   if (groupBy === 'hour') {
-    // Group by hour (0-23)
-    for (const row of data) {
-      const key = row.Hour;
-      if (!grouped.has(key)) {
-        grouped.set(key, { total: 0, count: 0 });
+    // Hours to exclude from chart: 2, 3, 4, 5 (which show as 2-3, 3-4, 4-5, 5-6)
+    const excludedHours = [2, 3, 4, 5];
+    
+    // Initialize all hours 0-23 with 0 values, except excluded hours
+    for (let hour = 0; hour < 24; hour++) {
+      if (!excludedHours.includes(hour)) {
+        grouped.set(hour, { total: 0, count: 0 });
       }
-      grouped.get(key).total += row.AvgAmount;
-      grouped.get(key).count += 1;
     }
     
-    // Create sorted arrays for chart
+    // Group by hour (0-23) and accumulate data, excluding specified hours
+    for (const row of data) {
+      const key = row.Hour;
+      if (!excludedHours.includes(key) && grouped.has(key)) {
+        grouped.get(key).total += row.AvgAmount;
+        grouped.get(key).count += 1;
+      }
+    }
+    
+    // Create sorted arrays for chart (excluding hours 2, 3, 4, 5)
     const sortedEntries = [...grouped.entries()].sort((a, b) => a[0] - b[0]);
     return {
       labels: sortedEntries.map(([hour]) => `${hour} - ${hour + 1}`),
       values: sortedEntries.map(([, { total, count }]) => 
-        Math.round((total / count) * 100) / 100
+        count > 0 ? Math.round((total / count) * 100) / 100 : 0
       )
     };
   } else {
