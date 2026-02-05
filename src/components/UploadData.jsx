@@ -2,38 +2,18 @@ import React, { useState, useRef } from 'react';
 import { parseExcelFile, processData } from '../utils/dataProcessing';
 import { downloadSampleExcel, getSampleDataStats } from '../utils/sampleDataGenerator';
 
-/**
- * UploadData Component
- * 
- * Handles the admin flow for manual data uploads (testing/development):
- * 1. File selection via drag-and-drop or click
- * 2. Excel file parsing using xlsx library
- * 3. Data validation and cleaning
- * 4. Pass processed data to parent component
- * 
- * NOTE: This component NO LONGER saves to localStorage.
- * Data is only stored in React state and is temporary.
- * For production, use the hosted JSON file instead.
- */
 const UploadData = ({ onDataUploaded }) => {
-  // State for tracking upload status and results
   const [isDragging, setIsDragging] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false);
   const [uploadResult, setUploadResult] = useState(null);
   const [error, setError] = useState(null);
-  
-  // Ref for the hidden file input
   const fileInputRef = useRef(null);
 
-  /**
-   * Handle file selection from input or drop
-   */
   const handleFile = async (file) => {
-    // Validate file type
     const validTypes = [
-      'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', // .xlsx
-      'application/vnd.ms-excel', // .xls
-      'text/csv' // .csv
+      'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+      'application/vnd.ms-excel',
+      'text/csv'
     ];
     
     const fileExtension = file.name.split('.').pop().toLowerCase();
@@ -49,14 +29,12 @@ const UploadData = ({ onDataUploaded }) => {
     setUploadResult(null);
 
     try {
-      // Step 1: Parse Excel file to JSON using xlsx library
       const rawData = await parseExcelFile(file);
       
       if (!rawData || rawData.length === 0) {
         throw new Error('The file appears to be empty or has no valid data.');
       }
 
-      // Step 2: Validate columns exist
       const requiredColumns = ['StoreName', 'StoreCode', 'Amount', 'Hour', 'Day', 'Date'];
       const firstRow = rawData[0];
       const missingColumns = requiredColumns.filter(col => !(col in firstRow));
@@ -65,29 +43,18 @@ const UploadData = ({ onDataUploaded }) => {
         throw new Error(`Missing required columns: ${missingColumns.join(', ')}`);
       }
 
-      // Step 3: Process data (validate, clean, group, calculate averages, sort)
       const { processedData, stats } = processData(rawData);
 
       if (processedData.length === 0) {
         throw new Error('No valid data found after processing. Please check your data format.');
       }
 
-      // Step 4: Pass both processed and raw data to parent component
-      // - processedData: For immediate display in dashboard
-      // - rawData: For merging with existing data.json and downloading
-      // 
-      // NOTE: Data is NOT automatically saved.
-      // User must download the merged JSON and manually upload to GitHub.
-
-      // Update state with success result
       setUploadResult({
         fileName: file.name,
         stats: stats,
         timestamp: new Date().toLocaleString()
       });
 
-      // Notify parent component that data is ready
-      // Pass both processed data (for display) and raw data (for merging)
       onDataUploaded(processedData, rawData);
 
     } catch (err) {
@@ -97,9 +64,6 @@ const UploadData = ({ onDataUploaded }) => {
     }
   };
 
-  /**
-   * Handle drag events for drag-and-drop functionality
-   */
   const handleDragOver = (e) => {
     e.preventDefault();
     setIsDragging(true);
@@ -120,16 +84,10 @@ const UploadData = ({ onDataUploaded }) => {
     }
   };
 
-  /**
-   * Handle click on drop zone to trigger file input
-   */
   const handleClick = () => {
     fileInputRef.current?.click();
   };
 
-  /**
-   * Handle file input change
-   */
   const handleFileInputChange = (e) => {
     const files = e.target.files;
     if (files.length > 0) {

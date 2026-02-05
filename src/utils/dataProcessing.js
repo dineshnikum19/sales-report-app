@@ -384,21 +384,3 @@ export const prepareChartData = (data, groupBy = 'hour') => {
   }
 };
 
-/**
- * ============================================
- * LOCALSTORAGE FUNCTIONS REMOVED
- * ============================================
- * 
- * Previous versions of this app used localStorage to persist data.
- * This has been removed in favor of fetching data from a hosted JSON file.
- * 
- * Data now comes from:
- * - A remote URL (configured in App.jsx as DATA_URL)
- * - Fetched on app load
- * - Always up-to-date with the hosted file
- * 
- * If you need the old localStorage functions, they were:
- * - saveToLocalStorage(data)
- * - loadFromLocalStorage()
- * - clearLocalStorage()
- */

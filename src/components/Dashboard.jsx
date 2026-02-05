@@ -18,7 +18,6 @@ import {
   prepareChartData 
 } from '../utils/dataProcessing';
 
-// Register Chart.js components
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -30,24 +29,13 @@ ChartJS.register(
   Legend
 );
 
-/**
- * Dashboard Component
- * 
- * Displays processed sales data:
- * 1. Summary statistics cards
- * 2. Filterable data table (sorted by lowest AvgAmount first)
- * 3. Interactive chart visualization
- */
 const Dashboard = ({ data }) => {
-  // Filter state
   const [selectedStore, setSelectedStore] = useState('');
   const [selectedDay, setSelectedDay] = useState('');
   const [chartType, setChartType] = useState('bar');
   const [chartGroupBy, setChartGroupBy] = useState('hour');
   const [currentPage, setCurrentPage] = useState(1);
   const rowsPerPage = 20;
-
-  // Get unique values for filters
   const stores = useMemo(() => getUniqueStores(data), [data]);
   const days = useMemo(() => getUniqueDays(data), [data]);
 
