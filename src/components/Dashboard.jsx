@@ -15,7 +15,10 @@ import {
   getUniqueStores, 
   getUniqueDays, 
   filterByStore, 
-  prepareChartData 
+  prepareChartData,
+  processData,
+  filterByDateRange,
+  formatHourRangeToAMPM
 } from '../utils/dataProcessing';
 
 ChartJS.register(
@@ -29,19 +32,33 @@ ChartJS.register(
   Legend
 );
 
-const Dashboard = ({ data }) => {
+const Dashboard = ({ rawData }) => {
   const [selectedStore, setSelectedStore] = useState('');
   const [selectedDay, setSelectedDay] = useState('');
+  const [fromDate, setFromDate] = useState('');
+  const [toDate, setToDate] = useState('');
   const [chartType, setChartType] = useState('bar');
-  const [chartGroupBy, setChartGroupBy] = useState('hour');
   const [currentPage, setCurrentPage] = useState(1);
   const [sortOrder, setSortOrder] = useState('lowest');
   const rowsPerPage = 20;
-  const stores = useMemo(() => getUniqueStores(data), [data]);
-  const days = useMemo(() => getUniqueDays(data), [data]);
+
+  // Process raw data: filter by date range, then process
+  const processedData = useMemo(() => {
+    if (!rawData || rawData.length === 0) return [];
+    
+    // Filter by date range first
+    const dateFilteredData = filterByDateRange(rawData, fromDate, toDate);
+    
+    // Process the filtered data
+    const { processedData } = processData(dateFilteredData);
+    return processedData;
+  }, [rawData, fromDate, toDate]);
+
+  const stores = useMemo(() => getUniqueStores(processedData), [processedData]);
+  const days = useMemo(() => getUniqueDays(processedData), [processedData]);
 
   const filteredData = useMemo(() => {
-    let result = data;
+    let result = processedData;
     
     if (selectedStore) {
       result = result.filter(row => row.StoreCode === selectedStore);
@@ -58,7 +75,7 @@ const Dashboard = ({ data }) => {
     });
     
     return sorted;
-  }, [data, selectedStore, selectedDay, sortOrder]);
+  }, [processedData, selectedStore, selectedDay, sortOrder]);
 
   // Pagination
   const totalPages = Math.ceil(filteredData.length / rowsPerPage);
@@ -70,13 +87,13 @@ const Dashboard = ({ data }) => {
   // Reset page when filters or sort order change
   React.useEffect(() => {
     setCurrentPage(1);
-  }, [selectedStore, selectedDay, sortOrder]);
+  }, [selectedStore, selectedDay, sortOrder, fromDate, toDate]);
 
   /**
-   * Prepare chart data based on current filters and grouping
+   * Prepare chart data - always group by hour
    */
   const chartData = useMemo(() => {
-    const { labels, values } = prepareChartData(filteredData, chartGroupBy);
+    const { labels, values } = prepareChartData(filteredData, 'hour');
     
     return {
       labels,
@@ -94,7 +111,7 @@ const Dashboard = ({ data }) => {
         },
       ],
     };
-  }, [filteredData, chartGroupBy, chartType]);
+  }, [filteredData, chartType]);
 
   // Chart options
   const chartOptions = {
@@ -106,7 +123,7 @@ const Dashboard = ({ data }) => {
       },
       title: {
         display: true,
-        text: `Average Sales by ${chartGroupBy === 'hour' ? 'Hour' : 'Day'}${selectedStore ? ` - ${selectedStore}` : ' - All Stores'}`,
+        text: `Average Sales by Hour${selectedStore ? ` - ${selectedStore}` : ' - All Stores'}`,
         font: { size: 16 },
       },
       tooltip: {
@@ -126,7 +143,7 @@ const Dashboard = ({ data }) => {
       x: {
         title: {
           display: true,
-          text: chartGroupBy === 'hour' ? 'Hour of Day' : 'Day of Week',
+          text: 'Hour of Day',
         },
       },
     },
@@ -150,11 +167,11 @@ const Dashboard = ({ data }) => {
       avgAmount: avg.toFixed(2),
       minAmount: min.toFixed(2),
       maxAmount: max.toFixed(2),
-      lowestSlot: lowest ? `${lowest.StoreName} - ${lowest.Day} ${lowest.Hour} - ${lowest.Hour + 1}` : '-',
+      lowestSlot: lowest ? `${lowest.StoreName} - ${lowest.Day} ${formatHourRangeToAMPM(lowest.Hour, lowest.Hour + 1)}` : '-',
     };
   }, [filteredData]);
 
-  if (!data || data.length === 0) {
+  if (!rawData || rawData.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center py-16">
         <svg className="w-24 h-24 text-gray-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -169,14 +186,10 @@ const Dashboard = ({ data }) => {
   return (
     <div className="space-y-6">
       {/* Summary Cards */}
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div className="bg-white rounded-xl shadow-sm border border-gray-300 p-4">
           <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">Total Records</p>
           <p className="text-2xl font-bold text-gray-800">{stats?.totalRecords || 0}</p>
-        </div>
-        <div className="bg-white rounded-xl shadow-sm border border-gray-300 p-4">
-          <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">Avg Amount</p>
-          <p className="text-2xl font-bold text-blue-600">${stats?.avgAmount || '0.00'}</p>
         </div>
         <div className="bg-white rounded-xl shadow-sm border border-gray-300 p-4">
           <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">Min Amount</p>
@@ -227,6 +240,28 @@ const Dashboard = ({ data }) => {
               ))}
             </select>
           </div>
+          <div className="flex-1 min-w-[180px]">
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              From Date
+            </label>
+            <input
+              type="date"
+              value={fromDate}
+              onChange={(e) => setFromDate(e.target.value)}
+              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            />
+          </div>
+          <div className="flex-1 min-w-[180px]">
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              To Date
+            </label>
+            <input
+              type="date"
+              value={toDate}
+              onChange={(e) => setToDate(e.target.value)}
+              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            />
+          </div>
           <div className="flex-1 min-w-[150px]">
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Chart Type
@@ -240,24 +275,13 @@ const Dashboard = ({ data }) => {
               <option value="line">Line Chart</option>
             </select>
           </div>
-          <div className="flex-1 min-w-[150px]">
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              Group By
-            </label>
-            <select
-              value={chartGroupBy}
-              onChange={(e) => setChartGroupBy(e.target.value)}
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-            >
-              <option value="hour">Hour</option>
-              <option value="day">Day</option>
-            </select>
-          </div>
-          {(selectedStore || selectedDay) && (
+          {(selectedStore || selectedDay || fromDate || toDate) && (
             <button
               onClick={() => {
                 setSelectedStore('');
                 setSelectedDay('');
+                setFromDate('');
+                setToDate('');
               }}
               className="px-4 py-2 text-sm text-gray-600 hover:text-gray-800 hover:bg-gray-100 rounded-lg transition-colors mt-6"
             >
@@ -378,7 +402,7 @@ const Dashboard = ({ data }) => {
                       {row.Day}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
-                      {row.Hour} - {row.Hour + 1}
+                      {formatHourRangeToAMPM(row.Hour, row.Hour + 1)}
                     </td>
                     <td className={`px-6 py-4 whitespace-nowrap text-sm text-right font-semibold ${
                       isLowest ? 'text-red-600' : isHighest ? 'text-green-600' : 'text-gray-900'
