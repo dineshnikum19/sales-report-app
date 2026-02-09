@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Dashboard from "./components/Dashboard";
-import DayHourGridPage from "./components/DayHourGridPage";
 
 const DATA_URL = "/data.json";
 
@@ -8,13 +7,6 @@ function App() {
   const [rawData, setRawData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [view, setView] = useState("dashboard");
-  const [dayHourInitialFilters, setDayHourInitialFilters] = useState({
-    selectedStore: "",
-    selectedDay: "",
-    fromDate: "",
-    toDate: "",
-  });
 
   useEffect(() => {
     const fetchData = async () => {
@@ -76,10 +68,10 @@ function App() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-app flex items-center justify-center px-4">
+      <div className="min-h-screen bg-gradient-to-br from-slate-100 via-blue-50 to-indigo-100 flex items-center justify-center px-4">
         <div className="text-center">
           <div className="relative w-16 h-16 mx-auto mb-6">
-            <div className="absolute inset-0 border-4 border-gray-200 rounded-full" />
+            <div className="absolute inset-0 border-4 border-blue-200 rounded-full" />
             <div className="absolute inset-0 border-4 border-transparent border-t-blue-600 rounded-full animate-spin" />
           </div>
           <p className="text-gray-900 font-semibold text-lg mb-1">
@@ -93,7 +85,7 @@ function App() {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-app flex items-center justify-center p-4">
+      <div className="min-h-screen bg-gradient-to-br from-slate-100 via-blue-50 to-indigo-100 flex items-center justify-center p-4">
         <div className="card max-w-md w-full p-8 text-center">
           <div className="flex items-center justify-center w-16 h-16 bg-red-50 rounded-2xl mx-auto mb-6">
             <svg
@@ -132,17 +124,15 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-app flex flex-col">
-      <header
-        className="sticky top-0 z-20 border-b border-gray-200/80 bg-white/95 backdrop-blur-sm"
-        style={{ boxShadow: "var(--shadow-header)" }}
-      >
+    <div className="min-h-screen bg-gradient-to-br from-slate-100 via-blue-50 to-indigo-100 flex flex-col">
+      {/* Header with gradient */}
+      <header className="sticky top-0 z-20 bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-600 text-white shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-14 sm:h-16">
             <div className="flex items-center gap-3">
-              <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-blue-600 text-white">
+              <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-white/20 backdrop-blur-sm">
                 <svg
-                  className="w-5 h-5"
+                  className="w-5 h-5 text-white"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -156,10 +146,10 @@ function App() {
                 </svg>
               </div>
               <div>
-                <h1 className="text-lg sm:text-xl font-bold text-gray-900 tracking-tight">
+                <h1 className="text-lg sm:text-xl font-bold tracking-tight">
                   Sales Report Dashboard
                 </h1>
-                <p className="text-xs text-gray-500 hidden sm:block">
+                <p className="text-xs text-blue-200 hidden sm:block">
                   Real-time analytics
                 </p>
               </div>
@@ -168,7 +158,7 @@ function App() {
               <button
                 onClick={handleRefreshData}
                 disabled={isLoading}
-                className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-all duration-200 disabled:opacity-50 border border-gray-300"
+                className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white hover:bg-white/15 rounded-lg transition-all duration-200 disabled:opacity-50 border border-white/30"
               >
                 <svg
                   className="w-4 h-4"
@@ -191,38 +181,14 @@ function App() {
       </header>
 
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-5 sm:py-8">
-        {view === "dashboard" ? (
-          <Dashboard
-            rawData={rawData}
-            onOpenDayHourGrid={(selectedStore, selectedDay, fromDate, toDate) => {
-              setDayHourInitialFilters({
-                selectedStore: selectedStore ?? "",
-                selectedDay: selectedDay ?? "",
-                fromDate: fromDate ?? "",
-                toDate: toDate ?? "",
-              });
-              setView("dayHourGrid");
-            }}
-          />
-        ) : (
-          <DayHourGridPage
-            rawData={rawData}
-            initialSelectedStore={dayHourInitialFilters.selectedStore}
-            initialSelectedDay={dayHourInitialFilters.selectedDay}
-            initialFromDate={dayHourInitialFilters.fromDate}
-            initialToDate={dayHourInitialFilters.toDate}
-            onBack={() => setView("dashboard")}
-          />
-        )}
+        <Dashboard rawData={rawData} />
       </main>
 
-      <footer
-        className="mt-auto border-t border-gray-200/80 bg-white"
-        style={{ boxShadow: "0 -1px 3px rgba(0,0,0,0.04)" }}
-      >
+      {/* Footer with matching gradient */}
+      <footer className="mt-auto bg-gradient-to-r from-slate-800 via-slate-700 to-slate-800 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <p className="text-center text-sm text-gray-500">
-            <span className="font-medium text-gray-700">
+          <p className="text-center text-sm text-slate-300">
+            <span className="font-medium text-white">
               Sales Report Dashboard
             </span>{" "}
             — Analyze store sales by day and hour

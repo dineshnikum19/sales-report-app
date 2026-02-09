@@ -8,7 +8,11 @@ export const GRID_HOURS = Array.from({ length: 24 }, (_, i) => i).filter(
 
 /**
  * Build a grid of Day x Hour from processed/filtered data.
- * Returns a 2D structure: for each hour (excluding 2am–6am) and each day, the total amount.
+ * Returns a 2D structure: for each hour (excluding 2am–6am) and each day,
+ * the **average** amount across all stores that have data for that cell.
+ *
+ * Previously this was summing AvgAmounts, which inflated values when
+ * multiple stores contributed to the same Day+Hour cell.
  *
  * @param {Array} data - Processed data with Day, Hour, AvgAmount
  * @returns {Object} - { grid: Map<string, number>, dayOrder: string[], hours: number[] }
@@ -24,26 +28,39 @@ export const buildDayHourGrid = (data) => {
     "Saturday",
   ];
 
-  // grid key: "Day_Hour" -> sum of AvgAmount for that cell (only for displayed hours)
-  const grid = new Map();
+  // Accumulator: key -> { total, count } so we can compute the average
+  const accumulator = new Map();
 
   dayOrder.forEach((day) => {
     GRID_HOURS.forEach((hour) => {
-      grid.set(`${day}_${hour}`, 0);
+      accumulator.set(`${day}_${hour}`, { total: 0, count: 0 });
     });
   });
 
   if (!data || data.length === 0) {
+    // Return grid of zeros
+    const grid = new Map();
+    for (const [key] of accumulator) {
+      grid.set(key, 0);
+    }
     return { grid, dayOrder, hours: GRID_HOURS };
   }
 
   data.forEach((row) => {
     const key = `${row.Day}_${row.Hour}`;
-    if (grid.has(key)) {
-      grid.set(key, grid.get(key) + row.AvgAmount);
+    if (accumulator.has(key)) {
+      const cell = accumulator.get(key);
+      cell.total += row.AvgAmount;
+      cell.count += 1;
     }
     // Skip hours not in grid (2–6)
   });
+
+  // Build final grid: average = total / count (or 0 if no data)
+  const grid = new Map();
+  for (const [key, { total, count }] of accumulator) {
+    grid.set(key, count > 0 ? Math.round((total / count) * 100) / 100 : 0);
+  }
 
   return { grid, dayOrder, hours: GRID_HOURS };
 };

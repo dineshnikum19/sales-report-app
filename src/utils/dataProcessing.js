@@ -76,9 +76,13 @@ export const validateAndCleanRow = (row) => {
     return null;
   }
 
-  const hour = parseInt(row.Hour, 10);
-  if (isNaN(hour) || hour < 0 || hour > 23) {
+  let hour = parseInt(row.Hour, 10);
+  if (isNaN(hour) || hour < 0 || hour > 24) {
     return null;
+  }
+  // Source data uses 1-24 where 24 = midnight; normalize to 0-23
+  if (hour === 24) {
+    hour = 0;
   }
 
   if (!day) {
@@ -454,8 +458,8 @@ export const prepareChartData = (data, groupBy = "hour") => {
   const grouped = new Map();
 
   if (groupBy === "hour") {
-    // Hours to exclude from chart: 2, 3, 4, 5 (which show as 2-3, 3-4, 4-5, 5-6)
-    const excludedHours = [2, 3, 4, 5];
+    // Hours to exclude from chart: 2, 3, 4, 5, 6 (which show as 2-3, 3-4, 4-5, 5-6, 6-7)
+    const excludedHours = [2, 3, 4, 5, 6];
 
     // Initialize all hours 0-23 with 0 values, except excluded hours
     for (let hour = 0; hour < 24; hour++) {

@@ -19,9 +19,9 @@ const Filters = ({
   const hasActiveFilters = selectedStore || selectedDay || fromDate || toDate;
 
   return (
-    <div className="card p-4 sm:p-5">
+    <div className="card p-4 sm:p-5 border-l-4 border-l-blue-500">
       <h3 className="section-title mb-4 flex items-center gap-2">
-        <div className="w-7 h-7 rounded-lg bg-blue-600 flex items-center justify-center">
+        <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center shadow-sm">
           <svg
             className="w-4 h-4 text-white"
             fill="none"
@@ -37,6 +37,11 @@ const Filters = ({
           </svg>
         </div>
         Filters
+        {hasActiveFilters && (
+          <span className="ml-2 inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-700">
+            Active
+          </span>
+        )}
       </h3>
       <div className="flex flex-wrap gap-4 sm:gap-5 items-end">
         <div className="flex-1 min-w-[160px] sm:min-w-[180px]">
@@ -114,7 +119,7 @@ const Filters = ({
           <button
             type="button"
             onClick={onClearFilters}
-            className="px-4 py-2.5 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 border border-gray-300 hover:border-gray-400 rounded-xl transition-all duration-200"
+            className="px-4 py-2.5 text-sm font-medium text-red-600 hover:text-white hover:bg-red-500 border border-red-300 hover:border-red-500 rounded-xl transition-all duration-200"
           >
             Clear Filters
           </button>

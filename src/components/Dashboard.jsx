@@ -19,6 +19,7 @@ import {
 import SummaryCards from "./SummaryCards";
 import Filters from "./Filters";
 import SalesChart from "./SalesChart";
+import DayHourGrid from "./DayHourGrid";
 import DataTable from "./DataTable";
 import EmptyState from "./EmptyState";
 import { createChartData, createChartOptions } from "../utils/chartConfig";
@@ -35,7 +36,7 @@ ChartJS.register(
   Legend,
 );
 
-const Dashboard = ({ rawData, onOpenDayHourGrid }) => {
+const Dashboard = ({ rawData }) => {
   const [selectedStore, setSelectedStore] = useState("");
   const [selectedDay, setSelectedDay] = useState("");
   const [fromDate, setFromDate] = useState("");
@@ -145,38 +146,15 @@ const Dashboard = ({ rawData, onOpenDayHourGrid }) => {
         />
       </section>
 
+      <section aria-label="Day and hour grid">
+        <DayHourGrid
+          data={filteredData}
+          selectedStore={selectedStore}
+          fullView
+        />
+      </section>
+
       <section aria-label="Chart">
-        {onOpenDayHourGrid && (
-          <div className="mb-4">
-            <button
-              type="button"
-              onClick={() =>
-                onOpenDayHourGrid(
-                  selectedStore,
-                  selectedDay,
-                  fromDate,
-                  toDate
-                )
-              }
-              className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium text-white bg-blue-600 rounded-xl hover:bg-blue-700 transition-colors shadow-sm"
-            >
-              <svg
-                className="w-5 h-5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"
-                />
-              </svg>
-              View Day & Hour Grid
-            </button>
-          </div>
-        )}
         <SalesChart
           selectedStore={selectedStore}
           chartData={chartData}

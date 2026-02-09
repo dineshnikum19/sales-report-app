@@ -2,8 +2,8 @@ import React from "react";
 
 const EmptyState = () => {
   return (
-    <div className="card flex flex-col items-center justify-center py-20 px-6 max-w-lg mx-auto">
-      <div className="flex items-center justify-center w-24 h-24 rounded-2xl bg-slate-100 text-slate-400 mb-6 ring-4 ring-slate-100">
+    <div className="card flex flex-col items-center justify-center py-20 px-6 max-w-lg mx-auto bg-gradient-to-b from-white to-slate-50">
+      <div className="flex items-center justify-center w-24 h-24 rounded-2xl bg-gradient-to-br from-blue-100 to-indigo-100 text-blue-400 mb-6 ring-4 ring-blue-50">
         <svg
           className="w-12 h-12"
           fill="none"
@@ -23,8 +23,10 @@ const EmptyState = () => {
       </h3>
       <p className="text-slate-500 text-center text-sm">
         No data found in{" "}
-        <span className="font-mono text-slate-600">data.json</span>. Add records
-        to see the dashboard.
+        <span className="font-mono text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded">
+          data.json
+        </span>
+        . Add records to see the dashboard.
       </p>
     </div>
   );
