@@ -7,28 +7,46 @@ const Filters = ({
   selectedDay,
   fromDate,
   toDate,
-  chartType,
+  chartType = "bar",
   onStoreChange,
   onDayChange,
   onFromDateChange,
   onToDateChange,
   onChartTypeChange,
   onClearFilters,
+  hideChartType = false,
 }) => {
-  const hasActiveFilters =
-    selectedStore || selectedDay || fromDate || toDate;
+  const hasActiveFilters = selectedStore || selectedDay || fromDate || toDate;
 
   return (
-    <div className="bg-white rounded-xl shadow-sm border border-gray-300 p-4">
-      <div className="flex flex-wrap gap-4 items-center">
-        <div className="flex-1 min-w-[200px]">
-          <label className="block text-sm font-medium text-gray-700 mb-1">
+    <div className="card p-4 sm:p-5">
+      <h3 className="section-title mb-4 flex items-center gap-2">
+        <div className="w-7 h-7 rounded-lg bg-blue-600 flex items-center justify-center">
+          <svg
+            className="w-4 h-4 text-white"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"
+            />
+          </svg>
+        </div>
+        Filters
+      </h3>
+      <div className="flex flex-wrap gap-4 sm:gap-5 items-end">
+        <div className="flex-1 min-w-[160px] sm:min-w-[180px]">
+          <label className="block text-sm font-medium text-slate-700 mb-1.5">
             Filter by Store
           </label>
           <select
             value={selectedStore}
             onChange={(e) => onStoreChange(e.target.value)}
-            className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            className="input-base py-2.5"
           >
             <option value="">All Stores</option>
             {stores.map((store) => (
@@ -38,14 +56,14 @@ const Filters = ({
             ))}
           </select>
         </div>
-        <div className="flex-1 min-w-[200px]">
-          <label className="block text-sm font-medium text-gray-700 mb-1">
+        <div className="flex-1 min-w-[160px] sm:min-w-[180px]">
+          <label className="block text-sm font-medium text-slate-700 mb-1.5">
             Filter by Day
           </label>
           <select
             value={selectedDay}
             onChange={(e) => onDayChange(e.target.value)}
-            className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            className="input-base py-2.5"
           >
             <option value="">All Days</option>
             {days.map((day) => (
@@ -55,45 +73,48 @@ const Filters = ({
             ))}
           </select>
         </div>
-        <div className="flex-1 min-w-[180px]">
-          <label className="block text-sm font-medium text-gray-700 mb-1">
+        <div className="flex-1 min-w-[140px] sm:min-w-[160px]">
+          <label className="block text-sm font-medium text-slate-700 mb-1.5">
             From Date
           </label>
           <input
             type="date"
             value={fromDate}
             onChange={(e) => onFromDateChange(e.target.value)}
-            className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            className="input-base py-2.5"
           />
         </div>
-        <div className="flex-1 min-w-[180px]">
-          <label className="block text-sm font-medium text-gray-700 mb-1">
+        <div className="flex-1 min-w-[140px] sm:min-w-[160px]">
+          <label className="block text-sm font-medium text-slate-700 mb-1.5">
             To Date
           </label>
           <input
             type="date"
             value={toDate}
             onChange={(e) => onToDateChange(e.target.value)}
-            className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            className="input-base py-2.5"
           />
         </div>
-        <div className="flex-1 min-w-[150px]">
-          <label className="block text-sm font-medium text-gray-700 mb-1">
-            Chart Type
-          </label>
-          <select
-            value={chartType}
-            onChange={(e) => onChartTypeChange(e.target.value)}
-            className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-          >
-            <option value="bar">Bar Chart</option>
-            <option value="line">Line Chart</option>
-          </select>
-        </div>
+        {!hideChartType && (
+          <div className="flex-1 min-w-[120px] sm:min-w-[140px]">
+            <label className="block text-sm font-medium text-slate-700 mb-1.5">
+              Chart Type
+            </label>
+            <select
+              value={chartType}
+              onChange={(e) => onChartTypeChange(e.target.value)}
+              className="input-base py-2.5"
+            >
+              <option value="bar">Bar Chart</option>
+              <option value="line">Line Chart</option>
+            </select>
+          </div>
+        )}
         {hasActiveFilters && (
           <button
+            type="button"
             onClick={onClearFilters}
-            className="px-4 py-2 text-sm text-gray-600 hover:text-gray-800 hover:bg-gray-100 rounded-lg transition-colors mt-6"
+            className="px-4 py-2.5 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 border border-gray-300 hover:border-gray-400 rounded-xl transition-all duration-200"
           >
             Clear Filters
           </button>

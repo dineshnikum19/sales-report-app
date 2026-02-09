@@ -296,6 +296,17 @@ export const getUniqueStores = (data) => {
 };
 
 /**
+ * Get unique store names from processed data
+ *
+ * @param {Array} data - Processed data array
+ * @returns {Array} - Array of unique store names
+ */
+export const getUniqueStoreNames = (data) => {
+  const stores = new Set(data.map((row) => row.StoreName));
+  return Array.from(stores).sort();
+};
+
+/**
  * Get unique days from processed data
  *
  * @param {Array} data - Processed data array
@@ -381,26 +392,26 @@ export const removeDuplicateRows = (data) => {
  */
 export const filterByDateRange = (data, fromDate, toDate) => {
   if (!fromDate && !toDate) return data;
-  
+
   return data.filter((row) => {
     const rowDate = new Date(row.Date);
     if (isNaN(rowDate.getTime())) return false;
-    
+
     // Set time to start of day for comparison
     rowDate.setHours(0, 0, 0, 0);
-    
+
     if (fromDate) {
       const from = new Date(fromDate);
       from.setHours(0, 0, 0, 0);
       if (rowDate < from) return false;
     }
-    
+
     if (toDate) {
       const to = new Date(toDate);
       to.setHours(23, 59, 59, 999); // Include the entire end date
       if (rowDate > to) return false;
     }
-    
+
     return true;
   });
 };
@@ -412,8 +423,8 @@ export const filterByDateRange = (data, fromDate, toDate) => {
  * @returns {string} - Formatted time string (e.g., "9 AM", "2 PM", "12 PM", "12 AM")
  */
 export const formatHourToAMPM = (hour) => {
-  if (hour === 0) return '12 AM';
-  if (hour === 12) return '12 PM';
+  if (hour === 0) return "12 AM";
+  if (hour === 12) return "12 PM";
   if (hour < 12) return `${hour} AM`;
   return `${hour - 12} PM`;
 };

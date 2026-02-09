@@ -11,7 +11,7 @@ import {
   Legend,
 } from "chart.js";
 import {
-  getUniqueStores,
+  getUniqueStoreNames,
   getUniqueDays,
   processData,
   filterByDateRange,
@@ -35,7 +35,7 @@ ChartJS.register(
   Legend,
 );
 
-const Dashboard = ({ rawData }) => {
+const Dashboard = ({ rawData, onOpenDayHourGrid }) => {
   const [selectedStore, setSelectedStore] = useState("");
   const [selectedDay, setSelectedDay] = useState("");
   const [fromDate, setFromDate] = useState("");
@@ -43,7 +43,7 @@ const Dashboard = ({ rawData }) => {
   const [chartType, setChartType] = useState("bar");
   const [currentPage, setCurrentPage] = useState(1);
   const [sortOrder, setSortOrder] = useState("lowest");
-  const rowsPerPage = 20;
+  const rowsPerPage = 10;
 
   // Process raw data: filter by date range, then process
   const processedData = useMemo(() => {
@@ -57,14 +57,17 @@ const Dashboard = ({ rawData }) => {
     return processedData;
   }, [rawData, fromDate, toDate]);
 
-  const stores = useMemo(() => getUniqueStores(processedData), [processedData]);
+  const stores = useMemo(
+    () => getUniqueStoreNames(processedData),
+    [processedData],
+  );
   const days = useMemo(() => getUniqueDays(processedData), [processedData]);
 
   const filteredData = useMemo(() => {
     let result = processedData;
 
     if (selectedStore) {
-      result = result.filter((row) => row.StoreCode === selectedStore);
+      result = result.filter((row) => row.StoreName === selectedStore);
     }
 
     if (selectedDay) {
@@ -119,41 +122,82 @@ const Dashboard = ({ rawData }) => {
   };
 
   return (
-    <div className="space-y-6">
-      <SummaryCards stats={stats} />
+    <div className="space-y-6 sm:space-y-8 text-gray-900">
+      <section aria-label="Summary">
+        <SummaryCards stats={stats} />
+      </section>
 
-      <Filters
-        stores={stores}
-        days={days}
-        selectedStore={selectedStore}
-        selectedDay={selectedDay}
-        fromDate={fromDate}
-        toDate={toDate}
-        chartType={chartType}
-        onStoreChange={setSelectedStore}
-        onDayChange={setSelectedDay}
-        onFromDateChange={setFromDate}
-        onToDateChange={setToDate}
-        onChartTypeChange={setChartType}
-        onClearFilters={handleClearFilters}
-      />
+      <section aria-label="Filters">
+        <Filters
+          stores={stores}
+          days={days}
+          selectedStore={selectedStore}
+          selectedDay={selectedDay}
+          fromDate={fromDate}
+          toDate={toDate}
+          chartType={chartType}
+          onStoreChange={setSelectedStore}
+          onDayChange={setSelectedDay}
+          onFromDateChange={setFromDate}
+          onToDateChange={setToDate}
+          onChartTypeChange={setChartType}
+          onClearFilters={handleClearFilters}
+        />
+      </section>
 
-      <SalesChart
-        chartData={chartData}
-        chartOptions={chartOptions}
-        chartType={chartType}
-      />
+      <section aria-label="Chart">
+        {onOpenDayHourGrid && (
+          <div className="mb-4">
+            <button
+              type="button"
+              onClick={() =>
+                onOpenDayHourGrid(
+                  selectedStore,
+                  selectedDay,
+                  fromDate,
+                  toDate
+                )
+              }
+              className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium text-white bg-blue-600 rounded-xl hover:bg-blue-700 transition-colors shadow-sm"
+            >
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"
+                />
+              </svg>
+              View Day & Hour Grid
+            </button>
+          </div>
+        )}
+        <SalesChart
+          selectedStore={selectedStore}
+          chartData={chartData}
+          chartOptions={chartOptions}
+          chartType={chartType}
+        />
+      </section>
 
-      <DataTable
-        data={paginatedData}
-        currentPage={currentPage}
-        rowsPerPage={rowsPerPage}
-        totalPages={totalPages}
-        totalRecords={filteredData.length}
-        sortOrder={sortOrder}
-        onPageChange={setCurrentPage}
-        onSortOrderChange={setSortOrder}
-      />
+      <section aria-label="Data table">
+        <DataTable
+          data={paginatedData}
+          currentPage={currentPage}
+          rowsPerPage={rowsPerPage}
+          totalPages={totalPages}
+          totalRecords={filteredData.length}
+          sortOrder={sortOrder}
+          onPageChange={setCurrentPage}
+          onSortOrderChange={setSortOrder}
+          selectedStore={selectedStore}
+        />
+      </section>
     </div>
   );
 };
