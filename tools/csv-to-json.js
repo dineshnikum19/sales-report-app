@@ -17,94 +17,94 @@ let totalRowsRead = 0; // Track total rows read (including duplicates)
 console.log("📁 Reading CSV files...\n");
 
 files.forEach((file) => {
-  const filePath = path.join(__dirname, file);
+    const filePath = path.join(__dirname, file);
 
-  if (!fs.existsSync(filePath)) {
-    console.log(`⚠️  Skipping ${file} (not found)`);
-    return;
-  }
+    if (!fs.existsSync(filePath)) {
+        console.log(`⚠️  Skipping ${file} (not found)`);
+        return;
+    }
 
-  console.log(`✓ Reading ${file}...`);
-  const workbook = XLSX.readFile(filePath);
-  const sheetName = workbook.SheetNames[0];
-  const sheet = workbook.Sheets[sheetName];
-  const rows = XLSX.utils.sheet_to_json(sheet);
+    console.log(`✓ Reading ${file}...`);
+    const workbook = XLSX.readFile(filePath);
+    const sheetName = workbook.SheetNames[0];
+    const sheet = workbook.Sheets[sheetName];
+    const rows = XLSX.utils.sheet_to_json(sheet);
 
-  let addedCount = 0;
-  let duplicateCount = 0;
+    let addedCount = 0;
+    let duplicateCount = 0;
 
-  rows.forEach((row) => {
-    totalRowsRead++;
-    // Create a unique key from all data fields to detect duplicates
-    const key = JSON.stringify({
-      StoreName: String(row.StoreName || "").trim(),
-      StoreCode: String(row.StoreCode || "").trim(),
-      Amount: Number(row.Amount),
-      Hour: Number(row.Hour),
-      Day: String(row.Day || "").trim(),
-      Date: String(row.Date || "").trim(),
+    rows.forEach((row) => {
+        totalRowsRead++;
+        // Create a unique key from all data fields to detect duplicates
+        const key = JSON.stringify({
+            StoreName: String(row.StoreName || "").trim(),
+            StoreCode: String(row.StoreCode || "").trim(),
+            Amount: Number(row.Amount),
+            Hour: Number(row.Hour),
+            Day: String(row.Day || "").trim(),
+            Date: String(row.Date || "").trim(),
+        });
+
+        if (!seenRows.has(key)) {
+            seenRows.add(key);
+            allRows.push(row);
+            addedCount++;
+        } else {
+            duplicateCount++;
+        }
     });
 
-    if (!seenRows.has(key)) {
-      seenRows.add(key);
-      allRows.push(row);
-      addedCount++;
-    } else {
-      duplicateCount++;
+    console.log(rows[0]);
+
+    console.log(`  Added ${addedCount} new rows`);
+    if (duplicateCount > 0) {
+        console.log(`  ⚠️  Skipped ${duplicateCount} duplicate rows`);
     }
-  });
-
-  console.log(rows[0]);
-
-  console.log(`  Added ${addedCount} new rows`);
-  if (duplicateCount > 0) {
-    console.log(`  ⚠️  Skipped ${duplicateCount} duplicate rows`);
-  }
 });
 
 const totalDuplicates = totalRowsRead - allRows.length;
 console.log(`\n📊 Total rows read: ${totalRowsRead}`);
 console.log(`📊 Total unique rows collected: ${allRows.length}`);
 if (totalDuplicates > 0) {
-  console.log(`📊 Total duplicates skipped: ${totalDuplicates}\n`);
+    console.log(`📊 Total duplicates skipped: ${totalDuplicates}\n`);
 } else {
-  console.log(`📊 No duplicates found\n`);
+    console.log(`📊 No duplicates found\n`);
 }
 
 // Helper function to convert Excel serial date to YYYY-MM-DD
 function excelDateToISO(serial) {
-  if (typeof serial === "string") return serial; // Already a string date
-  if (isNaN(serial)) return null;
+    if (typeof serial === "string") return serial; // Already a string date
+    if (isNaN(serial)) return null;
 
-  // Excel serial date starts from 1900-01-01
-  const excelEpoch = new Date(1899, 11, 30); // Dec 30, 1899
-  const date = new Date(excelEpoch.getTime() + serial * 86400000);
+    // Excel serial date starts from 1900-01-01
+    const excelEpoch = new Date(1899, 11, 30); // Dec 30, 1899
+    const date = new Date(excelEpoch.getTime() + serial * 86400000);
 
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, "0");
+    const day = String(date.getDate()).padStart(2, "0");
 
-  return `${year}-${month}-${day}`;
+    return `${year}-${month}-${day}`;
 }
 
 // Clean and normalize data
 const cleaned = allRows.map((row) => {
-  const storeName = String(row.StoreName || "").trim();
-  let storeCode = String(row.StoreCode || "").trim();
+    const storeName = String(row.StoreName || "").trim();
+    let storeCode = String(row.StoreCode || "").trim();
 
-  // If StoreCode is empty, use StoreName as fallback
-  if (!storeCode && storeName) {
-    storeCode = storeName;
-  }
+    // If StoreCode is empty, use StoreName as fallback
+    if (!storeCode && storeName) {
+        storeCode = storeName;
+    }
 
-  return {
-    StoreName: storeName || storeCode,
-    StoreCode: storeCode,
-    Amount: Number(row.Amount),
-    Hour: Number(row.Hour),
-    Day: String(row.Day || "").trim(),
-    Date: excelDateToISO(row.Date),
-  };
+    return {
+        StoreName: storeName || storeCode,
+        StoreCode: storeCode,
+        Amount: Number(row.Amount),
+        Hour: Number(row.Hour),
+        Day: String(row.Day || "").trim(),
+        Date: excelDateToISO(row.Date),
+    };
 });
 
 // Save to data.json in tools folder
