@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo } from "react";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -9,17 +9,17 @@ import {
   Title,
   Tooltip,
   Legend,
-} from 'chart.js';
-import { Bar, Line } from 'react-chartjs-2';
-import { 
-  getUniqueStores, 
-  getUniqueDays, 
-  filterByStore, 
+} from "chart.js";
+import { Bar, Line } from "react-chartjs-2";
+import {
+  getUniqueStores,
+  getUniqueDays,
+  filterByStore,
   prepareChartData,
   processData,
   filterByDateRange,
-  formatHourRangeToAMPM
-} from '../utils/dataProcessing';
+  formatHourRangeToAMPM,
+} from "../utils/dataProcessing";
 
 ChartJS.register(
   CategoryScale,
@@ -29,26 +29,26 @@ ChartJS.register(
   PointElement,
   Title,
   Tooltip,
-  Legend
+  Legend,
 );
 
 const Dashboard = ({ rawData }) => {
-  const [selectedStore, setSelectedStore] = useState('');
-  const [selectedDay, setSelectedDay] = useState('');
-  const [fromDate, setFromDate] = useState('');
-  const [toDate, setToDate] = useState('');
-  const [chartType, setChartType] = useState('bar');
+  const [selectedStore, setSelectedStore] = useState("");
+  const [selectedDay, setSelectedDay] = useState("");
+  const [fromDate, setFromDate] = useState("");
+  const [toDate, setToDate] = useState("");
+  const [chartType, setChartType] = useState("bar");
   const [currentPage, setCurrentPage] = useState(1);
-  const [sortOrder, setSortOrder] = useState('lowest');
+  const [sortOrder, setSortOrder] = useState("lowest");
   const rowsPerPage = 20;
 
   // Process raw data: filter by date range, then process
   const processedData = useMemo(() => {
     if (!rawData || rawData.length === 0) return [];
-    
+
     // Filter by date range first
     const dateFilteredData = filterByDateRange(rawData, fromDate, toDate);
-    
+
     // Process the filtered data
     const { processedData } = processData(dateFilteredData);
     return processedData;
@@ -59,21 +59,21 @@ const Dashboard = ({ rawData }) => {
 
   const filteredData = useMemo(() => {
     let result = processedData;
-    
+
     if (selectedStore) {
-      result = result.filter(row => row.StoreCode === selectedStore);
+      result = result.filter((row) => row.StoreCode === selectedStore);
     }
-    
+
     if (selectedDay) {
-      result = result.filter(row => row.Day === selectedDay);
+      result = result.filter((row) => row.Day === selectedDay);
     }
-    
+
     const sorted = [...result].sort((a, b) => {
-      return sortOrder === 'lowest' 
-        ? a.AvgAmount - b.AvgAmount 
+      return sortOrder === "lowest"
+        ? a.AvgAmount - b.AvgAmount
         : b.AvgAmount - a.AvgAmount;
     });
-    
+
     return sorted;
   }, [processedData, selectedStore, selectedDay, sortOrder]);
 
@@ -93,20 +93,21 @@ const Dashboard = ({ rawData }) => {
    * Prepare chart data - always group by hour
    */
   const chartData = useMemo(() => {
-    const { labels, values } = prepareChartData(filteredData, 'hour');
-    
+    const { labels, values } = prepareChartData(filteredData, "hour");
+
     return {
       labels,
       datasets: [
         {
-          label: 'Average Sales Amount',
+          label: "Average Sales Amount",
           data: values,
-          backgroundColor: chartType === 'bar' 
-            ? 'rgba(59, 130, 246, 0.7)' 
-            : 'rgba(59, 130, 246, 0.2)',
-          borderColor: 'rgba(59, 130, 246, 1)',
-          borderWidth: chartType === 'bar' ? 1 : 2,
-          fill: chartType === 'line',
+          backgroundColor:
+            chartType === "bar"
+              ? "rgba(59, 130, 246, 0.7)"
+              : "rgba(59, 130, 246, 0.2)",
+          borderColor: "rgba(59, 130, 246, 1)",
+          borderWidth: chartType === "bar" ? 1 : 2,
+          fill: chartType === "line",
           tension: 0.3,
         },
       ],
@@ -119,11 +120,11 @@ const Dashboard = ({ rawData }) => {
     maintainAspectRatio: false,
     plugins: {
       legend: {
-        position: 'top',
+        position: "top",
       },
       title: {
         display: true,
-        text: `Average Sales by Hour${selectedStore ? ` - ${selectedStore}` : ' - All Stores'}`,
+        text: `Average Sales by Hour${selectedStore ? ` - ${selectedStore}` : " - All Stores"}`,
         font: { size: 16 },
       },
       tooltip: {
@@ -137,13 +138,13 @@ const Dashboard = ({ rawData }) => {
         beginAtZero: true,
         title: {
           display: true,
-          text: 'Average Amount ($)',
+          text: "Average Amount ($)",
         },
       },
       x: {
         title: {
           display: true,
-          text: 'Hour of Day',
+          text: "Hour of Day",
         },
       },
     },
@@ -152,32 +153,46 @@ const Dashboard = ({ rawData }) => {
   // Calculate summary statistics
   const stats = useMemo(() => {
     if (filteredData.length === 0) return null;
-    
-    const amounts = filteredData.map(r => r.AvgAmount);
+
+    const amounts = filteredData.map((r) => r.AvgAmount);
     const total = amounts.reduce((sum, amt) => sum + amt, 0);
     const avg = total / amounts.length;
     const min = Math.min(...amounts);
     const max = Math.max(...amounts);
-    
+
     // Find the lowest performing slot (first item since sorted by lowest)
     const lowest = filteredData[0];
-    
+
     return {
       totalRecords: filteredData.length,
       avgAmount: avg.toFixed(2),
       minAmount: min.toFixed(2),
       maxAmount: max.toFixed(2),
-      lowestSlot: lowest ? `${lowest.StoreName} - ${lowest.Day} ${formatHourRangeToAMPM(lowest.Hour, lowest.Hour + 1)}` : '-',
+      lowestSlot: lowest
+        ? `${lowest.StoreName} - ${lowest.Day} ${formatHourRangeToAMPM(lowest.Hour, lowest.Hour + 1)}`
+        : "-",
     };
   }, [filteredData]);
 
   if (!rawData || rawData.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center py-16">
-        <svg className="w-24 h-24 text-gray-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+        <svg
+          className="w-24 h-24 text-gray-300 mb-4"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1}
+            d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+          />
         </svg>
-        <h3 className="text-xl font-medium text-gray-600 mb-2">No Data Available</h3>
+        <h3 className="text-xl font-medium text-gray-600 mb-2">
+          No Data Available
+        </h3>
         <p className="text-gray-500">No data found in data.json file</p>
       </div>
     );
@@ -188,21 +203,38 @@ const Dashboard = ({ rawData }) => {
       {/* Summary Cards */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div className="bg-white rounded-xl shadow-sm border border-gray-300 p-4">
-          <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">Total Records</p>
-          <p className="text-2xl font-bold text-gray-800">{stats?.totalRecords || 0}</p>
+          <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">
+            Total Records
+          </p>
+          <p className="text-2xl font-bold text-gray-800">
+            {stats?.totalRecords || 0}
+          </p>
         </div>
         <div className="bg-white rounded-xl shadow-sm border border-gray-300 p-4">
-          <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">Min Amount</p>
-          <p className="text-2xl font-bold text-red-600">${stats?.minAmount || '0.00'}</p>
+          <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">
+            Min Amount
+          </p>
+          <p className="text-2xl font-bold text-red-600">
+            ${stats?.minAmount || "0.00"}
+          </p>
         </div>
         <div className="bg-white rounded-xl shadow-sm border border-gray-300 p-4">
-          <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">Max Amount</p>
-          <p className="text-2xl font-bold text-green-600">${stats?.maxAmount || '0.00'}</p>
+          <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">
+            Max Amount
+          </p>
+          <p className="text-2xl font-bold text-green-600">
+            ${stats?.maxAmount || "0.00"}
+          </p>
         </div>
         <div className="bg-white rounded-xl shadow-sm border border-gray-300 p-4 col-span-2 md:col-span-1">
-          <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">Lowest Slot</p>
-          <p className="text-sm font-semibold text-orange-600 truncate" title={stats?.lowestSlot}>
-            {stats?.lowestSlot || '-'}
+          <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">
+            Lowest Slot
+          </p>
+          <p
+            className="text-sm font-semibold text-orange-600 truncate"
+            title={stats?.lowestSlot}
+          >
+            {stats?.lowestSlot || "-"}
           </p>
         </div>
       </div>
@@ -220,8 +252,10 @@ const Dashboard = ({ rawData }) => {
               className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
             >
               <option value="">All Stores</option>
-              {stores.map(store => (
-                <option key={store} value={store}>{store}</option>
+              {stores.map((store) => (
+                <option key={store} value={store}>
+                  {store}
+                </option>
               ))}
             </select>
           </div>
@@ -235,8 +269,10 @@ const Dashboard = ({ rawData }) => {
               className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
             >
               <option value="">All Days</option>
-              {days.map(day => (
-                <option key={day} value={day}>{day}</option>
+              {days.map((day) => (
+                <option key={day} value={day}>
+                  {day}
+                </option>
               ))}
             </select>
           </div>
@@ -278,10 +314,10 @@ const Dashboard = ({ rawData }) => {
           {(selectedStore || selectedDay || fromDate || toDate) && (
             <button
               onClick={() => {
-                setSelectedStore('');
-                setSelectedDay('');
-                setFromDate('');
-                setToDate('');
+                setSelectedStore("");
+                setSelectedDay("");
+                setFromDate("");
+                setToDate("");
               }}
               className="px-4 py-2 text-sm text-gray-600 hover:text-gray-800 hover:bg-gray-100 rounded-lg transition-colors mt-6"
             >
@@ -294,7 +330,7 @@ const Dashboard = ({ rawData }) => {
       {/* Chart */}
       <div className="bg-white rounded-xl shadow-sm border border-gray-300 p-6">
         <div className="h-80">
-          {chartType === 'bar' ? (
+          {chartType === "bar" ? (
             <Bar data={chartData} options={chartOptions} />
           ) : (
             <Line data={chartData} options={chartOptions} />
@@ -310,36 +346,36 @@ const Dashboard = ({ rawData }) => {
               Sales Data by Store, Day & Hour
             </h3>
             <p className="text-sm text-gray-500 mt-1">
-              {sortOrder === 'lowest' 
-                ? 'Sorted by lowest average amount first. The top row shows the worst performing time slot.'
-                : 'Sorted by highest average amount first. The top row shows the best performing time slot.'}
+              {sortOrder === "lowest"
+                ? "Sorted by lowest average amount first. The top row shows the worst performing time slot."
+                : "Sorted by highest average amount first. The top row shows the best performing time slot."}
             </p>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-sm text-gray-600 font-medium">Sort by:</span>
             <button
-              onClick={() => setSortOrder('lowest')}
+              onClick={() => setSortOrder("lowest")}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                sortOrder === 'lowest'
-                  ? 'bg-red-100 text-red-700 border-2 border-red-300'
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200 border-2 border-transparent'
+                sortOrder === "lowest"
+                  ? "bg-red-100 text-red-700 border-2 border-red-300"
+                  : "bg-gray-100 text-gray-600 hover:bg-gray-200 border-2 border-transparent"
               }`}
             >
               Lowest First
             </button>
             <button
-              onClick={() => setSortOrder('highest')}
+              onClick={() => setSortOrder("highest")}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                sortOrder === 'highest'
-                  ? 'bg-green-100 text-green-700 border-2 border-green-300'
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200 border-2 border-transparent'
+                sortOrder === "highest"
+                  ? "bg-green-100 text-green-700 border-2 border-green-300"
+                  : "bg-gray-100 text-gray-600 hover:bg-gray-200 border-2 border-transparent"
               }`}
             >
               Highest First
             </button>
           </div>
         </div>
-        
+
         <div className="overflow-x-auto">
           <table className="w-full">
             <thead className="bg-gray-50">
@@ -368,14 +404,14 @@ const Dashboard = ({ rawData }) => {
               {paginatedData.map((row, index) => {
                 const globalIndex = (currentPage - 1) * rowsPerPage + index;
                 const isFirst = globalIndex === 0;
-                const isLowest = sortOrder === 'lowest' && isFirst;
-                const isHighest = sortOrder === 'highest' && isFirst;
-                
+                const isLowest = sortOrder === "lowest" && isFirst;
+                const isHighest = sortOrder === "highest" && isFirst;
+
                 return (
-                  <tr 
+                  <tr
                     key={`${row.StoreCode}-${row.Day}-${row.Hour}`}
                     className={`
-                      ${isLowest ? 'bg-red-50' : isHighest ? 'bg-green-50' : 'hover:bg-gray-50'}
+                      ${isLowest ? "bg-red-50" : isHighest ? "bg-green-50" : "hover:bg-gray-50"}
                       transition-colors
                     `}
                   >
@@ -404,9 +440,15 @@ const Dashboard = ({ rawData }) => {
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
                       {formatHourRangeToAMPM(row.Hour, row.Hour + 1)}
                     </td>
-                    <td className={`px-6 py-4 whitespace-nowrap text-sm text-right font-semibold ${
-                      isLowest ? 'text-red-600' : isHighest ? 'text-green-600' : 'text-gray-900'
-                    }`}>
+                    <td
+                      className={`px-6 py-4 whitespace-nowrap text-sm text-right font-semibold ${
+                        isLowest
+                          ? "text-red-600"
+                          : isHighest
+                            ? "text-green-600"
+                            : "text-gray-900"
+                      }`}
+                    >
                       ${row.AvgAmount.toFixed(2)}
                     </td>
                   </tr>
@@ -420,11 +462,13 @@ const Dashboard = ({ rawData }) => {
         {totalPages > 1 && (
           <div className="px-6 py-4 border-t border-gray-200 flex items-center justify-between">
             <p className="text-sm text-gray-600">
-              Showing {(currentPage - 1) * rowsPerPage + 1} to {Math.min(currentPage * rowsPerPage, filteredData.length)} of {filteredData.length} results
+              Showing {(currentPage - 1) * rowsPerPage + 1} to{" "}
+              {Math.min(currentPage * rowsPerPage, filteredData.length)} of{" "}
+              {filteredData.length} results
             </p>
             <div className="flex gap-2">
               <button
-                onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
                 disabled={currentPage === 1}
                 className="px-3 py-1 border border-gray-300 rounded-md text-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
               >
@@ -434,7 +478,9 @@ const Dashboard = ({ rawData }) => {
                 Page {currentPage} of {totalPages}
               </span>
               <button
-                onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                onClick={() =>
+                  setCurrentPage((p) => Math.min(totalPages, p + 1))
+                }
                 disabled={currentPage === totalPages}
                 className="px-3 py-1 border border-gray-300 rounded-md text-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
               >

@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // List your CSV files here (update with actual filenames)
-const files = ["demo-sales.csv"];
+const files = ["Demo-Sales1.csv"];
 
 let allRows = [];
 const seenRows = new Set(); // Track unique rows to prevent duplicates
@@ -54,6 +54,8 @@ files.forEach((file) => {
     }
   });
 
+  console.log(rows[0]);
+
   console.log(`  Added ${addedCount} new rows`);
   if (duplicateCount > 0) {
     console.log(`  ⚠️  Skipped ${duplicateCount} duplicate rows`);
@@ -89,12 +91,12 @@ function excelDateToISO(serial) {
 const cleaned = allRows.map((row) => {
   const storeName = String(row.StoreName || "").trim();
   let storeCode = String(row.StoreCode || "").trim();
-  
+
   // If StoreCode is empty, use StoreName as fallback
   if (!storeCode && storeName) {
     storeCode = storeName;
   }
-  
+
   return {
     StoreName: storeName || storeCode,
     StoreCode: storeCode,
