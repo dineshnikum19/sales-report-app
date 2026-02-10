@@ -29,4 +29,6 @@ yarn-debug.log*
 yarn-error.log*
 
 tools/
-eeeeeeeeeeee
+
+# Real data (use data.sample.json or generate via tools)
+public/data.json

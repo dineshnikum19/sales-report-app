@@ -2,45 +2,55 @@ import React, { useState, useEffect } from "react";
 import Dashboard from "./components/Dashboard";
 
 const DATA_URL = "/data.json";
+const SAMPLE_DATA_URL = "/data.sample.json";
+
+async function fetchDataWithFallback() {
+  const primary = await fetch(DATA_URL);
+  if (primary.ok) {
+    const data = await primary.json();
+    if (Array.isArray(data) && data.length > 0) {
+      return { data, source: DATA_URL };
+    }
+  }
+  const fallback = await fetch(SAMPLE_DATA_URL);
+  if (!fallback.ok) {
+    throw new Error(
+      `Failed to load data: ${DATA_URL} not found and ${SAMPLE_DATA_URL} returned ${fallback.status}`,
+    );
+  }
+  const data = await fallback.json();
+  if (!Array.isArray(data) || data.length === 0) {
+    throw new Error("No data found in the JSON file");
+  }
+  return { data, source: SAMPLE_DATA_URL };
+}
 
 function App() {
   const [rawData, setRawData] = useState([]);
+  const [dataSource, setDataSource] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const fetchData = async () => {
+    const load = async () => {
       try {
         setIsLoading(true);
         setError(null);
-
-        const response = await fetch(DATA_URL);
-        if (!response.ok) {
-          throw new Error(
-            `Failed to fetch data: ${response.status} ${response.statusText}`,
-          );
-        }
-
-        const data = await response.json();
-
+        const { data, source } = await fetchDataWithFallback();
         if (!Array.isArray(data)) {
           throw new Error("Data must be an array of objects");
         }
-
-        if (data.length === 0) {
-          throw new Error("No data found in the JSON file");
-        }
-
         setRawData(data);
-        setIsLoading(false);
+        setDataSource(source);
       } catch (err) {
         console.error("Error fetching data:", err);
         setError(err.message);
+      } finally {
         setIsLoading(false);
       }
     };
 
-    fetchData();
+    load();
   }, []);
 
   const handleRefreshData = async () => {
@@ -48,20 +58,13 @@ function App() {
     setError(null);
 
     try {
-      const response = await fetch(DATA_URL);
-
-      if (!response.ok) {
-        throw new Error(
-          `Failed to fetch data: ${response.status} ${response.statusText}`,
-        );
-      }
-
-      const data = await response.json();
+      const { data, source } = await fetchDataWithFallback();
       setRawData(data);
-      setIsLoading(false);
+      setDataSource(source);
     } catch (err) {
       console.error("Error refreshing data:", err);
       setError(err.message);
+    } finally {
       setIsLoading(false);
     }
   };
@@ -113,10 +116,9 @@ function App() {
             Try Again
           </button>
           <p className="text-xs text-gray-500">
-            Data source:{" "}
-            <span className="font-mono break-all text-gray-600">
-              {DATA_URL}
-            </span>
+            Tried: <span className="font-mono text-gray-600">{DATA_URL}</span>
+            {" → "}
+            <span className="font-mono text-gray-600">{SAMPLE_DATA_URL}</span>
           </p>
         </div>
       </div>
@@ -150,7 +152,9 @@ function App() {
                   Sales Report Dashboard
                 </h1>
                 <p className="text-xs text-blue-200 hidden sm:block">
-                  Real-time analytics
+                  {dataSource === SAMPLE_DATA_URL
+                    ? "Sample data (add public/data.json for real data)"
+                    : "Real-time analytics"}
                 </p>
               </div>
             </div>

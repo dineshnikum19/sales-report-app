@@ -1,0 +1,1850 @@
+[
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 105.37,
+    "Hour": 8,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 149.08,
+    "Hour": 9,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 219.16,
+    "Hour": 10,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 178.78,
+    "Hour": 11,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 107.18,
+    "Hour": 12,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 30.6,
+    "Hour": 13,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 54.65,
+    "Hour": 14,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 142.71,
+    "Hour": 15,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 204.86,
+    "Hour": 16,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 193.74,
+    "Hour": 17,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 101.94,
+    "Hour": 18,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 145.53,
+    "Hour": 8,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 220.43,
+    "Hour": 9,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 173.28,
+    "Hour": 10,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 79.38,
+    "Hour": 11,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 42.02,
+    "Hour": 12,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 89.71,
+    "Hour": 13,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 155.1,
+    "Hour": 14,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 217.21,
+    "Hour": 15,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 185.27,
+    "Hour": 16,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 102.82,
+    "Hour": 17,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 38.54,
+    "Hour": 18,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 222.62,
+    "Hour": 8,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 152.57,
+    "Hour": 9,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 117.37,
+    "Hour": 10,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 55.03,
+    "Hour": 11,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 57.6,
+    "Hour": 12,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 129.01,
+    "Hour": 13,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 183.6,
+    "Hour": 14,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 188.8,
+    "Hour": 15,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 118.99,
+    "Hour": 16,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 53.52,
+    "Hour": 17,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 42.59,
+    "Hour": 18,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 180.71,
+    "Hour": 8,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 108.42,
+    "Hour": 9,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 45.5,
+    "Hour": 10,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 77.15,
+    "Hour": 11,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 120.57,
+    "Hour": 12,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 188.65,
+    "Hour": 13,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 185.13,
+    "Hour": 14,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 122.37,
+    "Hour": 15,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 81.52,
+    "Hour": 16,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 40.24,
+    "Hour": 17,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 102.95,
+    "Hour": 18,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 80.09,
+    "Hour": 8,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 52.39,
+    "Hour": 9,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 42.42,
+    "Hour": 10,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 153.02,
+    "Hour": 11,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 201.07,
+    "Hour": 12,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 192.7,
+    "Hour": 13,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 115.23,
+    "Hour": 14,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 69.37,
+    "Hour": 15,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 66.17,
+    "Hour": 16,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 109.2,
+    "Hour": 17,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 191.69,
+    "Hour": 18,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 46.81,
+    "Hour": 8,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 52.61,
+    "Hour": 9,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 139.06,
+    "Hour": 10,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 211.57,
+    "Hour": 11,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 195.03,
+    "Hour": 12,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 127.65,
+    "Hour": 13,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 35.59,
+    "Hour": 14,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 31.85,
+    "Hour": 15,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 118.4,
+    "Hour": 16,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 207.64,
+    "Hour": 17,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 221.44,
+    "Hour": 18,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 84.8,
+    "Hour": 8,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 116.45,
+    "Hour": 9,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 216.67,
+    "Hour": 10,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 180.64,
+    "Hour": 11,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 141.39,
+    "Hour": 12,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 32.8,
+    "Hour": 13,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 69.22,
+    "Hour": 14,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 115.52,
+    "Hour": 15,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 162.33,
+    "Hour": 16,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 189.63,
+    "Hour": 17,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store A",
+    "StoreCode": "A001",
+    "Amount": 161.95,
+    "Hour": 18,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 74.05,
+    "Hour": 8,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 164.43,
+    "Hour": 9,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 210.87,
+    "Hour": 10,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 164.85,
+    "Hour": 11,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 118.35,
+    "Hour": 12,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 34.53,
+    "Hour": 13,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 54.67,
+    "Hour": 14,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 146.84,
+    "Hour": 15,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 206.91,
+    "Hour": 16,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 190.78,
+    "Hour": 17,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 138.24,
+    "Hour": 18,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 169.41,
+    "Hour": 8,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 210.3,
+    "Hour": 9,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 196.43,
+    "Hour": 10,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 95.06,
+    "Hour": 11,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 46.37,
+    "Hour": 12,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 79.95,
+    "Hour": 13,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 136.02,
+    "Hour": 14,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 183.69,
+    "Hour": 15,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 199.26,
+    "Hour": 16,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 100.35,
+    "Hour": 17,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 35.9,
+    "Hour": 18,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 213.67,
+    "Hour": 8,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 179.66,
+    "Hour": 9,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 104.8,
+    "Hour": 10,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 62.72,
+    "Hour": 11,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 55.84,
+    "Hour": 12,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 129.82,
+    "Hour": 13,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 196.41,
+    "Hour": 14,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 208.95,
+    "Hour": 15,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 101.77,
+    "Hour": 16,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 42.55,
+    "Hour": 17,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 68.72,
+    "Hour": 18,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 185.47,
+    "Hour": 8,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 103.92,
+    "Hour": 9,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 56.43,
+    "Hour": 10,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 70.09,
+    "Hour": 11,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 134.18,
+    "Hour": 12,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 184.16,
+    "Hour": 13,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 168.35,
+    "Hour": 14,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 106.57,
+    "Hour": 15,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 70.23,
+    "Hour": 16,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 28.55,
+    "Hour": 17,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 100.34,
+    "Hour": 18,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 107.56,
+    "Hour": 8,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 44.41,
+    "Hour": 9,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 68.72,
+    "Hour": 10,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 112.63,
+    "Hour": 11,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 211.26,
+    "Hour": 12,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 213.3,
+    "Hour": 13,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 138.51,
+    "Hour": 14,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 63.38,
+    "Hour": 15,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 50.6,
+    "Hour": 16,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 126.66,
+    "Hour": 17,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 207.79,
+    "Hour": 18,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 43.16,
+    "Hour": 8,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 69.4,
+    "Hour": 9,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 145.95,
+    "Hour": 10,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 204.47,
+    "Hour": 11,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 204.21,
+    "Hour": 12,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 139.64,
+    "Hour": 13,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 78.46,
+    "Hour": 14,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 30.86,
+    "Hour": 15,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 137.65,
+    "Hour": 16,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 203.41,
+    "Hour": 17,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 196.22,
+    "Hour": 18,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 75.21,
+    "Hour": 8,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 115.82,
+    "Hour": 9,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 207.53,
+    "Hour": 10,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 201.89,
+    "Hour": 11,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 145.85,
+    "Hour": 12,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 53.65,
+    "Hour": 13,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 38.5,
+    "Hour": 14,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 137.6,
+    "Hour": 15,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 200.29,
+    "Hour": 16,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 205.65,
+    "Hour": 17,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store B",
+    "StoreCode": "B002",
+    "Amount": 158.9,
+    "Hour": 18,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 99.7,
+    "Hour": 8,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 165.05,
+    "Hour": 9,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 179.49,
+    "Hour": 10,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 196.99,
+    "Hour": 11,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 126.47,
+    "Hour": 12,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 43.38,
+    "Hour": 13,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 45.47,
+    "Hour": 14,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 141.17,
+    "Hour": 15,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 202.04,
+    "Hour": 16,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 184.51,
+    "Hour": 17,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 108.8,
+    "Hour": 18,
+    "Day": "Monday",
+    "Date": "2025-01-06"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 159.6,
+    "Hour": 8,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 184.68,
+    "Hour": 9,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 200.64,
+    "Hour": 10,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 109.71,
+    "Hour": 11,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 61.18,
+    "Hour": 12,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 83.77,
+    "Hour": 13,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 137.85,
+    "Hour": 14,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 201.06,
+    "Hour": 15,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 167.32,
+    "Hour": 16,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 113.93,
+    "Hour": 17,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 75.75,
+    "Hour": 18,
+    "Day": "Tuesday",
+    "Date": "2025-01-07"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 224.8,
+    "Hour": 8,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 174.79,
+    "Hour": 9,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 77.92,
+    "Hour": 10,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 69.82,
+    "Hour": 11,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 76.42,
+    "Hour": 12,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 112.49,
+    "Hour": 13,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 201.38,
+    "Hour": 14,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 213.19,
+    "Hour": 15,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 121.15,
+    "Hour": 16,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 58.09,
+    "Hour": 17,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 46.18,
+    "Hour": 18,
+    "Day": "Wednesday",
+    "Date": "2025-01-08"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 195.78,
+    "Hour": 8,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 121.05,
+    "Hour": 9,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 35.6,
+    "Hour": 10,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 59.62,
+    "Hour": 11,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 134.51,
+    "Hour": 12,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 218.56,
+    "Hour": 13,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 202.93,
+    "Hour": 14,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 122.68,
+    "Hour": 15,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 65.12,
+    "Hour": 16,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 35.12,
+    "Hour": 17,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 98.61,
+    "Hour": 18,
+    "Day": "Thursday",
+    "Date": "2025-01-09"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 102.06,
+    "Hour": 8,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 28.4,
+    "Hour": 9,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 77.02,
+    "Hour": 10,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 133.43,
+    "Hour": 11,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 213.64,
+    "Hour": 12,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 208.67,
+    "Hour": 13,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 147.56,
+    "Hour": 14,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 70.35,
+    "Hour": 15,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 30.72,
+    "Hour": 16,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 104.9,
+    "Hour": 17,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 184.69,
+    "Hour": 18,
+    "Day": "Friday",
+    "Date": "2025-01-10"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 70.43,
+    "Hour": 8,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 67.3,
+    "Hour": 9,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 159.08,
+    "Hour": 10,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 198.74,
+    "Hour": 11,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 189.37,
+    "Hour": 12,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 118.67,
+    "Hour": 13,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 53.02,
+    "Hour": 14,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 32.03,
+    "Hour": 15,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 134.36,
+    "Hour": 16,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 203.69,
+    "Hour": 17,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 210.6,
+    "Hour": 18,
+    "Day": "Saturday",
+    "Date": "2025-01-11"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 48.52,
+    "Hour": 8,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 135.27,
+    "Hour": 9,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 191.7,
+    "Hour": 10,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 172.31,
+    "Hour": 11,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 122.55,
+    "Hour": 12,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 57.85,
+    "Hour": 13,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 49.6,
+    "Hour": 14,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 90.92,
+    "Hour": 15,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 193.73,
+    "Hour": 16,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 194.58,
+    "Hour": 17,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  },
+  {
+    "StoreName": "Store C",
+    "StoreCode": "C003",
+    "Amount": 127.78,
+    "Hour": 18,
+    "Day": "Sunday",
+    "Date": "2025-01-12"
+  }
+]
