@@ -49,28 +49,27 @@ const Dashboard = ({ rawData }) => {
   // Process raw data: filter by date range, then process
   const processedData = useMemo(() => {
     if (!rawData || rawData.length === 0) return [];
-
-    // Filter by date range first
     const dateFilteredData = filterByDateRange(rawData, fromDate, toDate);
-
-    // Process the filtered data
     const { processedData } = processData(dateFilteredData);
     return processedData;
   }, [rawData, fromDate, toDate]);
 
+  // Get unique stores
   const stores = useMemo(
     () => getUniqueStoreNames(processedData),
     [processedData],
   );
+
+  // Get unique days
   const days = useMemo(() => getUniqueDays(processedData), [processedData]);
 
+  // Filter data by store and day
   const filteredData = useMemo(() => {
     let result = processedData;
 
     if (selectedStore) {
       result = result.filter((row) => row.StoreName === selectedStore);
     }
-
     if (selectedDay) {
       result = result.filter((row) => row.Day === selectedDay);
     }
