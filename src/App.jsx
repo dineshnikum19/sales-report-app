@@ -4,6 +4,8 @@ import Dashboard from "./components/Dashboard";
 const DATA_URL = "/data.json";
 const SAMPLE_DATA_URL = "/data.sample.json";
 
+hi;
+
 async function fetchDataWithFallback() {
   const primary = await fetch(DATA_URL);
   if (primary.ok) {

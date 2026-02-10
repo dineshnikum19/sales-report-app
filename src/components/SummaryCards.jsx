@@ -41,18 +41,10 @@ const SummaryCards = ({ stats }) => {
       gradient: "from-emerald-500 to-emerald-700",
       iconBg: "bg-white/20",
     },
-    {
-      label: "Lowest Slot",
-      value: stats.lowestSlot ?? "-",
-      icon: "slot",
-      gradient: "from-amber-500 to-orange-600",
-      iconBg: "bg-white/20",
-      smallText: true,
-    },
   ];
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-5">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-5">
       {cards.map((card) => (
         <div
           key={card.label}
