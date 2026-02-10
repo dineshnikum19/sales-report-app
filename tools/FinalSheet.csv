@@ -1,4 +1,4 @@
-StoreName,StoreCode,Date,Day,Hour,Amount
+StoreName,StroreCode,Date,Day,Hour,Amount
 Horsham,1400,2026-01-18,Sunday,8,0
 Horsham,1400,2026-01-18,Sunday,9,0
 Horsham,1400,2026-01-18,Sunday,10,15.18
@@ -7871,518 +7871,518 @@ Norristown 2, 11187,2026-01-03,Saturday,21,407.57
 Norristown 2, 11187,2026-01-03,Saturday,22,355.07
 Norristown 2, 11187,2026-01-03,Saturday,23,318.82
 Norristown 2, 11187,2026-01-03,Saturday,24,158.18
-Phoenixville,11188,2026-01-18,Sunday,6,12.78
-Phoenixville,11188,2026-01-18,Sunday,7,23.85
-Phoenixville,11188,2026-01-18,Sunday,8,9.69
-Phoenixville,11188,2026-01-18,Sunday,9,18.06
-Phoenixville,11188,2026-01-18,Sunday,10,81.37
-Phoenixville,11188,2026-01-18,Sunday,11,321.48
-Phoenixville,11188,2026-01-18,Sunday,12,391.08
-Phoenixville,11188,2026-01-18,Sunday,13,403.1
-Phoenixville,11188,2026-01-18,Sunday,14,355.13
-Phoenixville,11188,2026-01-18,Sunday,15,350.75
-Phoenixville,11188,2026-01-18,Sunday,16,388.91
-Phoenixville,11188,2026-01-18,Sunday,17,348.25
-Phoenixville,11188,2026-01-18,Sunday,18,272
-Phoenixville,11188,2026-01-18,Sunday,19,162.6
-Phoenixville,11188,2026-01-18,Sunday,20,141.38
-Phoenixville,11188,2026-01-18,Sunday,21,90.38
-Phoenixville,11188,2026-01-18,Sunday,22,0
-Phoenixville,11188,2026-01-18,Sunday,23,116.53
-Phoenixville,11188,2026-01-19,Monday,6,0
-Phoenixville,11188,2026-01-19,Monday,7,9.88
-Phoenixville,11188,2026-01-19,Monday,8,77.31
-Phoenixville,11188,2026-01-19,Monday,9,47.96
-Phoenixville,11188,2026-01-19,Monday,10,87.52
-Phoenixville,11188,2026-01-19,Monday,11,408.6
-Phoenixville,11188,2026-01-19,Monday,12,582.99
-Phoenixville,11188,2026-01-19,Monday,13,740.23
-Phoenixville,11188,2026-01-19,Monday,14,441.68
-Phoenixville,11188,2026-01-19,Monday,15,380.95
-Phoenixville,11188,2026-01-19,Monday,16,380.64
-Phoenixville,11188,2026-01-19,Monday,17,363.53
-Phoenixville,11188,2026-01-19,Monday,18,281.49
-Phoenixville,11188,2026-01-19,Monday,19,262.73
-Phoenixville,11188,2026-01-19,Monday,20,244.9
-Phoenixville,11188,2026-01-19,Monday,21,92.88
-Phoenixville,11188,2026-01-19,Monday,22,50.95
-Phoenixville,11188,2026-01-19,Monday,23,67.62
-Phoenixville,11188,2026-01-19,Monday,24,0
-Phoenixville,11188,2026-01-20,Tuesday,6,0
-Phoenixville,11188,2026-01-20,Tuesday,7,8.69
-Phoenixville,11188,2026-01-20,Tuesday,8,66.62
-Phoenixville,11188,2026-01-20,Tuesday,9,51.41
-Phoenixville,11188,2026-01-20,Tuesday,10,139.27
-Phoenixville,11188,2026-01-20,Tuesday,11,429.2
-Phoenixville,11188,2026-01-20,Tuesday,12,455.77
-Phoenixville,11188,2026-01-20,Tuesday,13,345.33
-Phoenixville,11188,2026-01-20,Tuesday,14,183.12
-Phoenixville,11188,2026-01-20,Tuesday,15,197.74
-Phoenixville,11188,2026-01-20,Tuesday,16,263.77
-Phoenixville,11188,2026-01-20,Tuesday,17,415.23
-Phoenixville,11188,2026-01-20,Tuesday,18,441.84
-Phoenixville,11188,2026-01-20,Tuesday,19,251.77
-Phoenixville,11188,2026-01-20,Tuesday,20,183.24
-Phoenixville,11188,2026-01-20,Tuesday,21,95.58
-Phoenixville,11188,2026-01-20,Tuesday,22,52.78
-Phoenixville,11188,2026-01-20,Tuesday,23,35.7
-Phoenixville,11188,2026-01-21,Wednesday,6,7.39
-Phoenixville,11188,2026-01-21,Wednesday,7,25.34
-Phoenixville,11188,2026-01-21,Wednesday,8,44.29
-Phoenixville,11188,2026-01-21,Wednesday,9,37.14
-Phoenixville,11188,2026-01-21,Wednesday,10,45.76
-Phoenixville,11188,2026-01-21,Wednesday,11,289.01
-Phoenixville,11188,2026-01-21,Wednesday,12,655.72
-Phoenixville,11188,2026-01-21,Wednesday,13,439.72
-Phoenixville,11188,2026-01-21,Wednesday,14,344.96
-Phoenixville,11188,2026-01-21,Wednesday,15,248.8
-Phoenixville,11188,2026-01-21,Wednesday,16,346.71
-Phoenixville,11188,2026-01-21,Wednesday,17,566.59
-Phoenixville,11188,2026-01-21,Wednesday,18,521.7
-Phoenixville,11188,2026-01-21,Wednesday,19,347.94
-Phoenixville,11188,2026-01-21,Wednesday,20,231
-Phoenixville,11188,2026-01-21,Wednesday,21,109.61
-Phoenixville,11188,2026-01-21,Wednesday,22,158.22
-Phoenixville,11188,2026-01-21,Wednesday,23,34.72
-Phoenixville,11188,2026-01-22,Thursday,6,7.94
-Phoenixville,11188,2026-01-22,Thursday,7,51
-Phoenixville,11188,2026-01-22,Thursday,8,18.76
-Phoenixville,11188,2026-01-22,Thursday,10,120.05
-Phoenixville,11188,2026-01-22,Thursday,11,489.05
-Phoenixville,11188,2026-01-22,Thursday,12,809.82
-Phoenixville,11188,2026-01-22,Thursday,13,604.07
-Phoenixville,11188,2026-01-22,Thursday,14,384.61
-Phoenixville,11188,2026-01-22,Thursday,15,247.68
-Phoenixville,11188,2026-01-22,Thursday,16,302.51
-Phoenixville,11188,2026-01-22,Thursday,17,362.18
-Phoenixville,11188,2026-01-22,Thursday,18,509.22
-Phoenixville,11188,2026-01-22,Thursday,19,385.82
-Phoenixville,11188,2026-01-22,Thursday,20,164.67
-Phoenixville,11188,2026-01-22,Thursday,21,150.98
-Phoenixville,11188,2026-01-22,Thursday,22,56.86
-Phoenixville,11188,2026-01-22,Thursday,23,27.06
-Phoenixville,11188,2026-01-23,Friday,6,30.54
-Phoenixville,11188,2026-01-23,Friday,7,64.31
-Phoenixville,11188,2026-01-23,Friday,8,45.52
-Phoenixville,11188,2026-01-23,Friday,9,80.9
-Phoenixville,11188,2026-01-23,Friday,10,85.23
-Phoenixville,11188,2026-01-23,Friday,11,309.34
-Phoenixville,11188,2026-01-23,Friday,12,742.8
-Phoenixville,11188,2026-01-23,Friday,13,633.37
-Phoenixville,11188,2026-01-23,Friday,14,499.47
-Phoenixville,11188,2026-01-23,Friday,15,398.24
-Phoenixville,11188,2026-01-23,Friday,16,336.07
-Phoenixville,11188,2026-01-23,Friday,17,489.76
-Phoenixville,11188,2026-01-23,Friday,18,356.41
-Phoenixville,11188,2026-01-23,Friday,19,530.53
-Phoenixville,11188,2026-01-23,Friday,20,395.29
-Phoenixville,11188,2026-01-23,Friday,21,267.91
-Phoenixville,11188,2026-01-23,Friday,22,208.26
-Phoenixville,11188,2026-01-23,Friday,23,104.85
-Phoenixville,11188,2026-01-23,Friday,24,66.18
-Phoenixville,11188,2026-01-24,Saturday,6,10.08
-Phoenixville,11188,2026-01-24,Saturday,7,22.06
-Phoenixville,11188,2026-01-24,Saturday,8,52.79
-Phoenixville,11188,2026-01-24,Saturday,9,155.03
-Phoenixville,11188,2026-01-24,Saturday,10,224.98
-Phoenixville,11188,2026-01-24,Saturday,11,412.64
-Phoenixville,11188,2026-01-24,Saturday,12,743.63
-Phoenixville,11188,2026-01-24,Saturday,13,688.04
-Phoenixville,11188,2026-01-24,Saturday,14,393.45
-Phoenixville,11188,2026-01-24,Saturday,15,608.29
-Phoenixville,11188,2026-01-24,Saturday,16,356.68
-Phoenixville,11188,2026-01-24,Saturday,17,430.82
-Phoenixville,11188,2026-01-24,Saturday,18,261.75
-Phoenixville,11188,2026-01-24,Saturday,19,158.57
-Phoenixville,11188,2026-01-24,Saturday,20,159.81
-Phoenixville,11188,2026-01-24,Saturday,21,200.13
-Phoenixville,11188,2026-01-24,Saturday,22,81.44
-Phoenixville,11188,2026-01-24,Saturday,23,155.8
-Phoenixville,11188,2026-01-24,Saturday,24,26.81
-Phoenixville,11188,2026-01-11,Sunday,6,0
-Phoenixville,11188,2026-01-11,Sunday,7,6.69
-Phoenixville,11188,2026-01-11,Sunday,8,30.43
-Phoenixville,11188,2026-01-11,Sunday,9,48.08
-Phoenixville,11188,2026-01-11,Sunday,10,56.41
-Phoenixville,11188,2026-01-11,Sunday,11,727.56
-Phoenixville,11188,2026-01-11,Sunday,12,793.25
-Phoenixville,11188,2026-01-11,Sunday,13,861.52
-Phoenixville,11188,2026-01-11,Sunday,14,611.36
-Phoenixville,11188,2026-01-11,Sunday,15,306.64
-Phoenixville,11188,2026-01-11,Sunday,16,226.44
-Phoenixville,11188,2026-01-11,Sunday,17,367.79
-Phoenixville,11188,2026-01-11,Sunday,18,210.38
-Phoenixville,11188,2026-01-11,Sunday,19,194.37
-Phoenixville,11188,2026-01-11,Sunday,20,172.95
-Phoenixville,11188,2026-01-11,Sunday,21,184.25
-Phoenixville,11188,2026-01-11,Sunday,22,52.94
-Phoenixville,11188,2026-01-11,Sunday,23,78.47
-Phoenixville,11188,2026-01-12,Monday,6,0
-Phoenixville,11188,2026-01-12,Monday,7,12.78
-Phoenixville,11188,2026-01-12,Monday,8,47.6
-Phoenixville,11188,2026-01-12,Monday,9,53.28
-Phoenixville,11188,2026-01-12,Monday,10,59.99
-Phoenixville,11188,2026-01-12,Monday,11,235.01
-Phoenixville,11188,2026-01-12,Monday,12,544.79
-Phoenixville,11188,2026-01-12,Monday,13,447.97
-Phoenixville,11188,2026-01-12,Monday,14,266.97
-Phoenixville,11188,2026-01-12,Monday,15,264.84
-Phoenixville,11188,2026-01-12,Monday,16,361.95
-Phoenixville,11188,2026-01-12,Monday,17,296.33
-Phoenixville,11188,2026-01-12,Monday,18,299.5
-Phoenixville,11188,2026-01-12,Monday,19,189.45
-Phoenixville,11188,2026-01-12,Monday,20,184.09
-Phoenixville,11188,2026-01-12,Monday,21,62.27
-Phoenixville,11188,2026-01-12,Monday,22,98.42
-Phoenixville,11188,2026-01-12,Monday,23,50.29
-Phoenixville,11188,2026-01-12,Monday,24,0
-Phoenixville,11188,2026-01-13,Tuesday,6,17.17
-Phoenixville,11188,2026-01-13,Tuesday,7,25.25
-Phoenixville,11188,2026-01-13,Tuesday,8,73.47
-Phoenixville,11188,2026-01-13,Tuesday,9,54.48
-Phoenixville,11188,2026-01-13,Tuesday,10,9.9
-Phoenixville,11188,2026-01-13,Tuesday,11,239.14
-Phoenixville,11188,2026-01-13,Tuesday,12,637.46
-Phoenixville,11188,2026-01-13,Tuesday,13,353.31
-Phoenixville,11188,2026-01-13,Tuesday,14,381.72
-Phoenixville,11188,2026-01-13,Tuesday,15,202.63
-Phoenixville,11188,2026-01-13,Tuesday,16,262.05
-Phoenixville,11188,2026-01-13,Tuesday,17,459.49
-Phoenixville,11188,2026-01-13,Tuesday,18,304.3
-Phoenixville,11188,2026-01-13,Tuesday,19,205.77
-Phoenixville,11188,2026-01-13,Tuesday,20,192.08
-Phoenixville,11188,2026-01-13,Tuesday,21,97.25
-Phoenixville,11188,2026-01-13,Tuesday,22,93.8
-Phoenixville,11188,2026-01-13,Tuesday,23,20.28
-Phoenixville,11188,2026-01-14,Wednesday,6,15.08
-Phoenixville,11188,2026-01-14,Wednesday,7,27.35
-Phoenixville,11188,2026-01-14,Wednesday,8,49.26
-Phoenixville,11188,2026-01-14,Wednesday,9,50.21
-Phoenixville,11188,2026-01-14,Wednesday,10,182.56
-Phoenixville,11188,2026-01-14,Wednesday,11,231.17
-Phoenixville,11188,2026-01-14,Wednesday,12,572.05
-Phoenixville,11188,2026-01-14,Wednesday,13,342.82
-Phoenixville,11188,2026-01-14,Wednesday,14,336.05
-Phoenixville,11188,2026-01-14,Wednesday,15,213.39
-Phoenixville,11188,2026-01-14,Wednesday,16,283.88
-Phoenixville,11188,2026-01-14,Wednesday,17,459.98
-Phoenixville,11188,2026-01-14,Wednesday,18,466.1
-Phoenixville,11188,2026-01-14,Wednesday,19,282.48
-Phoenixville,11188,2026-01-14,Wednesday,20,188.49
-Phoenixville,11188,2026-01-14,Wednesday,21,157.59
-Phoenixville,11188,2026-01-14,Wednesday,22,40.5
-Phoenixville,11188,2026-01-14,Wednesday,23,35.45
-Phoenixville,11188,2026-01-15,Thursday,6,0
-Phoenixville,11188,2026-01-15,Thursday,7,20.56
-Phoenixville,11188,2026-01-15,Thursday,8,58.21
-Phoenixville,11188,2026-01-15,Thursday,10,72.83
-Phoenixville,11188,2026-01-15,Thursday,11,338.34
-Phoenixville,11188,2026-01-15,Thursday,12,836.63
-Phoenixville,11188,2026-01-15,Thursday,13,529.39
-Phoenixville,11188,2026-01-15,Thursday,14,287.5
-Phoenixville,11188,2026-01-15,Thursday,15,279.58
-Phoenixville,11188,2026-01-15,Thursday,16,352.83
-Phoenixville,11188,2026-01-15,Thursday,17,592.23
-Phoenixville,11188,2026-01-15,Thursday,18,536.8
-Phoenixville,11188,2026-01-15,Thursday,19,264.66
-Phoenixville,11188,2026-01-15,Thursday,20,266.59
-Phoenixville,11188,2026-01-15,Thursday,21,136.73
-Phoenixville,11188,2026-01-15,Thursday,22,163.22
-Phoenixville,11188,2026-01-15,Thursday,23,118.64
-Phoenixville,11188,2026-01-16,Friday,6,21.36
-Phoenixville,11188,2026-01-16,Friday,7,35.45
-Phoenixville,11188,2026-01-16,Friday,8,86.45
-Phoenixville,11188,2026-01-16,Friday,9,76.8
-Phoenixville,11188,2026-01-16,Friday,10,141.8
-Phoenixville,11188,2026-01-16,Friday,11,449.24
-Phoenixville,11188,2026-01-16,Friday,12,642.91
-Phoenixville,11188,2026-01-16,Friday,13,512.42
-Phoenixville,11188,2026-01-16,Friday,14,372.22
-Phoenixville,11188,2026-01-16,Friday,15,253.72
-Phoenixville,11188,2026-01-16,Friday,16,277.28
-Phoenixville,11188,2026-01-16,Friday,17,546.59
-Phoenixville,11188,2026-01-16,Friday,18,448.87
-Phoenixville,11188,2026-01-16,Friday,19,260.8
-Phoenixville,11188,2026-01-16,Friday,20,130.08
-Phoenixville,11188,2026-01-16,Friday,21,116.46
-Phoenixville,11188,2026-01-16,Friday,22,244.22
-Phoenixville,11188,2026-01-16,Friday,23,116.03
-Phoenixville,11188,2026-01-16,Friday,24,80.44
-Phoenixville,11188,2026-01-17,Saturday,6,29.45
-Phoenixville,11188,2026-01-17,Saturday,7,35.93
-Phoenixville,11188,2026-01-17,Saturday,8,50.22
-Phoenixville,11188,2026-01-17,Saturday,9,90.13
-Phoenixville,11188,2026-01-17,Saturday,10,91.73
-Phoenixville,11188,2026-01-17,Saturday,11,250.75
-Phoenixville,11188,2026-01-17,Saturday,12,777.8
-Phoenixville,11188,2026-01-17,Saturday,13,584.11
-Phoenixville,11188,2026-01-17,Saturday,14,387.45
-Phoenixville,11188,2026-01-17,Saturday,15,305.44
-Phoenixville,11188,2026-01-17,Saturday,16,325.94
-Phoenixville,11188,2026-01-17,Saturday,17,436.89
-Phoenixville,11188,2026-01-17,Saturday,18,453.43
-Phoenixville,11188,2026-01-17,Saturday,19,485.31
-Phoenixville,11188,2026-01-17,Saturday,20,382.1
-Phoenixville,11188,2026-01-17,Saturday,21,289.67
-Phoenixville,11188,2026-01-17,Saturday,22,215.07
-Phoenixville,11188,2026-01-17,Saturday,23,70.68
-Phoenixville,11188,2026-01-17,Saturday,24,62.56
-Phoenixville,11188,2026-01-04,Sunday,6,40.58
-Phoenixville,11188,2026-01-04,Sunday,7,18.27
-Phoenixville,11188,2026-01-04,Sunday,8,6.79
-Phoenixville,11188,2026-01-04,Sunday,9,28.51
-Phoenixville,11188,2026-01-04,Sunday,10,98.4
-Phoenixville,11188,2026-01-04,Sunday,11,361.8
-Phoenixville,11188,2026-01-04,Sunday,12,408.25
-Phoenixville,11188,2026-01-04,Sunday,13,812.45
-Phoenixville,11188,2026-01-04,Sunday,14,460.29
-Phoenixville,11188,2026-01-04,Sunday,15,311.9
-Phoenixville,11188,2026-01-04,Sunday,16,396.44
-Phoenixville,11188,2026-01-04,Sunday,17,463.74
-Phoenixville,11188,2026-01-04,Sunday,18,637.77
-Phoenixville,11188,2026-01-04,Sunday,19,334.89
-Phoenixville,11188,2026-01-04,Sunday,20,407.9
-Phoenixville,11188,2026-01-04,Sunday,21,70.49
-Phoenixville,11188,2026-01-04,Sunday,22,22.57
-Phoenixville,11188,2026-01-04,Sunday,23,58.67
-Phoenixville,11188,2026-01-05,Monday,6,19.07
-Phoenixville,11188,2026-01-05,Monday,7,11.18
-Phoenixville,11188,2026-01-05,Monday,8,36.75
-Phoenixville,11188,2026-01-05,Monday,9,37.04
-Phoenixville,11188,2026-01-05,Monday,10,30.53
-Phoenixville,11188,2026-01-05,Monday,11,309.46
-Phoenixville,11188,2026-01-05,Monday,12,515.73
-Phoenixville,11188,2026-01-05,Monday,13,366.14
-Phoenixville,11188,2026-01-05,Monday,14,284.78
-Phoenixville,11188,2026-01-05,Monday,15,97.17
-Phoenixville,11188,2026-01-05,Monday,16,222.03
-Phoenixville,11188,2026-01-05,Monday,17,356.01
-Phoenixville,11188,2026-01-05,Monday,18,298.26
-Phoenixville,11188,2026-01-05,Monday,19,190.33
-Phoenixville,11188,2026-01-05,Monday,20,257.68
-Phoenixville,11188,2026-01-05,Monday,21,80.4
-Phoenixville,11188,2026-01-05,Monday,22,74.24
-Phoenixville,11188,2026-01-05,Monday,23,84.33
-Phoenixville,11188,2026-01-05,Monday,24,0
-Phoenixville,11188,2026-01-06,Tuesday,6,27.95
-Phoenixville,11188,2026-01-06,Tuesday,7,24.96
-Phoenixville,11188,2026-01-06,Tuesday,8,30.59
-Phoenixville,11188,2026-01-06,Tuesday,9,75.94
-Phoenixville,11188,2026-01-06,Tuesday,10,90.03
-Phoenixville,11188,2026-01-06,Tuesday,11,293.83
-Phoenixville,11188,2026-01-06,Tuesday,12,638.1
-Phoenixville,11188,2026-01-06,Tuesday,13,468.27
-Phoenixville,11188,2026-01-06,Tuesday,14,318.91
-Phoenixville,11188,2026-01-06,Tuesday,15,323.78
-Phoenixville,11188,2026-01-06,Tuesday,16,318.07
-Phoenixville,11188,2026-01-06,Tuesday,17,309.48
-Phoenixville,11188,2026-01-06,Tuesday,18,410.85
-Phoenixville,11188,2026-01-06,Tuesday,19,297.68
-Phoenixville,11188,2026-01-06,Tuesday,20,222.87
-Phoenixville,11188,2026-01-06,Tuesday,21,155.6
-Phoenixville,11188,2026-01-06,Tuesday,22,26.52
-Phoenixville,11188,2026-01-06,Tuesday,23,107.14
-Phoenixville,11188,2026-01-07,Wednesday,6,8.39
-Phoenixville,11188,2026-01-07,Wednesday,7,72.61
-Phoenixville,11188,2026-01-07,Wednesday,8,27.45
-Phoenixville,11188,2026-01-07,Wednesday,9,34.8
-Phoenixville,11188,2026-01-07,Wednesday,10,146.9
-Phoenixville,11188,2026-01-07,Wednesday,11,399.86
-Phoenixville,11188,2026-01-07,Wednesday,12,723.45
-Phoenixville,11188,2026-01-07,Wednesday,13,490.7
-Phoenixville,11188,2026-01-07,Wednesday,14,346.61
-Phoenixville,11188,2026-01-07,Wednesday,15,237.87
-Phoenixville,11188,2026-01-07,Wednesday,16,185.19
-Phoenixville,11188,2026-01-07,Wednesday,17,603.68
-Phoenixville,11188,2026-01-07,Wednesday,18,370.63
-Phoenixville,11188,2026-01-07,Wednesday,19,218.33
-Phoenixville,11188,2026-01-07,Wednesday,20,146.24
-Phoenixville,11188,2026-01-07,Wednesday,21,140.37
-Phoenixville,11188,2026-01-07,Wednesday,22,77.8
-Phoenixville,11188,2026-01-07,Wednesday,23,13.49
-Phoenixville,11188,2026-01-08,Thursday,6,24.05
-Phoenixville,11188,2026-01-08,Thursday,7,29.84
-Phoenixville,11188,2026-01-08,Thursday,8,45.08
-Phoenixville,11188,2026-01-08,Thursday,10,59.94
-Phoenixville,11188,2026-01-08,Thursday,11,464.99
-Phoenixville,11188,2026-01-08,Thursday,12,809.13
-Phoenixville,11188,2026-01-08,Thursday,13,406.72
-Phoenixville,11188,2026-01-08,Thursday,14,328.33
-Phoenixville,11188,2026-01-08,Thursday,15,196.45
-Phoenixville,11188,2026-01-08,Thursday,16,236.4
-Phoenixville,11188,2026-01-08,Thursday,17,520.33
-Phoenixville,11188,2026-01-08,Thursday,18,282.73
-Phoenixville,11188,2026-01-08,Thursday,19,226.21
-Phoenixville,11188,2026-01-08,Thursday,20,227.43
-Phoenixville,11188,2026-01-08,Thursday,21,129.4
-Phoenixville,11188,2026-01-08,Thursday,22,49.13
-Phoenixville,11188,2026-01-08,Thursday,23,111.58
-Phoenixville,11188,2026-01-09,Friday,6,3
-Phoenixville,11188,2026-01-09,Friday,7,63.98
-Phoenixville,11188,2026-01-09,Friday,8,41.02
-Phoenixville,11188,2026-01-09,Friday,9,63.32
-Phoenixville,11188,2026-01-09,Friday,10,61.12
-Phoenixville,11188,2026-01-09,Friday,11,491
-Phoenixville,11188,2026-01-09,Friday,12,870.05
-Phoenixville,11188,2026-01-09,Friday,13,491.48
-Phoenixville,11188,2026-01-09,Friday,14,575.72
-Phoenixville,11188,2026-01-09,Friday,15,310.07
-Phoenixville,11188,2026-01-09,Friday,16,272.31
-Phoenixville,11188,2026-01-09,Friday,17,587.06
-Phoenixville,11188,2026-01-09,Friday,18,424.61
-Phoenixville,11188,2026-01-09,Friday,19,544.67
-Phoenixville,11188,2026-01-09,Friday,20,258.61
-Phoenixville,11188,2026-01-09,Friday,21,218.46
-Phoenixville,11188,2026-01-09,Friday,22,147
-Phoenixville,11188,2026-01-09,Friday,23,57.68
-Phoenixville,11188,2026-01-09,Friday,24,79.27
-Phoenixville,11188,2026-01-10,Saturday,6,0
-Phoenixville,11188,2026-01-10,Saturday,7,55.72
-Phoenixville,11188,2026-01-10,Saturday,8,60.65
-Phoenixville,11188,2026-01-10,Saturday,9,92.93
-Phoenixville,11188,2026-01-10,Saturday,10,80.24
-Phoenixville,11188,2026-01-10,Saturday,11,750.02
-Phoenixville,11188,2026-01-10,Saturday,12,1093.33
-Phoenixville,11188,2026-01-10,Saturday,13,973.72
-Phoenixville,11188,2026-01-10,Saturday,14,762.75
-Phoenixville,11188,2026-01-10,Saturday,15,450.37
-Phoenixville,11188,2026-01-10,Saturday,16,226.73
-Phoenixville,11188,2026-01-10,Saturday,17,616.09
-Phoenixville,11188,2026-01-10,Saturday,18,440.54
-Phoenixville,11188,2026-01-10,Saturday,19,299.89
-Phoenixville,11188,2026-01-10,Saturday,20,126.72
-Phoenixville,11188,2026-01-10,Saturday,21,134.94
-Phoenixville,11188,2026-01-10,Saturday,22,134.19
-Phoenixville,11188,2026-01-10,Saturday,23,143.87
-Phoenixville,11188,2026-01-10,Saturday,24,64.37
-Phoenixville,11188,2025-12-28,Sunday,6,0
-Phoenixville,11188,2025-12-28,Sunday,7,0
-Phoenixville,11188,2025-12-28,Sunday,8,50.48
-Phoenixville,11188,2025-12-28,Sunday,9,66.55
-Phoenixville,11188,2025-12-28,Sunday,10,118.1
-Phoenixville,11188,2025-12-28,Sunday,11,145.06
-Phoenixville,11188,2025-12-28,Sunday,12,348.66
-Phoenixville,11188,2025-12-28,Sunday,13,288.27
-Phoenixville,11188,2025-12-28,Sunday,14,375.15
-Phoenixville,11188,2025-12-28,Sunday,15,301.14
-Phoenixville,11188,2025-12-28,Sunday,16,183.07
-Phoenixville,11188,2025-12-28,Sunday,17,446.95
-Phoenixville,11188,2025-12-28,Sunday,18,189.63
-Phoenixville,11188,2025-12-28,Sunday,19,208.25
-Phoenixville,11188,2025-12-28,Sunday,20,154.55
-Phoenixville,11188,2025-12-28,Sunday,21,134.16
-Phoenixville,11188,2025-12-28,Sunday,22,74.63
-Phoenixville,11188,2025-12-28,Sunday,23,65.73
-Phoenixville,11188,2025-12-29,Monday,6,3
-Phoenixville,11188,2025-12-29,Monday,7,50.02
-Phoenixville,11188,2025-12-29,Monday,8,35.62
-Phoenixville,11188,2025-12-29,Monday,9,70.99
-Phoenixville,11188,2025-12-29,Monday,10,96.08
-Phoenixville,11188,2025-12-29,Monday,11,374.22
-Phoenixville,11188,2025-12-29,Monday,12,754.36
-Phoenixville,11188,2025-12-29,Monday,13,559.85
-Phoenixville,11188,2025-12-29,Monday,14,380.08
-Phoenixville,11188,2025-12-29,Monday,15,332.86
-Phoenixville,11188,2025-12-29,Monday,16,158.25
-Phoenixville,11188,2025-12-29,Monday,17,417.88
-Phoenixville,11188,2025-12-29,Monday,18,372.93
-Phoenixville,11188,2025-12-29,Monday,19,310.85
-Phoenixville,11188,2025-12-29,Monday,20,131.98
-Phoenixville,11188,2025-12-29,Monday,21,77.07
-Phoenixville,11188,2025-12-29,Monday,22,58.99
-Phoenixville,11188,2025-12-29,Monday,23,10.29
-Phoenixville,11188,2025-12-29,Monday,24,38.96
-Phoenixville,11188,2025-12-30,Tuesday,6,15.56
-Phoenixville,11188,2025-12-30,Tuesday,7,66.15
-Phoenixville,11188,2025-12-30,Tuesday,8,33.94
-Phoenixville,11188,2025-12-30,Tuesday,9,90.38
-Phoenixville,11188,2025-12-30,Tuesday,10,117.79
-Phoenixville,11188,2025-12-30,Tuesday,11,458.26
-Phoenixville,11188,2025-12-30,Tuesday,12,660.61
-Phoenixville,11188,2025-12-30,Tuesday,13,526.12
-Phoenixville,11188,2025-12-30,Tuesday,14,421.28
-Phoenixville,11188,2025-12-30,Tuesday,15,259.7
-Phoenixville,11188,2025-12-30,Tuesday,16,176.94
-Phoenixville,11188,2025-12-30,Tuesday,17,430.08
-Phoenixville,11188,2025-12-30,Tuesday,18,231.62
-Phoenixville,11188,2025-12-30,Tuesday,19,347.51
-Phoenixville,11188,2025-12-30,Tuesday,20,150.54
-Phoenixville,11188,2025-12-30,Tuesday,21,185.78
-Phoenixville,11188,2025-12-30,Tuesday,22,136.89
-Phoenixville,11188,2025-12-30,Tuesday,23,60.2
-Phoenixville,11188,2025-12-31,Wednesday,6,2.49
-Phoenixville,11188,2025-12-31,Wednesday,7,17.08
-Phoenixville,11188,2025-12-31,Wednesday,8,78.68
-Phoenixville,11188,2025-12-31,Wednesday,9,35.73
-Phoenixville,11188,2025-12-31,Wednesday,10,136.63
-Phoenixville,11188,2025-12-31,Wednesday,11,373.55
-Phoenixville,11188,2025-12-31,Wednesday,12,699.96
-Phoenixville,11188,2025-12-31,Wednesday,13,476.6
-Phoenixville,11188,2025-12-31,Wednesday,14,300.54
-Phoenixville,11188,2025-12-31,Wednesday,15,246.16
-Phoenixville,11188,2025-12-31,Wednesday,16,304.95
-Phoenixville,11188,2025-12-31,Wednesday,17,316.13
-Phoenixville,11188,2025-12-31,Wednesday,18,270.13
-Phoenixville,11188,2025-12-31,Wednesday,19,192.26
-Phoenixville,11188,2025-12-31,Wednesday,20,219.53
-Phoenixville,11188,2025-12-31,Wednesday,21,147.96
-Phoenixville,11188,2025-12-31,Wednesday,22,0
-Phoenixville,11188,2025-12-31,Wednesday,23,0
-Phoenixville,11188,2026-01-01,Thursday,6,0
-Phoenixville,11188,2026-01-01,Thursday,7,0
-Phoenixville,11188,2026-01-01,Thursday,8,0
-Phoenixville,11188,2026-01-01,Thursday,10,0
-Phoenixville,11188,2026-01-01,Thursday,11,161.26
-Phoenixville,11188,2026-01-01,Thursday,12,189.36
-Phoenixville,11188,2026-01-01,Thursday,13,228.3
-Phoenixville,11188,2026-01-01,Thursday,14,179.2
-Phoenixville,11188,2026-01-01,Thursday,15,199.44
-Phoenixville,11188,2026-01-01,Thursday,16,105.62
-Phoenixville,11188,2026-01-01,Thursday,17,227
-Phoenixville,11188,2026-01-01,Thursday,18,233.81
-Phoenixville,11188,2026-01-01,Thursday,19,187.5
-Phoenixville,11188,2026-01-01,Thursday,20,55.67
-Phoenixville,11188,2026-01-01,Thursday,21,145.19
-Phoenixville,11188,2026-01-01,Thursday,22,15.66
-Phoenixville,11188,2026-01-01,Thursday,23,21.79
-Phoenixville,11188,2026-01-02,Friday,6,0
-Phoenixville,11188,2026-01-02,Friday,7,25.79
-Phoenixville,11188,2026-01-02,Friday,8,65.57
-Phoenixville,11188,2026-01-02,Friday,9,103.38
-Phoenixville,11188,2026-01-02,Friday,10,74.78
-Phoenixville,11188,2026-01-02,Friday,11,293.31
-Phoenixville,11188,2026-01-02,Friday,12,571.47
-Phoenixville,11188,2026-01-02,Friday,13,732.05
-Phoenixville,11188,2026-01-02,Friday,14,469.45
-Phoenixville,11188,2026-01-02,Friday,15,366.57
-Phoenixville,11188,2026-01-02,Friday,16,310.58
-Phoenixville,11188,2026-01-02,Friday,17,478.75
-Phoenixville,11188,2026-01-02,Friday,18,284.12
-Phoenixville,11188,2026-01-02,Friday,19,233.99
-Phoenixville,11188,2026-01-02,Friday,20,175.07
-Phoenixville,11188,2026-01-02,Friday,21,55.58
-Phoenixville,11188,2026-01-02,Friday,22,41.14
-Phoenixville,11188,2026-01-02,Friday,23,125.85
-Phoenixville,11188,2026-01-02,Friday,24,70.59
-Phoenixville,11188,2026-01-03,Saturday,6,11.68
-Phoenixville,11188,2026-01-03,Saturday,7,3
-Phoenixville,11188,2026-01-03,Saturday,8,28.23
-Phoenixville,11188,2026-01-03,Saturday,9,32.33
-Phoenixville,11188,2026-01-03,Saturday,10,74.76
-Phoenixville,11188,2026-01-03,Saturday,11,481.58
-Phoenixville,11188,2026-01-03,Saturday,12,528.01
-Phoenixville,11188,2026-01-03,Saturday,13,608.72
-Phoenixville,11188,2026-01-03,Saturday,14,426.74
-Phoenixville,11188,2026-01-03,Saturday,15,232.86
-Phoenixville,11188,2026-01-03,Saturday,16,361.77
-Phoenixville,11188,2026-01-03,Saturday,17,400.89
-Phoenixville,11188,2026-01-03,Saturday,18,164.52
-Phoenixville,11188,2026-01-03,Saturday,19,243.87
-Phoenixville,11188,2026-01-03,Saturday,20,193.49
-Phoenixville,11188,2026-01-03,Saturday,21,151.18
-Phoenixville,11188,2026-01-03,Saturday,22,122.9
-Phoenixville,11188,2026-01-03,Saturday,23,82.43
-Phoenixville,11188,2026-01-03,Saturday,24,63.93
+Phoenixville 1,11188,2026-01-18,Sunday,6,12.78
+Phoenixville 1,11188,2026-01-18,Sunday,7,23.85
+Phoenixville 1,11188,2026-01-18,Sunday,8,9.69
+Phoenixville 1,11188,2026-01-18,Sunday,9,18.06
+Phoenixville 1,11188,2026-01-18,Sunday,10,81.37
+Phoenixville 1,11188,2026-01-18,Sunday,11,321.48
+Phoenixville 1,11188,2026-01-18,Sunday,12,391.08
+Phoenixville 1,11188,2026-01-18,Sunday,13,403.1
+Phoenixville 1,11188,2026-01-18,Sunday,14,355.13
+Phoenixville 1,11188,2026-01-18,Sunday,15,350.75
+Phoenixville 1,11188,2026-01-18,Sunday,16,388.91
+Phoenixville 1,11188,2026-01-18,Sunday,17,348.25
+Phoenixville 1,11188,2026-01-18,Sunday,18,272
+Phoenixville 1,11188,2026-01-18,Sunday,19,162.6
+Phoenixville 1,11188,2026-01-18,Sunday,20,141.38
+Phoenixville 1,11188,2026-01-18,Sunday,21,90.38
+Phoenixville 1,11188,2026-01-18,Sunday,22,0
+Phoenixville 1,11188,2026-01-18,Sunday,23,116.53
+Phoenixville 1,11188,2026-01-19,Monday,6,0
+Phoenixville 1,11188,2026-01-19,Monday,7,9.88
+Phoenixville 1,11188,2026-01-19,Monday,8,77.31
+Phoenixville 1,11188,2026-01-19,Monday,9,47.96
+Phoenixville 1,11188,2026-01-19,Monday,10,87.52
+Phoenixville 1,11188,2026-01-19,Monday,11,408.6
+Phoenixville 1,11188,2026-01-19,Monday,12,582.99
+Phoenixville 1,11188,2026-01-19,Monday,13,740.23
+Phoenixville 1,11188,2026-01-19,Monday,14,441.68
+Phoenixville 1,11188,2026-01-19,Monday,15,380.95
+Phoenixville 1,11188,2026-01-19,Monday,16,380.64
+Phoenixville 1,11188,2026-01-19,Monday,17,363.53
+Phoenixville 1,11188,2026-01-19,Monday,18,281.49
+Phoenixville 1,11188,2026-01-19,Monday,19,262.73
+Phoenixville 1,11188,2026-01-19,Monday,20,244.9
+Phoenixville 1,11188,2026-01-19,Monday,21,92.88
+Phoenixville 1,11188,2026-01-19,Monday,22,50.95
+Phoenixville 1,11188,2026-01-19,Monday,23,67.62
+Phoenixville 1,11188,2026-01-19,Monday,24,0
+Phoenixville 1,11188,2026-01-20,Tuesday,6,0
+Phoenixville 1,11188,2026-01-20,Tuesday,7,8.69
+Phoenixville 1,11188,2026-01-20,Tuesday,8,66.62
+Phoenixville 1,11188,2026-01-20,Tuesday,9,51.41
+Phoenixville 1,11188,2026-01-20,Tuesday,10,139.27
+Phoenixville 1,11188,2026-01-20,Tuesday,11,429.2
+Phoenixville 1,11188,2026-01-20,Tuesday,12,455.77
+Phoenixville 1,11188,2026-01-20,Tuesday,13,345.33
+Phoenixville 1,11188,2026-01-20,Tuesday,14,183.12
+Phoenixville 1,11188,2026-01-20,Tuesday,15,197.74
+Phoenixville 1,11188,2026-01-20,Tuesday,16,263.77
+Phoenixville 1,11188,2026-01-20,Tuesday,17,415.23
+Phoenixville 1,11188,2026-01-20,Tuesday,18,441.84
+Phoenixville 1,11188,2026-01-20,Tuesday,19,251.77
+Phoenixville 1,11188,2026-01-20,Tuesday,20,183.24
+Phoenixville 1,11188,2026-01-20,Tuesday,21,95.58
+Phoenixville 1,11188,2026-01-20,Tuesday,22,52.78
+Phoenixville 1,11188,2026-01-20,Tuesday,23,35.7
+Phoenixville 1,11188,2026-01-21,Wednesday,6,7.39
+Phoenixville 1,11188,2026-01-21,Wednesday,7,25.34
+Phoenixville 1,11188,2026-01-21,Wednesday,8,44.29
+Phoenixville 1,11188,2026-01-21,Wednesday,9,37.14
+Phoenixville 1,11188,2026-01-21,Wednesday,10,45.76
+Phoenixville 1,11188,2026-01-21,Wednesday,11,289.01
+Phoenixville 1,11188,2026-01-21,Wednesday,12,655.72
+Phoenixville 1,11188,2026-01-21,Wednesday,13,439.72
+Phoenixville 1,11188,2026-01-21,Wednesday,14,344.96
+Phoenixville 1,11188,2026-01-21,Wednesday,15,248.8
+Phoenixville 1,11188,2026-01-21,Wednesday,16,346.71
+Phoenixville 1,11188,2026-01-21,Wednesday,17,566.59
+Phoenixville 1,11188,2026-01-21,Wednesday,18,521.7
+Phoenixville 1,11188,2026-01-21,Wednesday,19,347.94
+Phoenixville 1,11188,2026-01-21,Wednesday,20,231
+Phoenixville 1,11188,2026-01-21,Wednesday,21,109.61
+Phoenixville 1,11188,2026-01-21,Wednesday,22,158.22
+Phoenixville 1,11188,2026-01-21,Wednesday,23,34.72
+Phoenixville 1,11188,2026-01-22,Thursday,6,7.94
+Phoenixville 1,11188,2026-01-22,Thursday,7,51
+Phoenixville 1,11188,2026-01-22,Thursday,8,18.76
+Phoenixville 1,11188,2026-01-22,Thursday,10,120.05
+Phoenixville 1,11188,2026-01-22,Thursday,11,489.05
+Phoenixville 1,11188,2026-01-22,Thursday,12,809.82
+Phoenixville 1,11188,2026-01-22,Thursday,13,604.07
+Phoenixville 1,11188,2026-01-22,Thursday,14,384.61
+Phoenixville 1,11188,2026-01-22,Thursday,15,247.68
+Phoenixville 1,11188,2026-01-22,Thursday,16,302.51
+Phoenixville 1,11188,2026-01-22,Thursday,17,362.18
+Phoenixville 1,11188,2026-01-22,Thursday,18,509.22
+Phoenixville 1,11188,2026-01-22,Thursday,19,385.82
+Phoenixville 1,11188,2026-01-22,Thursday,20,164.67
+Phoenixville 1,11188,2026-01-22,Thursday,21,150.98
+Phoenixville 1,11188,2026-01-22,Thursday,22,56.86
+Phoenixville 1,11188,2026-01-22,Thursday,23,27.06
+Phoenixville 1,11188,2026-01-23,Friday,6,30.54
+Phoenixville 1,11188,2026-01-23,Friday,7,64.31
+Phoenixville 1,11188,2026-01-23,Friday,8,45.52
+Phoenixville 1,11188,2026-01-23,Friday,9,80.9
+Phoenixville 1,11188,2026-01-23,Friday,10,85.23
+Phoenixville 1,11188,2026-01-23,Friday,11,309.34
+Phoenixville 1,11188,2026-01-23,Friday,12,742.8
+Phoenixville 1,11188,2026-01-23,Friday,13,633.37
+Phoenixville 1,11188,2026-01-23,Friday,14,499.47
+Phoenixville 1,11188,2026-01-23,Friday,15,398.24
+Phoenixville 1,11188,2026-01-23,Friday,16,336.07
+Phoenixville 1,11188,2026-01-23,Friday,17,489.76
+Phoenixville 1,11188,2026-01-23,Friday,18,356.41
+Phoenixville 1,11188,2026-01-23,Friday,19,530.53
+Phoenixville 1,11188,2026-01-23,Friday,20,395.29
+Phoenixville 1,11188,2026-01-23,Friday,21,267.91
+Phoenixville 1,11188,2026-01-23,Friday,22,208.26
+Phoenixville 1,11188,2026-01-23,Friday,23,104.85
+Phoenixville 1,11188,2026-01-23,Friday,24,66.18
+Phoenixville 1,11188,2026-01-24,Saturday,6,10.08
+Phoenixville 1,11188,2026-01-24,Saturday,7,22.06
+Phoenixville 1,11188,2026-01-24,Saturday,8,52.79
+Phoenixville 1,11188,2026-01-24,Saturday,9,155.03
+Phoenixville 1,11188,2026-01-24,Saturday,10,224.98
+Phoenixville 1,11188,2026-01-24,Saturday,11,412.64
+Phoenixville 1,11188,2026-01-24,Saturday,12,743.63
+Phoenixville 1,11188,2026-01-24,Saturday,13,688.04
+Phoenixville 1,11188,2026-01-24,Saturday,14,393.45
+Phoenixville 1,11188,2026-01-24,Saturday,15,608.29
+Phoenixville 1,11188,2026-01-24,Saturday,16,356.68
+Phoenixville 1,11188,2026-01-24,Saturday,17,430.82
+Phoenixville 1,11188,2026-01-24,Saturday,18,261.75
+Phoenixville 1,11188,2026-01-24,Saturday,19,158.57
+Phoenixville 1,11188,2026-01-24,Saturday,20,159.81
+Phoenixville 1,11188,2026-01-24,Saturday,21,200.13
+Phoenixville 1,11188,2026-01-24,Saturday,22,81.44
+Phoenixville 1,11188,2026-01-24,Saturday,23,155.8
+Phoenixville 1,11188,2026-01-24,Saturday,24,26.81
+Phoenixville 1,11188,2026-01-11,Sunday,6,0
+Phoenixville 1,11188,2026-01-11,Sunday,7,6.69
+Phoenixville 1,11188,2026-01-11,Sunday,8,30.43
+Phoenixville 1,11188,2026-01-11,Sunday,9,48.08
+Phoenixville 1,11188,2026-01-11,Sunday,10,56.41
+Phoenixville 1,11188,2026-01-11,Sunday,11,727.56
+Phoenixville 1,11188,2026-01-11,Sunday,12,793.25
+Phoenixville 1,11188,2026-01-11,Sunday,13,861.52
+Phoenixville 1,11188,2026-01-11,Sunday,14,611.36
+Phoenixville 1,11188,2026-01-11,Sunday,15,306.64
+Phoenixville 1,11188,2026-01-11,Sunday,16,226.44
+Phoenixville 1,11188,2026-01-11,Sunday,17,367.79
+Phoenixville 1,11188,2026-01-11,Sunday,18,210.38
+Phoenixville 1,11188,2026-01-11,Sunday,19,194.37
+Phoenixville 1,11188,2026-01-11,Sunday,20,172.95
+Phoenixville 1,11188,2026-01-11,Sunday,21,184.25
+Phoenixville 1,11188,2026-01-11,Sunday,22,52.94
+Phoenixville 1,11188,2026-01-11,Sunday,23,78.47
+Phoenixville 1,11188,2026-01-12,Monday,6,0
+Phoenixville 1,11188,2026-01-12,Monday,7,12.78
+Phoenixville 1,11188,2026-01-12,Monday,8,47.6
+Phoenixville 1,11188,2026-01-12,Monday,9,53.28
+Phoenixville 1,11188,2026-01-12,Monday,10,59.99
+Phoenixville 1,11188,2026-01-12,Monday,11,235.01
+Phoenixville 1,11188,2026-01-12,Monday,12,544.79
+Phoenixville 1,11188,2026-01-12,Monday,13,447.97
+Phoenixville 1,11188,2026-01-12,Monday,14,266.97
+Phoenixville 1,11188,2026-01-12,Monday,15,264.84
+Phoenixville 1,11188,2026-01-12,Monday,16,361.95
+Phoenixville 1,11188,2026-01-12,Monday,17,296.33
+Phoenixville 1,11188,2026-01-12,Monday,18,299.5
+Phoenixville 1,11188,2026-01-12,Monday,19,189.45
+Phoenixville 1,11188,2026-01-12,Monday,20,184.09
+Phoenixville 1,11188,2026-01-12,Monday,21,62.27
+Phoenixville 1,11188,2026-01-12,Monday,22,98.42
+Phoenixville 1,11188,2026-01-12,Monday,23,50.29
+Phoenixville 1,11188,2026-01-12,Monday,24,0
+Phoenixville 1,11188,2026-01-13,Tuesday,6,17.17
+Phoenixville 1,11188,2026-01-13,Tuesday,7,25.25
+Phoenixville 1,11188,2026-01-13,Tuesday,8,73.47
+Phoenixville 1,11188,2026-01-13,Tuesday,9,54.48
+Phoenixville 1,11188,2026-01-13,Tuesday,10,9.9
+Phoenixville 1,11188,2026-01-13,Tuesday,11,239.14
+Phoenixville 1,11188,2026-01-13,Tuesday,12,637.46
+Phoenixville 1,11188,2026-01-13,Tuesday,13,353.31
+Phoenixville 1,11188,2026-01-13,Tuesday,14,381.72
+Phoenixville 1,11188,2026-01-13,Tuesday,15,202.63
+Phoenixville 1,11188,2026-01-13,Tuesday,16,262.05
+Phoenixville 1,11188,2026-01-13,Tuesday,17,459.49
+Phoenixville 1,11188,2026-01-13,Tuesday,18,304.3
+Phoenixville 1,11188,2026-01-13,Tuesday,19,205.77
+Phoenixville 1,11188,2026-01-13,Tuesday,20,192.08
+Phoenixville 1,11188,2026-01-13,Tuesday,21,97.25
+Phoenixville 1,11188,2026-01-13,Tuesday,22,93.8
+Phoenixville 1,11188,2026-01-13,Tuesday,23,20.28
+Phoenixville 1,11188,2026-01-14,Wednesday,6,15.08
+Phoenixville 1,11188,2026-01-14,Wednesday,7,27.35
+Phoenixville 1,11188,2026-01-14,Wednesday,8,49.26
+Phoenixville 1,11188,2026-01-14,Wednesday,9,50.21
+Phoenixville 1,11188,2026-01-14,Wednesday,10,182.56
+Phoenixville 1,11188,2026-01-14,Wednesday,11,231.17
+Phoenixville 1,11188,2026-01-14,Wednesday,12,572.05
+Phoenixville 1,11188,2026-01-14,Wednesday,13,342.82
+Phoenixville 1,11188,2026-01-14,Wednesday,14,336.05
+Phoenixville 1,11188,2026-01-14,Wednesday,15,213.39
+Phoenixville 1,11188,2026-01-14,Wednesday,16,283.88
+Phoenixville 1,11188,2026-01-14,Wednesday,17,459.98
+Phoenixville 1,11188,2026-01-14,Wednesday,18,466.1
+Phoenixville 1,11188,2026-01-14,Wednesday,19,282.48
+Phoenixville 1,11188,2026-01-14,Wednesday,20,188.49
+Phoenixville 1,11188,2026-01-14,Wednesday,21,157.59
+Phoenixville 1,11188,2026-01-14,Wednesday,22,40.5
+Phoenixville 1,11188,2026-01-14,Wednesday,23,35.45
+Phoenixville 1,11188,2026-01-15,Thursday,6,0
+Phoenixville 1,11188,2026-01-15,Thursday,7,20.56
+Phoenixville 1,11188,2026-01-15,Thursday,8,58.21
+Phoenixville 1,11188,2026-01-15,Thursday,10,72.83
+Phoenixville 1,11188,2026-01-15,Thursday,11,338.34
+Phoenixville 1,11188,2026-01-15,Thursday,12,836.63
+Phoenixville 1,11188,2026-01-15,Thursday,13,529.39
+Phoenixville 1,11188,2026-01-15,Thursday,14,287.5
+Phoenixville 1,11188,2026-01-15,Thursday,15,279.58
+Phoenixville 1,11188,2026-01-15,Thursday,16,352.83
+Phoenixville 1,11188,2026-01-15,Thursday,17,592.23
+Phoenixville 1,11188,2026-01-15,Thursday,18,536.8
+Phoenixville 1,11188,2026-01-15,Thursday,19,264.66
+Phoenixville 1,11188,2026-01-15,Thursday,20,266.59
+Phoenixville 1,11188,2026-01-15,Thursday,21,136.73
+Phoenixville 1,11188,2026-01-15,Thursday,22,163.22
+Phoenixville 1,11188,2026-01-15,Thursday,23,118.64
+Phoenixville 1,11188,2026-01-16,Friday,6,21.36
+Phoenixville 1,11188,2026-01-16,Friday,7,35.45
+Phoenixville 1,11188,2026-01-16,Friday,8,86.45
+Phoenixville 1,11188,2026-01-16,Friday,9,76.8
+Phoenixville 1,11188,2026-01-16,Friday,10,141.8
+Phoenixville 1,11188,2026-01-16,Friday,11,449.24
+Phoenixville 1,11188,2026-01-16,Friday,12,642.91
+Phoenixville 1,11188,2026-01-16,Friday,13,512.42
+Phoenixville 1,11188,2026-01-16,Friday,14,372.22
+Phoenixville 1,11188,2026-01-16,Friday,15,253.72
+Phoenixville 1,11188,2026-01-16,Friday,16,277.28
+Phoenixville 1,11188,2026-01-16,Friday,17,546.59
+Phoenixville 1,11188,2026-01-16,Friday,18,448.87
+Phoenixville 1,11188,2026-01-16,Friday,19,260.8
+Phoenixville 1,11188,2026-01-16,Friday,20,130.08
+Phoenixville 1,11188,2026-01-16,Friday,21,116.46
+Phoenixville 1,11188,2026-01-16,Friday,22,244.22
+Phoenixville 1,11188,2026-01-16,Friday,23,116.03
+Phoenixville 1,11188,2026-01-16,Friday,24,80.44
+Phoenixville 1,11188,2026-01-17,Saturday,6,29.45
+Phoenixville 1,11188,2026-01-17,Saturday,7,35.93
+Phoenixville 1,11188,2026-01-17,Saturday,8,50.22
+Phoenixville 1,11188,2026-01-17,Saturday,9,90.13
+Phoenixville 1,11188,2026-01-17,Saturday,10,91.73
+Phoenixville 1,11188,2026-01-17,Saturday,11,250.75
+Phoenixville 1,11188,2026-01-17,Saturday,12,777.8
+Phoenixville 1,11188,2026-01-17,Saturday,13,584.11
+Phoenixville 1,11188,2026-01-17,Saturday,14,387.45
+Phoenixville 1,11188,2026-01-17,Saturday,15,305.44
+Phoenixville 1,11188,2026-01-17,Saturday,16,325.94
+Phoenixville 1,11188,2026-01-17,Saturday,17,436.89
+Phoenixville 1,11188,2026-01-17,Saturday,18,453.43
+Phoenixville 1,11188,2026-01-17,Saturday,19,485.31
+Phoenixville 1,11188,2026-01-17,Saturday,20,382.1
+Phoenixville 1,11188,2026-01-17,Saturday,21,289.67
+Phoenixville 1,11188,2026-01-17,Saturday,22,215.07
+Phoenixville 1,11188,2026-01-17,Saturday,23,70.68
+Phoenixville 1,11188,2026-01-17,Saturday,24,62.56
+Phoenixville 1,11188,2026-01-04,Sunday,6,40.58
+Phoenixville 1,11188,2026-01-04,Sunday,7,18.27
+Phoenixville 1,11188,2026-01-04,Sunday,8,6.79
+Phoenixville 1,11188,2026-01-04,Sunday,9,28.51
+Phoenixville 1,11188,2026-01-04,Sunday,10,98.4
+Phoenixville 1,11188,2026-01-04,Sunday,11,361.8
+Phoenixville 1,11188,2026-01-04,Sunday,12,408.25
+Phoenixville 1,11188,2026-01-04,Sunday,13,812.45
+Phoenixville 1,11188,2026-01-04,Sunday,14,460.29
+Phoenixville 1,11188,2026-01-04,Sunday,15,311.9
+Phoenixville 1,11188,2026-01-04,Sunday,16,396.44
+Phoenixville 1,11188,2026-01-04,Sunday,17,463.74
+Phoenixville 1,11188,2026-01-04,Sunday,18,637.77
+Phoenixville 1,11188,2026-01-04,Sunday,19,334.89
+Phoenixville 1,11188,2026-01-04,Sunday,20,407.9
+Phoenixville 1,11188,2026-01-04,Sunday,21,70.49
+Phoenixville 1,11188,2026-01-04,Sunday,22,22.57
+Phoenixville 1,11188,2026-01-04,Sunday,23,58.67
+Phoenixville 1,11188,2026-01-05,Monday,6,19.07
+Phoenixville 1,11188,2026-01-05,Monday,7,11.18
+Phoenixville 1,11188,2026-01-05,Monday,8,36.75
+Phoenixville 1,11188,2026-01-05,Monday,9,37.04
+Phoenixville 1,11188,2026-01-05,Monday,10,30.53
+Phoenixville 1,11188,2026-01-05,Monday,11,309.46
+Phoenixville 1,11188,2026-01-05,Monday,12,515.73
+Phoenixville 1,11188,2026-01-05,Monday,13,366.14
+Phoenixville 1,11188,2026-01-05,Monday,14,284.78
+Phoenixville 1,11188,2026-01-05,Monday,15,97.17
+Phoenixville 1,11188,2026-01-05,Monday,16,222.03
+Phoenixville 1,11188,2026-01-05,Monday,17,356.01
+Phoenixville 1,11188,2026-01-05,Monday,18,298.26
+Phoenixville 1,11188,2026-01-05,Monday,19,190.33
+Phoenixville 1,11188,2026-01-05,Monday,20,257.68
+Phoenixville 1,11188,2026-01-05,Monday,21,80.4
+Phoenixville 1,11188,2026-01-05,Monday,22,74.24
+Phoenixville 1,11188,2026-01-05,Monday,23,84.33
+Phoenixville 1,11188,2026-01-05,Monday,24,0
+Phoenixville 1,11188,2026-01-06,Tuesday,6,27.95
+Phoenixville 1,11188,2026-01-06,Tuesday,7,24.96
+Phoenixville 1,11188,2026-01-06,Tuesday,8,30.59
+Phoenixville 1,11188,2026-01-06,Tuesday,9,75.94
+Phoenixville 1,11188,2026-01-06,Tuesday,10,90.03
+Phoenixville 1,11188,2026-01-06,Tuesday,11,293.83
+Phoenixville 1,11188,2026-01-06,Tuesday,12,638.1
+Phoenixville 1,11188,2026-01-06,Tuesday,13,468.27
+Phoenixville 1,11188,2026-01-06,Tuesday,14,318.91
+Phoenixville 1,11188,2026-01-06,Tuesday,15,323.78
+Phoenixville 1,11188,2026-01-06,Tuesday,16,318.07
+Phoenixville 1,11188,2026-01-06,Tuesday,17,309.48
+Phoenixville 1,11188,2026-01-06,Tuesday,18,410.85
+Phoenixville 1,11188,2026-01-06,Tuesday,19,297.68
+Phoenixville 1,11188,2026-01-06,Tuesday,20,222.87
+Phoenixville 1,11188,2026-01-06,Tuesday,21,155.6
+Phoenixville 1,11188,2026-01-06,Tuesday,22,26.52
+Phoenixville 1,11188,2026-01-06,Tuesday,23,107.14
+Phoenixville 1,11188,2026-01-07,Wednesday,6,8.39
+Phoenixville 1,11188,2026-01-07,Wednesday,7,72.61
+Phoenixville 1,11188,2026-01-07,Wednesday,8,27.45
+Phoenixville 1,11188,2026-01-07,Wednesday,9,34.8
+Phoenixville 1,11188,2026-01-07,Wednesday,10,146.9
+Phoenixville 1,11188,2026-01-07,Wednesday,11,399.86
+Phoenixville 1,11188,2026-01-07,Wednesday,12,723.45
+Phoenixville 1,11188,2026-01-07,Wednesday,13,490.7
+Phoenixville 1,11188,2026-01-07,Wednesday,14,346.61
+Phoenixville 1,11188,2026-01-07,Wednesday,15,237.87
+Phoenixville 1,11188,2026-01-07,Wednesday,16,185.19
+Phoenixville 1,11188,2026-01-07,Wednesday,17,603.68
+Phoenixville 1,11188,2026-01-07,Wednesday,18,370.63
+Phoenixville 1,11188,2026-01-07,Wednesday,19,218.33
+Phoenixville 1,11188,2026-01-07,Wednesday,20,146.24
+Phoenixville 1,11188,2026-01-07,Wednesday,21,140.37
+Phoenixville 1,11188,2026-01-07,Wednesday,22,77.8
+Phoenixville 1,11188,2026-01-07,Wednesday,23,13.49
+Phoenixville 1,11188,2026-01-08,Thursday,6,24.05
+Phoenixville 1,11188,2026-01-08,Thursday,7,29.84
+Phoenixville 1,11188,2026-01-08,Thursday,8,45.08
+Phoenixville 1,11188,2026-01-08,Thursday,10,59.94
+Phoenixville 1,11188,2026-01-08,Thursday,11,464.99
+Phoenixville 1,11188,2026-01-08,Thursday,12,809.13
+Phoenixville 1,11188,2026-01-08,Thursday,13,406.72
+Phoenixville 1,11188,2026-01-08,Thursday,14,328.33
+Phoenixville 1,11188,2026-01-08,Thursday,15,196.45
+Phoenixville 1,11188,2026-01-08,Thursday,16,236.4
+Phoenixville 1,11188,2026-01-08,Thursday,17,520.33
+Phoenixville 1,11188,2026-01-08,Thursday,18,282.73
+Phoenixville 1,11188,2026-01-08,Thursday,19,226.21
+Phoenixville 1,11188,2026-01-08,Thursday,20,227.43
+Phoenixville 1,11188,2026-01-08,Thursday,21,129.4
+Phoenixville 1,11188,2026-01-08,Thursday,22,49.13
+Phoenixville 1,11188,2026-01-08,Thursday,23,111.58
+Phoenixville 1,11188,2026-01-09,Friday,6,3
+Phoenixville 1,11188,2026-01-09,Friday,7,63.98
+Phoenixville 1,11188,2026-01-09,Friday,8,41.02
+Phoenixville 1,11188,2026-01-09,Friday,9,63.32
+Phoenixville 1,11188,2026-01-09,Friday,10,61.12
+Phoenixville 1,11188,2026-01-09,Friday,11,491
+Phoenixville 1,11188,2026-01-09,Friday,12,870.05
+Phoenixville 1,11188,2026-01-09,Friday,13,491.48
+Phoenixville 1,11188,2026-01-09,Friday,14,575.72
+Phoenixville 1,11188,2026-01-09,Friday,15,310.07
+Phoenixville 1,11188,2026-01-09,Friday,16,272.31
+Phoenixville 1,11188,2026-01-09,Friday,17,587.06
+Phoenixville 1,11188,2026-01-09,Friday,18,424.61
+Phoenixville 1,11188,2026-01-09,Friday,19,544.67
+Phoenixville 1,11188,2026-01-09,Friday,20,258.61
+Phoenixville 1,11188,2026-01-09,Friday,21,218.46
+Phoenixville 1,11188,2026-01-09,Friday,22,147
+Phoenixville 1,11188,2026-01-09,Friday,23,57.68
+Phoenixville 1,11188,2026-01-09,Friday,24,79.27
+Phoenixville 1,11188,2026-01-10,Saturday,6,0
+Phoenixville 1,11188,2026-01-10,Saturday,7,55.72
+Phoenixville 1,11188,2026-01-10,Saturday,8,60.65
+Phoenixville 1,11188,2026-01-10,Saturday,9,92.93
+Phoenixville 1,11188,2026-01-10,Saturday,10,80.24
+Phoenixville 1,11188,2026-01-10,Saturday,11,750.02
+Phoenixville 1,11188,2026-01-10,Saturday,12,1093.33
+Phoenixville 1,11188,2026-01-10,Saturday,13,973.72
+Phoenixville 1,11188,2026-01-10,Saturday,14,762.75
+Phoenixville 1,11188,2026-01-10,Saturday,15,450.37
+Phoenixville 1,11188,2026-01-10,Saturday,16,226.73
+Phoenixville 1,11188,2026-01-10,Saturday,17,616.09
+Phoenixville 1,11188,2026-01-10,Saturday,18,440.54
+Phoenixville 1,11188,2026-01-10,Saturday,19,299.89
+Phoenixville 1,11188,2026-01-10,Saturday,20,126.72
+Phoenixville 1,11188,2026-01-10,Saturday,21,134.94
+Phoenixville 1,11188,2026-01-10,Saturday,22,134.19
+Phoenixville 1,11188,2026-01-10,Saturday,23,143.87
+Phoenixville 1,11188,2026-01-10,Saturday,24,64.37
+Phoenixville 1,11188,2025-12-28,Sunday,6,0
+Phoenixville 1,11188,2025-12-28,Sunday,7,0
+Phoenixville 1,11188,2025-12-28,Sunday,8,50.48
+Phoenixville 1,11188,2025-12-28,Sunday,9,66.55
+Phoenixville 1,11188,2025-12-28,Sunday,10,118.1
+Phoenixville 1,11188,2025-12-28,Sunday,11,145.06
+Phoenixville 1,11188,2025-12-28,Sunday,12,348.66
+Phoenixville 1,11188,2025-12-28,Sunday,13,288.27
+Phoenixville 1,11188,2025-12-28,Sunday,14,375.15
+Phoenixville 1,11188,2025-12-28,Sunday,15,301.14
+Phoenixville 1,11188,2025-12-28,Sunday,16,183.07
+Phoenixville 1,11188,2025-12-28,Sunday,17,446.95
+Phoenixville 1,11188,2025-12-28,Sunday,18,189.63
+Phoenixville 1,11188,2025-12-28,Sunday,19,208.25
+Phoenixville 1,11188,2025-12-28,Sunday,20,154.55
+Phoenixville 1,11188,2025-12-28,Sunday,21,134.16
+Phoenixville 1,11188,2025-12-28,Sunday,22,74.63
+Phoenixville 1,11188,2025-12-28,Sunday,23,65.73
+Phoenixville 1,11188,2025-12-29,Monday,6,3
+Phoenixville 1,11188,2025-12-29,Monday,7,50.02
+Phoenixville 1,11188,2025-12-29,Monday,8,35.62
+Phoenixville 1,11188,2025-12-29,Monday,9,70.99
+Phoenixville 1,11188,2025-12-29,Monday,10,96.08
+Phoenixville 1,11188,2025-12-29,Monday,11,374.22
+Phoenixville 1,11188,2025-12-29,Monday,12,754.36
+Phoenixville 1,11188,2025-12-29,Monday,13,559.85
+Phoenixville 1,11188,2025-12-29,Monday,14,380.08
+Phoenixville 1,11188,2025-12-29,Monday,15,332.86
+Phoenixville 1,11188,2025-12-29,Monday,16,158.25
+Phoenixville 1,11188,2025-12-29,Monday,17,417.88
+Phoenixville 1,11188,2025-12-29,Monday,18,372.93
+Phoenixville 1,11188,2025-12-29,Monday,19,310.85
+Phoenixville 1,11188,2025-12-29,Monday,20,131.98
+Phoenixville 1,11188,2025-12-29,Monday,21,77.07
+Phoenixville 1,11188,2025-12-29,Monday,22,58.99
+Phoenixville 1,11188,2025-12-29,Monday,23,10.29
+Phoenixville 1,11188,2025-12-29,Monday,24,38.96
+Phoenixville 1,11188,2025-12-30,Tuesday,6,15.56
+Phoenixville 1,11188,2025-12-30,Tuesday,7,66.15
+Phoenixville 1,11188,2025-12-30,Tuesday,8,33.94
+Phoenixville 1,11188,2025-12-30,Tuesday,9,90.38
+Phoenixville 1,11188,2025-12-30,Tuesday,10,117.79
+Phoenixville 1,11188,2025-12-30,Tuesday,11,458.26
+Phoenixville 1,11188,2025-12-30,Tuesday,12,660.61
+Phoenixville 1,11188,2025-12-30,Tuesday,13,526.12
+Phoenixville 1,11188,2025-12-30,Tuesday,14,421.28
+Phoenixville 1,11188,2025-12-30,Tuesday,15,259.7
+Phoenixville 1,11188,2025-12-30,Tuesday,16,176.94
+Phoenixville 1,11188,2025-12-30,Tuesday,17,430.08
+Phoenixville 1,11188,2025-12-30,Tuesday,18,231.62
+Phoenixville 1,11188,2025-12-30,Tuesday,19,347.51
+Phoenixville 1,11188,2025-12-30,Tuesday,20,150.54
+Phoenixville 1,11188,2025-12-30,Tuesday,21,185.78
+Phoenixville 1,11188,2025-12-30,Tuesday,22,136.89
+Phoenixville 1,11188,2025-12-30,Tuesday,23,60.2
+Phoenixville 1,11188,2025-12-31,Wednesday,6,2.49
+Phoenixville 1,11188,2025-12-31,Wednesday,7,17.08
+Phoenixville 1,11188,2025-12-31,Wednesday,8,78.68
+Phoenixville 1,11188,2025-12-31,Wednesday,9,35.73
+Phoenixville 1,11188,2025-12-31,Wednesday,10,136.63
+Phoenixville 1,11188,2025-12-31,Wednesday,11,373.55
+Phoenixville 1,11188,2025-12-31,Wednesday,12,699.96
+Phoenixville 1,11188,2025-12-31,Wednesday,13,476.6
+Phoenixville 1,11188,2025-12-31,Wednesday,14,300.54
+Phoenixville 1,11188,2025-12-31,Wednesday,15,246.16
+Phoenixville 1,11188,2025-12-31,Wednesday,16,304.95
+Phoenixville 1,11188,2025-12-31,Wednesday,17,316.13
+Phoenixville 1,11188,2025-12-31,Wednesday,18,270.13
+Phoenixville 1,11188,2025-12-31,Wednesday,19,192.26
+Phoenixville 1,11188,2025-12-31,Wednesday,20,219.53
+Phoenixville 1,11188,2025-12-31,Wednesday,21,147.96
+Phoenixville 1,11188,2025-12-31,Wednesday,22,0
+Phoenixville 1,11188,2025-12-31,Wednesday,23,0
+Phoenixville 1,11188,2026-01-01,Thursday,6,0
+Phoenixville 1,11188,2026-01-01,Thursday,7,0
+Phoenixville 1,11188,2026-01-01,Thursday,8,0
+Phoenixville 1,11188,2026-01-01,Thursday,10,0
+Phoenixville 1,11188,2026-01-01,Thursday,11,161.26
+Phoenixville 1,11188,2026-01-01,Thursday,12,189.36
+Phoenixville 1,11188,2026-01-01,Thursday,13,228.3
+Phoenixville 1,11188,2026-01-01,Thursday,14,179.2
+Phoenixville 1,11188,2026-01-01,Thursday,15,199.44
+Phoenixville 1,11188,2026-01-01,Thursday,16,105.62
+Phoenixville 1,11188,2026-01-01,Thursday,17,227
+Phoenixville 1,11188,2026-01-01,Thursday,18,233.81
+Phoenixville 1,11188,2026-01-01,Thursday,19,187.5
+Phoenixville 1,11188,2026-01-01,Thursday,20,55.67
+Phoenixville 1,11188,2026-01-01,Thursday,21,145.19
+Phoenixville 1,11188,2026-01-01,Thursday,22,15.66
+Phoenixville 1,11188,2026-01-01,Thursday,23,21.79
+Phoenixville 1,11188,2026-01-02,Friday,6,0
+Phoenixville 1,11188,2026-01-02,Friday,7,25.79
+Phoenixville 1,11188,2026-01-02,Friday,8,65.57
+Phoenixville 1,11188,2026-01-02,Friday,9,103.38
+Phoenixville 1,11188,2026-01-02,Friday,10,74.78
+Phoenixville 1,11188,2026-01-02,Friday,11,293.31
+Phoenixville 1,11188,2026-01-02,Friday,12,571.47
+Phoenixville 1,11188,2026-01-02,Friday,13,732.05
+Phoenixville 1,11188,2026-01-02,Friday,14,469.45
+Phoenixville 1,11188,2026-01-02,Friday,15,366.57
+Phoenixville 1,11188,2026-01-02,Friday,16,310.58
+Phoenixville 1,11188,2026-01-02,Friday,17,478.75
+Phoenixville 1,11188,2026-01-02,Friday,18,284.12
+Phoenixville 1,11188,2026-01-02,Friday,19,233.99
+Phoenixville 1,11188,2026-01-02,Friday,20,175.07
+Phoenixville 1,11188,2026-01-02,Friday,21,55.58
+Phoenixville 1,11188,2026-01-02,Friday,22,41.14
+Phoenixville 1,11188,2026-01-02,Friday,23,125.85
+Phoenixville 1,11188,2026-01-02,Friday,24,70.59
+Phoenixville 1,11188,2026-01-03,Saturday,6,11.68
+Phoenixville 1,11188,2026-01-03,Saturday,7,3
+Phoenixville 1,11188,2026-01-03,Saturday,8,28.23
+Phoenixville 1,11188,2026-01-03,Saturday,9,32.33
+Phoenixville 1,11188,2026-01-03,Saturday,10,74.76
+Phoenixville 1,11188,2026-01-03,Saturday,11,481.58
+Phoenixville 1,11188,2026-01-03,Saturday,12,528.01
+Phoenixville 1,11188,2026-01-03,Saturday,13,608.72
+Phoenixville 1,11188,2026-01-03,Saturday,14,426.74
+Phoenixville 1,11188,2026-01-03,Saturday,15,232.86
+Phoenixville 1,11188,2026-01-03,Saturday,16,361.77
+Phoenixville 1,11188,2026-01-03,Saturday,17,400.89
+Phoenixville 1,11188,2026-01-03,Saturday,18,164.52
+Phoenixville 1,11188,2026-01-03,Saturday,19,243.87
+Phoenixville 1,11188,2026-01-03,Saturday,20,193.49
+Phoenixville 1,11188,2026-01-03,Saturday,21,151.18
+Phoenixville 1,11188,2026-01-03,Saturday,22,122.9
+Phoenixville 1,11188,2026-01-03,Saturday,23,82.43
+Phoenixville 1,11188,2026-01-03,Saturday,24,63.93
 Exton,11228,2026-01-18,Sunday,9,0
 Exton,11228,2026-01-18,Sunday,10,29.55
 Exton,11228,2026-01-18,Sunday,11,253.56
@@ -17016,423 +17016,423 @@ Main Street, 4249,2026-01-03,Saturday,1,296.21
 Main Street, 4249,2026-01-03,Saturday,2,231.24
 Main Street, 4249,2026-01-03,Saturday,3,92.95
 Main Street, 4249,2026-01-03,Saturday,4,10.59
-Phoenixville, 02230,2026-01-18,Sunday,9,0
-Phoenixville, 02230,2026-01-18,Sunday,10,36.87
-Phoenixville, 02230,2026-01-18,Sunday,11,92.99
-Phoenixville, 02230,2026-01-18,Sunday,12,224.02
-Phoenixville, 02230,2026-01-18,Sunday,13,250.94
-Phoenixville, 02230,2026-01-18,Sunday,14,286.98
-Phoenixville, 02230,2026-01-18,Sunday,15,159.86
-Phoenixville, 02230,2026-01-18,Sunday,16,99.81
-Phoenixville, 02230,2026-01-18,Sunday,17,215.79
-Phoenixville, 02230,2026-01-18,Sunday,18,230.97
-Phoenixville, 02230,2026-01-18,Sunday,19,178.7
-Phoenixville, 02230,2026-01-18,Sunday,20,130.33
-Phoenixville, 02230,2026-01-18,Sunday,21,121.17
-Phoenixville, 02230,2026-01-18,Sunday,22,116.06
-Phoenixville, 02230,2026-01-18,Sunday,23,79.17
-Phoenixville, 02230,2026-01-19,Monday,9,0
-Phoenixville, 02230,2026-01-19,Monday,10,49.34
-Phoenixville, 02230,2026-01-19,Monday,11,191.1
-Phoenixville, 02230,2026-01-19,Monday,12,279.6
-Phoenixville, 02230,2026-01-19,Monday,13,443.48
-Phoenixville, 02230,2026-01-19,Monday,14,280.81
-Phoenixville, 02230,2026-01-19,Monday,15,174.06
-Phoenixville, 02230,2026-01-19,Monday,16,272.2
-Phoenixville, 02230,2026-01-19,Monday,17,281.72
-Phoenixville, 02230,2026-01-19,Monday,18,214.31
-Phoenixville, 02230,2026-01-19,Monday,19,276.82
-Phoenixville, 02230,2026-01-19,Monday,20,234.76
-Phoenixville, 02230,2026-01-19,Monday,21,75.9
-Phoenixville, 02230,2026-01-19,Monday,22,112
-Phoenixville, 02230,2026-01-19,Monday,23,15.68
-Phoenixville, 02230,2026-01-20,Tuesday,9,1.29
-Phoenixville, 02230,2026-01-20,Tuesday,10,26.48
-Phoenixville, 02230,2026-01-20,Tuesday,11,215.44
-Phoenixville, 02230,2026-01-20,Tuesday,12,230.65
-Phoenixville, 02230,2026-01-20,Tuesday,13,310.97
-Phoenixville, 02230,2026-01-20,Tuesday,14,150.22
-Phoenixville, 02230,2026-01-20,Tuesday,15,265.91
-Phoenixville, 02230,2026-01-20,Tuesday,16,229.35
-Phoenixville, 02230,2026-01-20,Tuesday,17,346.95
-Phoenixville, 02230,2026-01-20,Tuesday,18,333.97
-Phoenixville, 02230,2026-01-20,Tuesday,19,256.78
-Phoenixville, 02230,2026-01-20,Tuesday,20,126.84
-Phoenixville, 02230,2026-01-20,Tuesday,21,89.86
-Phoenixville, 02230,2026-01-20,Tuesday,22,164.26
-Phoenixville, 02230,2026-01-20,Tuesday,23,67.84
-Phoenixville, 02230,2026-01-21,Wednesday,9,0
-Phoenixville, 02230,2026-01-21,Wednesday,10,59.11
-Phoenixville, 02230,2026-01-21,Wednesday,11,143.69
-Phoenixville, 02230,2026-01-21,Wednesday,12,301.63
-Phoenixville, 02230,2026-01-21,Wednesday,13,240.27
-Phoenixville, 02230,2026-01-21,Wednesday,14,127.66
-Phoenixville, 02230,2026-01-21,Wednesday,15,137.21
-Phoenixville, 02230,2026-01-21,Wednesday,16,323.08
-Phoenixville, 02230,2026-01-21,Wednesday,17,542.49
-Phoenixville, 02230,2026-01-21,Wednesday,18,317.24
-Phoenixville, 02230,2026-01-21,Wednesday,19,249.9
-Phoenixville, 02230,2026-01-21,Wednesday,20,217.78
-Phoenixville, 02230,2026-01-21,Wednesday,21,141.26
-Phoenixville, 02230,2026-01-21,Wednesday,22,103.41
-Phoenixville, 02230,2026-01-21,Wednesday,23,28.53
-Phoenixville, 02230,2026-01-22,Thursday,9,6.78
-Phoenixville, 02230,2026-01-22,Thursday,10,88.84
-Phoenixville, 02230,2026-01-22,Thursday,11,165.75
-Phoenixville, 02230,2026-01-22,Thursday,12,359.14
-Phoenixville, 02230,2026-01-22,Thursday,13,304.74
-Phoenixville, 02230,2026-01-22,Thursday,14,242.01
-Phoenixville, 02230,2026-01-22,Thursday,15,184.11
-Phoenixville, 02230,2026-01-22,Thursday,16,285.72
-Phoenixville, 02230,2026-01-22,Thursday,17,433.75
-Phoenixville, 02230,2026-01-22,Thursday,18,229.15
-Phoenixville, 02230,2026-01-22,Thursday,19,218.45
-Phoenixville, 02230,2026-01-22,Thursday,20,265.75
-Phoenixville, 02230,2026-01-22,Thursday,21,123.58
-Phoenixville, 02230,2026-01-22,Thursday,22,53.19
-Phoenixville, 02230,2026-01-22,Thursday,23,0
-Phoenixville, 02230,2026-01-23,Friday,9,13.58
-Phoenixville, 02230,2026-01-23,Friday,10,92.43
-Phoenixville, 02230,2026-01-23,Friday,11,392.45
-Phoenixville, 02230,2026-01-23,Friday,12,413.66
-Phoenixville, 02230,2026-01-23,Friday,13,387.67
-Phoenixville, 02230,2026-01-23,Friday,14,178.49
-Phoenixville, 02230,2026-01-23,Friday,15,196.01
-Phoenixville, 02230,2026-01-23,Friday,16,155.32
-Phoenixville, 02230,2026-01-23,Friday,17,230.56
-Phoenixville, 02230,2026-01-23,Friday,18,502.93
-Phoenixville, 02230,2026-01-23,Friday,19,348.24
-Phoenixville, 02230,2026-01-23,Friday,20,255.44
-Phoenixville, 02230,2026-01-23,Friday,21,80.18
-Phoenixville, 02230,2026-01-23,Friday,22,114.26
-Phoenixville, 02230,2026-01-23,Friday,23,49.21
-Phoenixville, 02230,2026-01-24,Saturday,9,20.06
-Phoenixville, 02230,2026-01-24,Saturday,10,4.98
-Phoenixville, 02230,2026-01-24,Saturday,11,289.87
-Phoenixville, 02230,2026-01-24,Saturday,12,380.85
-Phoenixville, 02230,2026-01-24,Saturday,13,319.4
-Phoenixville, 02230,2026-01-24,Saturday,14,291.97
-Phoenixville, 02230,2026-01-24,Saturday,15,150.44
-Phoenixville, 02230,2026-01-24,Saturday,16,204.74
-Phoenixville, 02230,2026-01-24,Saturday,17,270.86
-Phoenixville, 02230,2026-01-24,Saturday,18,224.59
-Phoenixville, 02230,2026-01-24,Saturday,19,77.94
-Phoenixville, 02230,2026-01-24,Saturday,20,116.65
-Phoenixville, 02230,2026-01-24,Saturday,21,120.07
-Phoenixville, 02230,2026-01-24,Saturday,22,130.61
-Phoenixville, 02230,2026-01-24,Saturday,23,0
-Phoenixville, 02230,2026-01-11,Sunday,9,0
-Phoenixville, 02230,2026-01-11,Sunday,10,74.94
-Phoenixville, 02230,2026-01-11,Sunday,11,261.88
-Phoenixville, 02230,2026-01-11,Sunday,12,410.38
-Phoenixville, 02230,2026-01-11,Sunday,13,283.58
-Phoenixville, 02230,2026-01-11,Sunday,14,300.89
-Phoenixville, 02230,2026-01-11,Sunday,15,274.45
-Phoenixville, 02230,2026-01-11,Sunday,16,251.95
-Phoenixville, 02230,2026-01-11,Sunday,17,331.81
-Phoenixville, 02230,2026-01-11,Sunday,18,245.75
-Phoenixville, 02230,2026-01-11,Sunday,19,111.6
-Phoenixville, 02230,2026-01-11,Sunday,20,214.69
-Phoenixville, 02230,2026-01-11,Sunday,21,133.01
-Phoenixville, 02230,2026-01-11,Sunday,22,99.94
-Phoenixville, 02230,2026-01-11,Sunday,23,41.9
-Phoenixville, 02230,2026-01-12,Monday,9,8.48
-Phoenixville, 02230,2026-01-12,Monday,10,42.92
-Phoenixville, 02230,2026-01-12,Monday,11,122.23
-Phoenixville, 02230,2026-01-12,Monday,12,334.12
-Phoenixville, 02230,2026-01-12,Monday,13,251.33
-Phoenixville, 02230,2026-01-12,Monday,14,168.41
-Phoenixville, 02230,2026-01-12,Monday,15,225.91
-Phoenixville, 02230,2026-01-12,Monday,16,174.2
-Phoenixville, 02230,2026-01-12,Monday,17,359.32
-Phoenixville, 02230,2026-01-12,Monday,18,355.94
-Phoenixville, 02230,2026-01-12,Monday,19,199.54
-Phoenixville, 02230,2026-01-12,Monday,20,144.64
-Phoenixville, 02230,2026-01-12,Monday,21,86.03
-Phoenixville, 02230,2026-01-12,Monday,22,27.05
-Phoenixville, 02230,2026-01-12,Monday,23,26.97
-Phoenixville, 02230,2026-01-13,Tuesday,9,0
-Phoenixville, 02230,2026-01-13,Tuesday,10,52.72
-Phoenixville, 02230,2026-01-13,Tuesday,11,250.01
-Phoenixville, 02230,2026-01-13,Tuesday,12,292.89
-Phoenixville, 02230,2026-01-13,Tuesday,13,251.84
-Phoenixville, 02230,2026-01-13,Tuesday,14,235.78
-Phoenixville, 02230,2026-01-13,Tuesday,15,174.96
-Phoenixville, 02230,2026-01-13,Tuesday,16,268.98
-Phoenixville, 02230,2026-01-13,Tuesday,17,339.76
-Phoenixville, 02230,2026-01-13,Tuesday,18,423.67
-Phoenixville, 02230,2026-01-13,Tuesday,19,278.97
-Phoenixville, 02230,2026-01-13,Tuesday,20,137.99
-Phoenixville, 02230,2026-01-13,Tuesday,21,79.58
-Phoenixville, 02230,2026-01-13,Tuesday,22,65.75
-Phoenixville, 02230,2026-01-13,Tuesday,23,91.78
-Phoenixville, 02230,2026-01-14,Wednesday,9,14.69
-Phoenixville, 02230,2026-01-14,Wednesday,10,94.32
-Phoenixville, 02230,2026-01-14,Wednesday,11,293.13
-Phoenixville, 02230,2026-01-14,Wednesday,12,370.61
-Phoenixville, 02230,2026-01-14,Wednesday,13,368.01
-Phoenixville, 02230,2026-01-14,Wednesday,14,197.71
-Phoenixville, 02230,2026-01-14,Wednesday,15,94
-Phoenixville, 02230,2026-01-14,Wednesday,16,269.95
-Phoenixville, 02230,2026-01-14,Wednesday,17,467.09
-Phoenixville, 02230,2026-01-14,Wednesday,18,366.18
-Phoenixville, 02230,2026-01-14,Wednesday,19,241.15
-Phoenixville, 02230,2026-01-14,Wednesday,20,210.84
-Phoenixville, 02230,2026-01-14,Wednesday,21,67.32
-Phoenixville, 02230,2026-01-14,Wednesday,22,29.24
-Phoenixville, 02230,2026-01-14,Wednesday,23,87.88
-Phoenixville, 02230,2026-01-15,Thursday,9,0
-Phoenixville, 02230,2026-01-15,Thursday,10,102.3
-Phoenixville, 02230,2026-01-15,Thursday,11,215.82
-Phoenixville, 02230,2026-01-15,Thursday,12,377
-Phoenixville, 02230,2026-01-15,Thursday,13,298.33
-Phoenixville, 02230,2026-01-15,Thursday,14,135.35
-Phoenixville, 02230,2026-01-15,Thursday,15,164.81
-Phoenixville, 02230,2026-01-15,Thursday,16,292.12
-Phoenixville, 02230,2026-01-15,Thursday,17,407
-Phoenixville, 02230,2026-01-15,Thursday,18,522.69
-Phoenixville, 02230,2026-01-15,Thursday,19,437.16
-Phoenixville, 02230,2026-01-15,Thursday,20,231.37
-Phoenixville, 02230,2026-01-15,Thursday,21,95.77
-Phoenixville, 02230,2026-01-15,Thursday,22,46.12
-Phoenixville, 02230,2026-01-15,Thursday,23,16.37
-Phoenixville, 02230,2026-01-16,Friday,9,0
-Phoenixville, 02230,2026-01-16,Friday,10,24.08
-Phoenixville, 02230,2026-01-16,Friday,11,363.71
-Phoenixville, 02230,2026-01-16,Friday,12,628.56
-Phoenixville, 02230,2026-01-16,Friday,13,595.04
-Phoenixville, 02230,2026-01-16,Friday,14,186.82
-Phoenixville, 02230,2026-01-16,Friday,15,190.36
-Phoenixville, 02230,2026-01-16,Friday,16,310.46
-Phoenixville, 02230,2026-01-16,Friday,17,437.13
-Phoenixville, 02230,2026-01-16,Friday,18,511.47
-Phoenixville, 02230,2026-01-16,Friday,19,201.48
-Phoenixville, 02230,2026-01-16,Friday,20,230.45
-Phoenixville, 02230,2026-01-16,Friday,21,208.53
-Phoenixville, 02230,2026-01-16,Friday,22,86.37
-Phoenixville, 02230,2026-01-16,Friday,23,80.79
-Phoenixville, 02230,2026-01-17,Saturday,9,0
-Phoenixville, 02230,2026-01-17,Saturday,10,0
-Phoenixville, 02230,2026-01-17,Saturday,11,202.45
-Phoenixville, 02230,2026-01-17,Saturday,12,359.21
-Phoenixville, 02230,2026-01-17,Saturday,13,295.6
-Phoenixville, 02230,2026-01-17,Saturday,14,165.9
-Phoenixville, 02230,2026-01-17,Saturday,15,241.09
-Phoenixville, 02230,2026-01-17,Saturday,16,100.22
-Phoenixville, 02230,2026-01-17,Saturday,17,276.25
-Phoenixville, 02230,2026-01-17,Saturday,18,193.64
-Phoenixville, 02230,2026-01-17,Saturday,19,394.32
-Phoenixville, 02230,2026-01-17,Saturday,20,69.88
-Phoenixville, 02230,2026-01-17,Saturday,21,107.77
-Phoenixville, 02230,2026-01-17,Saturday,22,183.6
-Phoenixville, 02230,2026-01-17,Saturday,23,93.29
-Phoenixville, 02230,2026-01-04,Sunday,9,0
-Phoenixville, 02230,2026-01-04,Sunday,10,44.59
-Phoenixville, 02230,2026-01-04,Sunday,11,91.07
-Phoenixville, 02230,2026-01-04,Sunday,12,381.38
-Phoenixville, 02230,2026-01-04,Sunday,13,316.39
-Phoenixville, 02230,2026-01-04,Sunday,14,210.32
-Phoenixville, 02230,2026-01-04,Sunday,15,206.01
-Phoenixville, 02230,2026-01-04,Sunday,16,338.34
-Phoenixville, 02230,2026-01-04,Sunday,17,282.29
-Phoenixville, 02230,2026-01-04,Sunday,18,206.57
-Phoenixville, 02230,2026-01-04,Sunday,19,319.83
-Phoenixville, 02230,2026-01-04,Sunday,20,214.06
-Phoenixville, 02230,2026-01-04,Sunday,21,112.71
-Phoenixville, 02230,2026-01-04,Sunday,22,137.54
-Phoenixville, 02230,2026-01-04,Sunday,23,51.88
-Phoenixville, 02230,2026-01-05,Monday,9,12.78
-Phoenixville, 02230,2026-01-05,Monday,10,60.01
-Phoenixville, 02230,2026-01-05,Monday,11,192.1
-Phoenixville, 02230,2026-01-05,Monday,12,368.03
-Phoenixville, 02230,2026-01-05,Monday,13,258.39
-Phoenixville, 02230,2026-01-05,Monday,14,183.05
-Phoenixville, 02230,2026-01-05,Monday,15,204.84
-Phoenixville, 02230,2026-01-05,Monday,16,298.1
-Phoenixville, 02230,2026-01-05,Monday,17,235.93
-Phoenixville, 02230,2026-01-05,Monday,18,285.59
-Phoenixville, 02230,2026-01-05,Monday,19,234.17
-Phoenixville, 02230,2026-01-05,Monday,20,131.2
-Phoenixville, 02230,2026-01-05,Monday,21,169.99
-Phoenixville, 02230,2026-01-05,Monday,22,92.47
-Phoenixville, 02230,2026-01-05,Monday,23,40.32
-Phoenixville, 02230,2026-01-06,Tuesday,9,35.26
-Phoenixville, 02230,2026-01-06,Tuesday,10,16.77
-Phoenixville, 02230,2026-01-06,Tuesday,11,250.62
-Phoenixville, 02230,2026-01-06,Tuesday,12,454.7
-Phoenixville, 02230,2026-01-06,Tuesday,13,294.22
-Phoenixville, 02230,2026-01-06,Tuesday,14,226.71
-Phoenixville, 02230,2026-01-06,Tuesday,15,161.29
-Phoenixville, 02230,2026-01-06,Tuesday,16,211.09
-Phoenixville, 02230,2026-01-06,Tuesday,17,213.27
-Phoenixville, 02230,2026-01-06,Tuesday,18,352.92
-Phoenixville, 02230,2026-01-06,Tuesday,19,270.38
-Phoenixville, 02230,2026-01-06,Tuesday,20,162.61
-Phoenixville, 02230,2026-01-06,Tuesday,21,104.24
-Phoenixville, 02230,2026-01-06,Tuesday,22,81.97
-Phoenixville, 02230,2026-01-06,Tuesday,23,53.94
-Phoenixville, 02230,2026-01-07,Wednesday,9,39.85
-Phoenixville, 02230,2026-01-07,Wednesday,10,80.41
-Phoenixville, 02230,2026-01-07,Wednesday,11,184.56
-Phoenixville, 02230,2026-01-07,Wednesday,12,431.3
-Phoenixville, 02230,2026-01-07,Wednesday,13,325.36
-Phoenixville, 02230,2026-01-07,Wednesday,14,153.99
-Phoenixville, 02230,2026-01-07,Wednesday,15,196.11
-Phoenixville, 02230,2026-01-07,Wednesday,16,211.73
-Phoenixville, 02230,2026-01-07,Wednesday,17,428.15
-Phoenixville, 02230,2026-01-07,Wednesday,18,366.53
-Phoenixville, 02230,2026-01-07,Wednesday,19,110.45
-Phoenixville, 02230,2026-01-07,Wednesday,20,211.9
-Phoenixville, 02230,2026-01-07,Wednesday,21,85.27
-Phoenixville, 02230,2026-01-07,Wednesday,22,24.78
-Phoenixville, 02230,2026-01-07,Wednesday,23,99.41
-Phoenixville, 02230,2026-01-08,Thursday,9,24.36
-Phoenixville, 02230,2026-01-08,Thursday,10,31.96
-Phoenixville, 02230,2026-01-08,Thursday,11,174.53
-Phoenixville, 02230,2026-01-08,Thursday,12,453.76
-Phoenixville, 02230,2026-01-08,Thursday,13,294.67
-Phoenixville, 02230,2026-01-08,Thursday,14,189.25
-Phoenixville, 02230,2026-01-08,Thursday,15,244.76
-Phoenixville, 02230,2026-01-08,Thursday,16,244.05
-Phoenixville, 02230,2026-01-08,Thursday,17,632.41
-Phoenixville, 02230,2026-01-08,Thursday,18,415.38
-Phoenixville, 02230,2026-01-08,Thursday,19,238.33
-Phoenixville, 02230,2026-01-08,Thursday,20,177.99
-Phoenixville, 02230,2026-01-08,Thursday,21,253.78
-Phoenixville, 02230,2026-01-08,Thursday,22,77.14
-Phoenixville, 02230,2026-01-08,Thursday,23,19.9
-Phoenixville, 02230,2026-01-09,Friday,9,0
-Phoenixville, 02230,2026-01-09,Friday,10,122.21
-Phoenixville, 02230,2026-01-09,Friday,11,162.45
-Phoenixville, 02230,2026-01-09,Friday,12,522.2
-Phoenixville, 02230,2026-01-09,Friday,13,318.33
-Phoenixville, 02230,2026-01-09,Friday,14,246.09
-Phoenixville, 02230,2026-01-09,Friday,15,325.22
-Phoenixville, 02230,2026-01-09,Friday,16,388.85
-Phoenixville, 02230,2026-01-09,Friday,17,405.5
-Phoenixville, 02230,2026-01-09,Friday,18,301.98
-Phoenixville, 02230,2026-01-09,Friday,19,82.9
-Phoenixville, 02230,2026-01-09,Friday,20,187.94
-Phoenixville, 02230,2026-01-09,Friday,21,133.17
-Phoenixville, 02230,2026-01-09,Friday,22,99.46
-Phoenixville, 02230,2026-01-09,Friday,23,46.16
-Phoenixville, 02230,2026-01-10,Saturday,9,0
-Phoenixville, 02230,2026-01-10,Saturday,10,22.87
-Phoenixville, 02230,2026-01-10,Saturday,11,176.69
-Phoenixville, 02230,2026-01-10,Saturday,12,378.91
-Phoenixville, 02230,2026-01-10,Saturday,13,376.61
-Phoenixville, 02230,2026-01-10,Saturday,14,232.61
-Phoenixville, 02230,2026-01-10,Saturday,15,247.87
-Phoenixville, 02230,2026-01-10,Saturday,16,272.85
-Phoenixville, 02230,2026-01-10,Saturday,17,286.05
-Phoenixville, 02230,2026-01-10,Saturday,18,464.54
-Phoenixville, 02230,2026-01-10,Saturday,19,221.12
-Phoenixville, 02230,2026-01-10,Saturday,20,190.67
-Phoenixville, 02230,2026-01-10,Saturday,21,196.16
-Phoenixville, 02230,2026-01-10,Saturday,22,93.7
-Phoenixville, 02230,2026-01-10,Saturday,23,50.96
-Phoenixville, 02230,2025-12-28,Sunday,9,12.69
-Phoenixville, 02230,2025-12-28,Sunday,10,15.68
-Phoenixville, 02230,2025-12-28,Sunday,11,152.89
-Phoenixville, 02230,2025-12-28,Sunday,12,251.07
-Phoenixville, 02230,2025-12-28,Sunday,13,321.39
-Phoenixville, 02230,2025-12-28,Sunday,14,176.6
-Phoenixville, 02230,2025-12-28,Sunday,15,121.33
-Phoenixville, 02230,2025-12-28,Sunday,16,121.58
-Phoenixville, 02230,2025-12-28,Sunday,17,270.61
-Phoenixville, 02230,2025-12-28,Sunday,18,208.45
-Phoenixville, 02230,2025-12-28,Sunday,19,129.02
-Phoenixville, 02230,2025-12-28,Sunday,20,169.57
-Phoenixville, 02230,2025-12-28,Sunday,21,72.2
-Phoenixville, 02230,2025-12-28,Sunday,22,87.46
-Phoenixville, 02230,2025-12-28,Sunday,23,68.54
-Phoenixville, 02230,2025-12-29,Monday,9,8.49
-Phoenixville, 02230,2025-12-29,Monday,10,57.43
-Phoenixville, 02230,2025-12-29,Monday,11,230.33
-Phoenixville, 02230,2025-12-29,Monday,12,372.33
-Phoenixville, 02230,2025-12-29,Monday,13,383.28
-Phoenixville, 02230,2025-12-29,Monday,14,187.18
-Phoenixville, 02230,2025-12-29,Monday,15,162.96
-Phoenixville, 02230,2025-12-29,Monday,16,169.41
-Phoenixville, 02230,2025-12-29,Monday,17,370.18
-Phoenixville, 02230,2025-12-29,Monday,18,308.51
-Phoenixville, 02230,2025-12-29,Monday,19,216.72
-Phoenixville, 02230,2025-12-29,Monday,20,94.79
-Phoenixville, 02230,2025-12-29,Monday,21,190.9
-Phoenixville, 02230,2025-12-29,Monday,22,92.84
-Phoenixville, 02230,2025-12-29,Monday,23,32.17
-Phoenixville, 02230,2025-12-30,Tuesday,9,29.69
-Phoenixville, 02230,2025-12-30,Tuesday,10,22.06
-Phoenixville, 02230,2025-12-30,Tuesday,11,285.45
-Phoenixville, 02230,2025-12-30,Tuesday,12,592.89
-Phoenixville, 02230,2025-12-30,Tuesday,13,273.83
-Phoenixville, 02230,2025-12-30,Tuesday,14,295.79
-Phoenixville, 02230,2025-12-30,Tuesday,15,327.1
-Phoenixville, 02230,2025-12-30,Tuesday,16,245.03
-Phoenixville, 02230,2025-12-30,Tuesday,17,328.66
-Phoenixville, 02230,2025-12-30,Tuesday,18,438.13
-Phoenixville, 02230,2025-12-30,Tuesday,19,303.69
-Phoenixville, 02230,2025-12-30,Tuesday,20,147.41
-Phoenixville, 02230,2025-12-30,Tuesday,21,103.38
-Phoenixville, 02230,2025-12-30,Tuesday,22,164.39
-Phoenixville, 02230,2025-12-30,Tuesday,23,11.79
-Phoenixville, 02230,2025-12-31,Wednesday,9,49.53
-Phoenixville, 02230,2025-12-31,Wednesday,10,40.16
-Phoenixville, 02230,2025-12-31,Wednesday,11,267.76
-Phoenixville, 02230,2025-12-31,Wednesday,12,458.5
-Phoenixville, 02230,2025-12-31,Wednesday,13,522.04
-Phoenixville, 02230,2025-12-31,Wednesday,14,273.03
-Phoenixville, 02230,2025-12-31,Wednesday,15,176.72
-Phoenixville, 02230,2025-12-31,Wednesday,16,234.22
-Phoenixville, 02230,2025-12-31,Wednesday,17,219.27
-Phoenixville, 02230,2025-12-31,Wednesday,18,196.68
-Phoenixville, 02230,2025-12-31,Wednesday,19,203.95
-Phoenixville, 02230,2025-12-31,Wednesday,20,80.03
-Phoenixville, 02230,2025-12-31,Wednesday,21,93.84
-Phoenixville, 02230,2025-12-31,Wednesday,22,0
-Phoenixville, 02230,2025-12-31,Wednesday,23,0
-Phoenixville, 02230,2026-01-01,Thursday,9,0
-Phoenixville, 02230,2026-01-01,Thursday,10,0
-Phoenixville, 02230,2026-01-01,Thursday,11,44.17
-Phoenixville, 02230,2026-01-01,Thursday,12,270.97
-Phoenixville, 02230,2026-01-01,Thursday,13,198.81
-Phoenixville, 02230,2026-01-01,Thursday,14,203.06
-Phoenixville, 02230,2026-01-01,Thursday,15,189.8
-Phoenixville, 02230,2026-01-01,Thursday,16,92.74
-Phoenixville, 02230,2026-01-01,Thursday,17,328.57
-Phoenixville, 02230,2026-01-01,Thursday,18,238.93
-Phoenixville, 02230,2026-01-01,Thursday,19,218.73
-Phoenixville, 02230,2026-01-01,Thursday,20,89.35
-Phoenixville, 02230,2026-01-01,Thursday,21,86.83
-Phoenixville, 02230,2026-01-01,Thursday,22,17.83
-Phoenixville, 02230,2026-01-01,Thursday,23,91.02
-Phoenixville, 02230,2026-01-02,Friday,9,0
-Phoenixville, 02230,2026-01-02,Friday,10,54.06
-Phoenixville, 02230,2026-01-02,Friday,11,174.04
-Phoenixville, 02230,2026-01-02,Friday,12,454.09
-Phoenixville, 02230,2026-01-02,Friday,13,426.89
-Phoenixville, 02230,2026-01-02,Friday,14,216.08
-Phoenixville, 02230,2026-01-02,Friday,15,216.88
-Phoenixville, 02230,2026-01-02,Friday,16,221.8
-Phoenixville, 02230,2026-01-02,Friday,17,390.93
-Phoenixville, 02230,2026-01-02,Friday,18,249.61
-Phoenixville, 02230,2026-01-02,Friday,19,229.83
-Phoenixville, 02230,2026-01-02,Friday,20,183.05
-Phoenixville, 02230,2026-01-02,Friday,21,42.68
-Phoenixville, 02230,2026-01-02,Friday,22,145.5
-Phoenixville, 02230,2026-01-02,Friday,23,78.45
-Phoenixville, 02230,2026-01-03,Saturday,9,0
-Phoenixville, 02230,2026-01-03,Saturday,10,50.23
-Phoenixville, 02230,2026-01-03,Saturday,11,147.04
-Phoenixville, 02230,2026-01-03,Saturday,12,199.3
-Phoenixville, 02230,2026-01-03,Saturday,13,269.44
-Phoenixville, 02230,2026-01-03,Saturday,14,160.83
-Phoenixville, 02230,2026-01-03,Saturday,15,185.54
-Phoenixville, 02230,2026-01-03,Saturday,16,137.09
-Phoenixville, 02230,2026-01-03,Saturday,17,427.67
-Phoenixville, 02230,2026-01-03,Saturday,18,176.67
-Phoenixville, 02230,2026-01-03,Saturday,19,185.32
-Phoenixville, 02230,2026-01-03,Saturday,20,213.19
-Phoenixville, 02230,2026-01-03,Saturday,21,147.89
-Phoenixville, 02230,2026-01-03,Saturday,22,120
-Phoenixville, 02230,2026-01-03,Saturday,23,61.42
+Dresher,527,2026-01-18,Sunday,9,18.67
+Dresher,527,2026-01-18,Sunday,10,37.38
+Dresher,527,2026-01-18,Sunday,11,115.78
+Dresher,527,2026-01-18,Sunday,12,267.74
+Dresher,527,2026-01-18,Sunday,13,432.21
+Dresher,527,2026-01-18,Sunday,14,234.26
+Dresher,527,2026-01-18,Sunday,15,192.1
+Dresher,527,2026-01-18,Sunday,16,231.62
+Dresher,527,2026-01-18,Sunday,17,142.65
+Dresher,527,2026-01-18,Sunday,18,173.9
+Dresher,527,2026-01-18,Sunday,19,126.46
+Dresher,527,2026-01-18,Sunday,20,186.32
+Dresher,527,2026-01-18,Sunday,21,85.67
+Dresher,527,2026-01-18,Sunday,22,95.2
+Dresher,527,2026-01-18,Sunday,23,36.42
+Dresher,527,2026-01-19,Monday,8,0
+Dresher,527,2026-01-19,Monday,9,15.47
+Dresher,527,2026-01-19,Monday,10,64.54
+Dresher,527,2026-01-19,Monday,11,344.23
+Dresher,527,2026-01-19,Monday,12,416.75
+Dresher,527,2026-01-19,Monday,13,514.78
+Dresher,527,2026-01-19,Monday,14,303.05
+Dresher,527,2026-01-19,Monday,15,387.21
+Dresher,527,2026-01-19,Monday,16,285.17
+Dresher,527,2026-01-19,Monday,17,399.13
+Dresher,527,2026-01-19,Monday,18,393.69
+Dresher,527,2026-01-19,Monday,19,153.06
+Dresher,527,2026-01-19,Monday,20,224.92
+Dresher,527,2026-01-19,Monday,21,281.82
+Dresher,527,2026-01-19,Monday,22,118.7
+Dresher,527,2026-01-19,Monday,23,96.49
+Dresher,527,2026-01-20,Tuesday,9,26.27
+Dresher,527,2026-01-20,Tuesday,10,106.27
+Dresher,527,2026-01-20,Tuesday,11,234.03
+Dresher,527,2026-01-20,Tuesday,12,472.29
+Dresher,527,2026-01-20,Tuesday,13,381.67
+Dresher,527,2026-01-20,Tuesday,14,279.1
+Dresher,527,2026-01-20,Tuesday,15,381.34
+Dresher,527,2026-01-20,Tuesday,16,198.81
+Dresher,527,2026-01-20,Tuesday,17,282.01
+Dresher,527,2026-01-20,Tuesday,18,241.07
+Dresher,527,2026-01-20,Tuesday,19,310.21
+Dresher,527,2026-01-20,Tuesday,20,212.25
+Dresher,527,2026-01-20,Tuesday,21,181.29
+Dresher,527,2026-01-20,Tuesday,22,133.26
+Dresher,527,2026-01-20,Tuesday,23,58.89
+Dresher,527,2026-01-21,Wednesday,9,38.94
+Dresher,527,2026-01-21,Wednesday,10,127.93
+Dresher,527,2026-01-21,Wednesday,11,224.94
+Dresher,527,2026-01-21,Wednesday,12,510.81
+Dresher,527,2026-01-21,Wednesday,13,447.08
+Dresher,527,2026-01-21,Wednesday,14,307.25
+Dresher,527,2026-01-21,Wednesday,15,287.55
+Dresher,527,2026-01-21,Wednesday,16,337.2
+Dresher,527,2026-01-21,Wednesday,17,346.83
+Dresher,527,2026-01-21,Wednesday,18,302.65
+Dresher,527,2026-01-21,Wednesday,19,149.71
+Dresher,527,2026-01-21,Wednesday,20,320.84
+Dresher,527,2026-01-21,Wednesday,21,193.14
+Dresher,527,2026-01-21,Wednesday,22,75.92
+Dresher,527,2026-01-21,Wednesday,23,49.55
+Dresher,527,2026-01-22,Thursday,10,63.85
+Dresher,527,2026-01-22,Thursday,11,373.01
+Dresher,527,2026-01-22,Thursday,12,606.47
+Dresher,527,2026-01-22,Thursday,13,619.3
+Dresher,527,2026-01-22,Thursday,14,334.1
+Dresher,527,2026-01-22,Thursday,15,178.91
+Dresher,527,2026-01-22,Thursday,16,298.41
+Dresher,527,2026-01-22,Thursday,17,346.37
+Dresher,527,2026-01-22,Thursday,18,583.4
+Dresher,527,2026-01-22,Thursday,19,485.95
+Dresher,527,2026-01-22,Thursday,20,305.88
+Dresher,527,2026-01-22,Thursday,21,286.41
+Dresher,527,2026-01-22,Thursday,22,100.23
+Dresher,527,2026-01-22,Thursday,23,62.67
+Dresher,527,2026-01-23,Friday,9,53.45
+Dresher,527,2026-01-23,Friday,10,35.99
+Dresher,527,2026-01-23,Friday,11,303.8
+Dresher,527,2026-01-23,Friday,12,547.43
+Dresher,527,2026-01-23,Friday,13,480.79
+Dresher,527,2026-01-23,Friday,14,226.27
+Dresher,527,2026-01-23,Friday,15,226.05
+Dresher,527,2026-01-23,Friday,16,420.43
+Dresher,527,2026-01-23,Friday,17,532.82
+Dresher,527,2026-01-23,Friday,18,689.79
+Dresher,527,2026-01-23,Friday,19,328.68
+Dresher,527,2026-01-23,Friday,20,305.4
+Dresher,527,2026-01-23,Friday,21,383.16
+Dresher,527,2026-01-23,Friday,22,263.13
+Dresher,527,2026-01-23,Friday,23,139.22
+Dresher,527,2026-01-24,Saturday,9,0
+Dresher,527,2026-01-24,Saturday,10,47.61
+Dresher,527,2026-01-24,Saturday,11,268.63
+Dresher,527,2026-01-24,Saturday,12,405.4
+Dresher,527,2026-01-24,Saturday,13,385.89
+Dresher,527,2026-01-24,Saturday,14,249.11
+Dresher,527,2026-01-24,Saturday,15,316.92
+Dresher,527,2026-01-24,Saturday,16,227.85
+Dresher,527,2026-01-24,Saturday,17,483.36
+Dresher,527,2026-01-24,Saturday,18,263.88
+Dresher,527,2026-01-24,Saturday,19,328.53
+Dresher,527,2026-01-24,Saturday,20,194.48
+Dresher,527,2026-01-24,Saturday,21,179.3
+Dresher,527,2026-01-24,Saturday,22,190.56
+Dresher,527,2026-01-24,Saturday,23,48.89
+Dresher,527,2026-01-11,Sunday,9,23.95
+Dresher,527,2026-01-11,Sunday,10,56.62
+Dresher,527,2026-01-11,Sunday,11,384.11
+Dresher,527,2026-01-11,Sunday,12,532.33
+Dresher,527,2026-01-11,Sunday,13,312.53
+Dresher,527,2026-01-11,Sunday,14,376.11
+Dresher,527,2026-01-11,Sunday,15,427.81
+Dresher,527,2026-01-11,Sunday,16,407.96
+Dresher,527,2026-01-11,Sunday,17,274.97
+Dresher,527,2026-01-11,Sunday,18,200.03
+Dresher,527,2026-01-11,Sunday,19,146.93
+Dresher,527,2026-01-11,Sunday,20,251.32
+Dresher,527,2026-01-11,Sunday,21,219.99
+Dresher,527,2026-01-11,Sunday,22,215.81
+Dresher,527,2026-01-11,Sunday,23,7.19
+Dresher,527,2026-01-12,Monday,8,0.01
+Dresher,527,2026-01-12,Monday,9,47.41
+Dresher,527,2026-01-12,Monday,10,59.27
+Dresher,527,2026-01-12,Monday,11,135.1
+Dresher,527,2026-01-12,Monday,12,351.4
+Dresher,527,2026-01-12,Monday,13,302
+Dresher,527,2026-01-12,Monday,14,365.62
+Dresher,527,2026-01-12,Monday,15,222.64
+Dresher,527,2026-01-12,Monday,16,283.08
+Dresher,527,2026-01-12,Monday,17,281.32
+Dresher,527,2026-01-12,Monday,18,376.41
+Dresher,527,2026-01-12,Monday,19,274.47
+Dresher,527,2026-01-12,Monday,20,196.43
+Dresher,527,2026-01-12,Monday,21,127.85
+Dresher,527,2026-01-12,Monday,22,114.48
+Dresher,527,2026-01-12,Monday,23,19.98
+Dresher,527,2026-01-13,Tuesday,9,0
+Dresher,527,2026-01-13,Tuesday,10,51.88
+Dresher,527,2026-01-13,Tuesday,11,250.54
+Dresher,527,2026-01-13,Tuesday,12,399.21
+Dresher,527,2026-01-13,Tuesday,13,391.19
+Dresher,527,2026-01-13,Tuesday,14,255.79
+Dresher,527,2026-01-13,Tuesday,15,302.89
+Dresher,527,2026-01-13,Tuesday,16,232.73
+Dresher,527,2026-01-13,Tuesday,17,298.33
+Dresher,527,2026-01-13,Tuesday,18,423.56
+Dresher,527,2026-01-13,Tuesday,19,262.99
+Dresher,527,2026-01-13,Tuesday,20,299.19
+Dresher,527,2026-01-13,Tuesday,21,148.9
+Dresher,527,2026-01-13,Tuesday,22,67.67
+Dresher,527,2026-01-13,Tuesday,23,60.3
+Dresher,527,2026-01-14,Wednesday,9,0
+Dresher,527,2026-01-14,Wednesday,10,55.78
+Dresher,527,2026-01-14,Wednesday,11,202.76
+Dresher,527,2026-01-14,Wednesday,12,531.71
+Dresher,527,2026-01-14,Wednesday,13,395.81
+Dresher,527,2026-01-14,Wednesday,14,301.33
+Dresher,527,2026-01-14,Wednesday,15,180.55
+Dresher,527,2026-01-14,Wednesday,16,238
+Dresher,527,2026-01-14,Wednesday,17,325.28
+Dresher,527,2026-01-14,Wednesday,18,319.69
+Dresher,527,2026-01-14,Wednesday,19,517.09
+Dresher,527,2026-01-14,Wednesday,20,160.27
+Dresher,527,2026-01-14,Wednesday,21,159.03
+Dresher,527,2026-01-14,Wednesday,22,96.86
+Dresher,527,2026-01-14,Wednesday,23,30.16
+Dresher,527,2026-01-15,Thursday,10,65.64
+Dresher,527,2026-01-15,Thursday,11,256.78
+Dresher,527,2026-01-15,Thursday,12,504.98
+Dresher,527,2026-01-15,Thursday,13,380.44
+Dresher,527,2026-01-15,Thursday,14,359.96
+Dresher,527,2026-01-15,Thursday,15,331.88
+Dresher,527,2026-01-15,Thursday,16,219.54
+Dresher,527,2026-01-15,Thursday,17,509.33
+Dresher,527,2026-01-15,Thursday,18,433.68
+Dresher,527,2026-01-15,Thursday,19,393.31
+Dresher,527,2026-01-15,Thursday,20,373.48
+Dresher,527,2026-01-15,Thursday,21,171.93
+Dresher,527,2026-01-15,Thursday,22,88.7
+Dresher,527,2026-01-15,Thursday,23,116.57
+Dresher,527,2026-01-16,Friday,9,0
+Dresher,527,2026-01-16,Friday,10,27.66
+Dresher,527,2026-01-16,Friday,11,354.64
+Dresher,527,2026-01-16,Friday,12,663.34
+Dresher,527,2026-01-16,Friday,13,525.5
+Dresher,527,2026-01-16,Friday,14,303.63
+Dresher,527,2026-01-16,Friday,15,318.39
+Dresher,527,2026-01-16,Friday,16,374.33
+Dresher,527,2026-01-16,Friday,17,572.37
+Dresher,527,2026-01-16,Friday,18,604.64
+Dresher,527,2026-01-16,Friday,19,434.3
+Dresher,527,2026-01-16,Friday,20,294.95
+Dresher,527,2026-01-16,Friday,21,294.23
+Dresher,527,2026-01-16,Friday,22,296.58
+Dresher,527,2026-01-16,Friday,23,47.43
+Dresher,527,2026-01-17,Saturday,9,0
+Dresher,527,2026-01-17,Saturday,10,56.88
+Dresher,527,2026-01-17,Saturday,11,178.66
+Dresher,527,2026-01-17,Saturday,12,398.8
+Dresher,527,2026-01-17,Saturday,13,467.73
+Dresher,527,2026-01-17,Saturday,14,160.74
+Dresher,527,2026-01-17,Saturday,15,394.74
+Dresher,527,2026-01-17,Saturday,16,377.74
+Dresher,527,2026-01-17,Saturday,17,244.56
+Dresher,527,2026-01-17,Saturday,18,291.57
+Dresher,527,2026-01-17,Saturday,19,332.41
+Dresher,527,2026-01-17,Saturday,20,270.71
+Dresher,527,2026-01-17,Saturday,21,291.55
+Dresher,527,2026-01-17,Saturday,22,200.65
+Dresher,527,2026-01-17,Saturday,23,100.58
+Dresher,527,2026-01-04,Sunday,9,14.58
+Dresher,527,2026-01-04,Sunday,10,14.17
+Dresher,527,2026-01-04,Sunday,11,120.88
+Dresher,527,2026-01-04,Sunday,12,243.26
+Dresher,527,2026-01-04,Sunday,13,424.69
+Dresher,527,2026-01-04,Sunday,14,254.01
+Dresher,527,2026-01-04,Sunday,15,171.19
+Dresher,527,2026-01-04,Sunday,16,379.98
+Dresher,527,2026-01-04,Sunday,17,337.2
+Dresher,527,2026-01-04,Sunday,18,326.68
+Dresher,527,2026-01-04,Sunday,19,374.22
+Dresher,527,2026-01-04,Sunday,20,160.77
+Dresher,527,2026-01-04,Sunday,21,134.44
+Dresher,527,2026-01-04,Sunday,22,266.9
+Dresher,527,2026-01-04,Sunday,23,65.82
+Dresher,527,2026-01-05,Monday,8,0
+Dresher,527,2026-01-05,Monday,9,0
+Dresher,527,2026-01-05,Monday,10,50.15
+Dresher,527,2026-01-05,Monday,11,208.34
+Dresher,527,2026-01-05,Monday,12,534.14
+Dresher,527,2026-01-05,Monday,13,395.07
+Dresher,527,2026-01-05,Monday,14,277.17
+Dresher,527,2026-01-05,Monday,15,379.74
+Dresher,527,2026-01-05,Monday,16,268.12
+Dresher,527,2026-01-05,Monday,17,216.61
+Dresher,527,2026-01-05,Monday,18,357.42
+Dresher,527,2026-01-05,Monday,19,219.96
+Dresher,527,2026-01-05,Monday,20,166.52
+Dresher,527,2026-01-05,Monday,21,151.15
+Dresher,527,2026-01-05,Monday,22,122.75
+Dresher,527,2026-01-05,Monday,23,103.66
+Dresher,527,2026-01-06,Tuesday,9,21.07
+Dresher,527,2026-01-06,Tuesday,10,92.33
+Dresher,527,2026-01-06,Tuesday,11,228.16
+Dresher,527,2026-01-06,Tuesday,12,406.23
+Dresher,527,2026-01-06,Tuesday,13,471.47
+Dresher,527,2026-01-06,Tuesday,14,130.87
+Dresher,527,2026-01-06,Tuesday,15,238.91
+Dresher,527,2026-01-06,Tuesday,16,350.32
+Dresher,527,2026-01-06,Tuesday,17,404.39
+Dresher,527,2026-01-06,Tuesday,18,338.47
+Dresher,527,2026-01-06,Tuesday,19,309.72
+Dresher,527,2026-01-06,Tuesday,20,282.79
+Dresher,527,2026-01-06,Tuesday,21,156.37
+Dresher,527,2026-01-06,Tuesday,22,110.64
+Dresher,527,2026-01-06,Tuesday,23,63.61
+Dresher,527,2026-01-07,Wednesday,9,8
+Dresher,527,2026-01-07,Wednesday,10,43.08
+Dresher,527,2026-01-07,Wednesday,11,208.33
+Dresher,527,2026-01-07,Wednesday,12,470.46
+Dresher,527,2026-01-07,Wednesday,13,385.07
+Dresher,527,2026-01-07,Wednesday,14,199.35
+Dresher,527,2026-01-07,Wednesday,15,243.14
+Dresher,527,2026-01-07,Wednesday,16,363.28
+Dresher,527,2026-01-07,Wednesday,17,389.14
+Dresher,527,2026-01-07,Wednesday,18,375.12
+Dresher,527,2026-01-07,Wednesday,19,314.05
+Dresher,527,2026-01-07,Wednesday,20,204.91
+Dresher,527,2026-01-07,Wednesday,21,213.59
+Dresher,527,2026-01-07,Wednesday,22,193.75
+Dresher,527,2026-01-07,Wednesday,23,12.29
+Dresher,527,2026-01-08,Thursday,10,103.48
+Dresher,527,2026-01-08,Thursday,11,305.87
+Dresher,527,2026-01-08,Thursday,12,479.88
+Dresher,527,2026-01-08,Thursday,13,395.27
+Dresher,527,2026-01-08,Thursday,14,363.23
+Dresher,527,2026-01-08,Thursday,15,408.19
+Dresher,527,2026-01-08,Thursday,16,244.2
+Dresher,527,2026-01-08,Thursday,17,429.45
+Dresher,527,2026-01-08,Thursday,18,705.59
+Dresher,527,2026-01-08,Thursday,19,274.07
+Dresher,527,2026-01-08,Thursday,20,321.67
+Dresher,527,2026-01-08,Thursday,21,198.56
+Dresher,527,2026-01-08,Thursday,22,193.21
+Dresher,527,2026-01-08,Thursday,23,106.72
+Dresher,527,2026-01-09,Friday,9,40.8
+Dresher,527,2026-01-09,Friday,10,70.05
+Dresher,527,2026-01-09,Friday,11,369.4
+Dresher,527,2026-01-09,Friday,12,485.76
+Dresher,527,2026-01-09,Friday,13,336.96
+Dresher,527,2026-01-09,Friday,14,337.55
+Dresher,527,2026-01-09,Friday,15,406.01
+Dresher,527,2026-01-09,Friday,16,333.72
+Dresher,527,2026-01-09,Friday,17,603.16
+Dresher,527,2026-01-09,Friday,18,609.82
+Dresher,527,2026-01-09,Friday,19,468.72
+Dresher,527,2026-01-09,Friday,20,292.42
+Dresher,527,2026-01-09,Friday,21,260.97
+Dresher,527,2026-01-09,Friday,22,108.04
+Dresher,527,2026-01-09,Friday,23,141.6
+Dresher,527,2026-01-10,Saturday,9,11.79
+Dresher,527,2026-01-10,Saturday,10,52.9
+Dresher,527,2026-01-10,Saturday,11,291.77
+Dresher,527,2026-01-10,Saturday,12,449.58
+Dresher,527,2026-01-10,Saturday,13,358.37
+Dresher,527,2026-01-10,Saturday,14,453.27
+Dresher,527,2026-01-10,Saturday,15,361.17
+Dresher,527,2026-01-10,Saturday,16,520.93
+Dresher,527,2026-01-10,Saturday,17,289.69
+Dresher,527,2026-01-10,Saturday,18,420.16
+Dresher,527,2026-01-10,Saturday,19,198.05
+Dresher,527,2026-01-10,Saturday,20,325.54
+Dresher,527,2026-01-10,Saturday,21,205.55
+Dresher,527,2026-01-10,Saturday,22,222.84
+Dresher,527,2026-01-10,Saturday,23,105.8
+Dresher,527,2025-12-28,Sunday,9,18.18
+Dresher,527,2025-12-28,Sunday,10,34.87
+Dresher,527,2025-12-28,Sunday,11,273.05
+Dresher,527,2025-12-28,Sunday,12,384.14
+Dresher,527,2025-12-28,Sunday,13,401.32
+Dresher,527,2025-12-28,Sunday,14,375.6
+Dresher,527,2025-12-28,Sunday,15,328.79
+Dresher,527,2025-12-28,Sunday,16,337.17
+Dresher,527,2025-12-28,Sunday,17,474.25
+Dresher,527,2025-12-28,Sunday,18,256.96
+Dresher,527,2025-12-28,Sunday,19,219.49
+Dresher,527,2025-12-28,Sunday,20,197.5
+Dresher,527,2025-12-28,Sunday,21,180.13
+Dresher,527,2025-12-28,Sunday,22,151.69
+Dresher,527,2025-12-28,Sunday,23,206.36
+Dresher,527,2025-12-29,Monday,8,0
+Dresher,527,2025-12-29,Monday,9,0
+Dresher,527,2025-12-29,Monday,10,46.37
+Dresher,527,2025-12-29,Monday,11,297.15
+Dresher,527,2025-12-29,Monday,12,457
+Dresher,527,2025-12-29,Monday,13,332.11
+Dresher,527,2025-12-29,Monday,14,434.18
+Dresher,527,2025-12-29,Monday,15,288.05
+Dresher,527,2025-12-29,Monday,16,144.21
+Dresher,527,2025-12-29,Monday,17,353.93
+Dresher,527,2025-12-29,Monday,18,407.68
+Dresher,527,2025-12-29,Monday,19,317.72
+Dresher,527,2025-12-29,Monday,20,165.15
+Dresher,527,2025-12-29,Monday,21,273.28
+Dresher,527,2025-12-29,Monday,22,227.88
+Dresher,527,2025-12-29,Monday,23,52.48
+Dresher,527,2025-12-30,Tuesday,9,0
+Dresher,527,2025-12-30,Tuesday,10,34.62
+Dresher,527,2025-12-30,Tuesday,11,414.17
+Dresher,527,2025-12-30,Tuesday,12,715.95
+Dresher,527,2025-12-30,Tuesday,13,481.54
+Dresher,527,2025-12-30,Tuesday,14,473.21
+Dresher,527,2025-12-30,Tuesday,15,332.45
+Dresher,527,2025-12-30,Tuesday,16,165.59
+Dresher,527,2025-12-30,Tuesday,17,368.74
+Dresher,527,2025-12-30,Tuesday,18,300.9
+Dresher,527,2025-12-30,Tuesday,19,390.69
+Dresher,527,2025-12-30,Tuesday,20,380.71
+Dresher,527,2025-12-30,Tuesday,21,275.43
+Dresher,527,2025-12-30,Tuesday,22,212.08
+Dresher,527,2025-12-30,Tuesday,23,56.37
+Dresher,527,2025-12-31,Wednesday,9,5.18
+Dresher,527,2025-12-31,Wednesday,10,103.93
+Dresher,527,2025-12-31,Wednesday,11,206.12
+Dresher,527,2025-12-31,Wednesday,12,536.57
+Dresher,527,2025-12-31,Wednesday,13,392.83
+Dresher,527,2025-12-31,Wednesday,14,381.34
+Dresher,527,2025-12-31,Wednesday,15,314.08
+Dresher,527,2025-12-31,Wednesday,16,455.45
+Dresher,527,2025-12-31,Wednesday,17,390.61
+Dresher,527,2025-12-31,Wednesday,18,684.7
+Dresher,527,2025-12-31,Wednesday,19,300.41
+Dresher,527,2025-12-31,Wednesday,20,248.82
+Dresher,527,2025-12-31,Wednesday,21,153.78
+Dresher,527,2025-12-31,Wednesday,22,0
+Dresher,527,2025-12-31,Wednesday,23,0
+Dresher,527,2026-01-01,Thursday,10,9.6
+Dresher,527,2026-01-01,Thursday,11,58.89
+Dresher,527,2026-01-01,Thursday,12,324.1
+Dresher,527,2026-01-01,Thursday,13,307.15
+Dresher,527,2026-01-01,Thursday,14,372.22
+Dresher,527,2026-01-01,Thursday,15,167.8
+Dresher,527,2026-01-01,Thursday,16,202.6
+Dresher,527,2026-01-01,Thursday,17,378.43
+Dresher,527,2026-01-01,Thursday,18,191.95
+Dresher,527,2026-01-01,Thursday,19,417.04
+Dresher,527,2026-01-01,Thursday,20,270.66
+Dresher,527,2026-01-01,Thursday,21,168.14
+Dresher,527,2026-01-01,Thursday,22,154.8
+Dresher,527,2026-01-01,Thursday,23,276.7
+Dresher,527,2026-01-02,Friday,9,0
+Dresher,527,2026-01-02,Friday,10,125.66
+Dresher,527,2026-01-02,Friday,11,314.36
+Dresher,527,2026-01-02,Friday,12,413.52
+Dresher,527,2026-01-02,Friday,13,392.87
+Dresher,527,2026-01-02,Friday,14,298.58
+Dresher,527,2026-01-02,Friday,15,316
+Dresher,527,2026-01-02,Friday,16,223.77
+Dresher,527,2026-01-02,Friday,17,389.1
+Dresher,527,2026-01-02,Friday,18,678.61
+Dresher,527,2026-01-02,Friday,19,286.66
+Dresher,527,2026-01-02,Friday,20,262.57
+Dresher,527,2026-01-02,Friday,21,251.82
+Dresher,527,2026-01-02,Friday,22,208.43
+Dresher,527,2026-01-02,Friday,23,152.77
+Dresher,527,2026-01-03,Saturday,9,0
+Dresher,527,2026-01-03,Saturday,10,22.36
+Dresher,527,2026-01-03,Saturday,11,122.15
+Dresher,527,2026-01-03,Saturday,12,337
+Dresher,527,2026-01-03,Saturday,13,407.72
+Dresher,527,2026-01-03,Saturday,14,300.19
+Dresher,527,2026-01-03,Saturday,15,175.29
+Dresher,527,2026-01-03,Saturday,16,361.05
+Dresher,527,2026-01-03,Saturday,17,479.38
+Dresher,527,2026-01-03,Saturday,18,636.26
+Dresher,527,2026-01-03,Saturday,19,232.65
+Dresher,527,2026-01-03,Saturday,20,347.39
+Dresher,527,2026-01-03,Saturday,21,287.77
+Dresher,527,2026-01-03,Saturday,22,239.69
+Dresher,527,2026-01-03,Saturday,23,178.61

@@ -465,29 +465,37 @@ export const prepareChartData = (data, groupBy = "hour") => {
   const grouped = new Map();
 
   if (groupBy === "hour") {
-    // Initialize all 24 hours (0-23) with 0 values
-    for (let hour = 0; hour < 24; hour++) {
-      grouped.set(hour, { total: 0, count: 0 });
-    }
-
-    // Group by hour (0-23) and accumulate data
+    // Only accumulate hours that actually have data — do NOT pre-initialize.
+    // Missing hours mean "store closed" and must not appear as $0.
     for (const row of data) {
       const key = row.Hour;
-      if (grouped.has(key)) {
-        grouped.get(key).total += row.AvgAmount;
-        grouped.get(key).count += 1;
+      if (!grouped.has(key)) {
+        grouped.set(key, { total: 0, count: 0 });
       }
+      grouped.get(key).total += row.AvgAmount;
+      grouped.get(key).count += 1;
     }
 
-    const sortedEntries = [...grouped.entries()].sort((a, b) => a[0] - b[0]);
+    // Build all 24 hour slots; hours with no data get null (not 0)
+    const entries = [];
+    for (let hour = 0; hour < 24; hour++) {
+      const cell = grouped.get(hour);
+      entries.push({
+        hour,
+        label: formatHourToAMPM(hour),
+        value:
+          cell && cell.count > 0
+            ? Math.round((cell.total / cell.count) * 100) / 100
+            : null,
+      });
+    }
+
     return {
-      labels: sortedEntries.map(([hour]) => formatHourToAMPM(hour)),
-      values: sortedEntries.map(([, { total, count }]) =>
-        count > 0 ? Math.round((total / count) * 100) / 100 : 0,
-      ),
+      labels: entries.map((e) => e.label),
+      values: entries.map((e) => e.value),
     };
   } else {
-    // Group by day
+    // Group by day — only days present in data
     const dayOrder = [
       "Monday",
       "Tuesday",
@@ -514,8 +522,8 @@ export const prepareChartData = (data, groupBy = "hour") => {
 
     return {
       labels: sortedEntries.map(([day]) => day),
-      values: sortedEntries.map(
-        ([, { total, count }]) => Math.round((total / count) * 100) / 100,
+      values: sortedEntries.map(([, { total, count }]) =>
+        count > 0 ? Math.round((total / count) * 100) / 100 : null,
       ),
     };
   }

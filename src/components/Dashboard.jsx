@@ -66,20 +66,17 @@ const Dashboard = ({ rawData }) => {
   // Filter data by store and day
   const filteredData = useMemo(() => {
     let result = processedData;
-
     if (selectedStore) {
       result = result.filter((row) => row.StoreName === selectedStore);
     }
     if (selectedDay) {
       result = result.filter((row) => row.Day === selectedDay);
     }
-
     const sorted = [...result].sort((a, b) => {
       return sortOrder === "lowest"
         ? a.AvgAmount - b.AvgAmount
         : b.AvgAmount - a.AvgAmount;
     });
-
     return sorted;
   }, [processedData, selectedStore, selectedDay, sortOrder]);
 

@@ -31,8 +31,13 @@ export const createChartOptions = (selectedStore) => {
         bodyFont: { size: 12 },
         padding: 12,
         cornerRadius: 8,
+        filter: (tooltipItem) => tooltipItem.parsed.y !== null,
         callbacks: {
-          label: (context) => `Avg Amount: $${context.parsed.y.toFixed(2)}`,
+          label: (context) => {
+            const val = context.parsed.y;
+            if (val === null || val === undefined) return "No data";
+            return `Avg Amount: $${val.toFixed(2)}`;
+          },
         },
       },
     },
@@ -106,6 +111,7 @@ export const createChartData = (filteredData, chartType) => {
         borderWidth: chartType === "bar" ? 1 : 2.5,
         fill: chartType === "line",
         tension: 0.4,
+        spanGaps: false, // null values break the line (closed hours)
         pointBackgroundColor: "rgba(99, 102, 241, 1)",
         pointBorderColor: "#fff",
         pointBorderWidth: 2,

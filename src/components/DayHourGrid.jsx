@@ -6,7 +6,7 @@ import { formatHourRangeToAMPM } from "../utils/dataProcessing";
  * Get heatmap background color based on value relative to min/max
  */
 const getHeatmapColor = (value, minVal, maxVal) => {
-  if (value <= 0) return "transparent";
+  if (value === null || value <= 0) return "transparent";
   if (maxVal === minVal) return "rgba(59, 130, 246, 0.15)";
 
   const ratio = (value - minVal) / (maxVal - minVal);
@@ -19,7 +19,7 @@ const getHeatmapColor = (value, minVal, maxVal) => {
 };
 
 const getHeatmapTextColor = (value, minVal, maxVal) => {
-  if (value <= 0) return "text-gray-400";
+  if (value === null || value <= 0) return "text-gray-400";
   if (maxVal === minVal) return "text-blue-700 font-semibold";
 
   const ratio = (value - minVal) / (maxVal - minVal);
@@ -37,16 +37,16 @@ const DayHourGrid = ({ data, selectedStore, fullView = false }) => {
     [data],
   );
 
-  // Calculate min and max for heatmap coloring (excluding zeros)
+  // Calculate min and max for heatmap coloring (only cells with actual data)
   const { minVal, maxVal } = useMemo(() => {
-    const nonZeroValues = [];
+    const dataValues = [];
     for (const [, value] of grid) {
-      if (value > 0) nonZeroValues.push(value);
+      if (value !== null && value > 0) dataValues.push(value);
     }
-    if (nonZeroValues.length === 0) return { minVal: 0, maxVal: 0 };
+    if (dataValues.length === 0) return { minVal: 0, maxVal: 0 };
     return {
-      minVal: Math.min(...nonZeroValues),
-      maxVal: Math.max(...nonZeroValues),
+      minVal: Math.min(...dataValues),
+      maxVal: Math.max(...dataValues),
     };
   }, [grid]);
 
@@ -110,9 +110,11 @@ const DayHourGrid = ({ data, selectedStore, fullView = false }) => {
                   {formatHourRangeToAMPM(hour, hour === 23 ? 24 : hour + 1)}
                 </td>
                 {dayOrder.map((day) => {
-                  const value = grid.get(`${day}_${hour}`) ?? 0;
+                  const value = grid.get(`${day}_${hour}`) ?? null;
                   const displayValue =
-                    value > 0 ? `$${Number(value).toFixed(2)}` : "\u2014";
+                    value !== null && value > 0
+                      ? `$${Number(value).toFixed(2)}`
+                      : "\u2014";
                   return (
                     <td
                       key={`${day}_${hour}`}

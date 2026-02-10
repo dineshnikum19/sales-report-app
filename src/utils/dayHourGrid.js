@@ -3,11 +3,14 @@ export const GRID_HOURS = Array.from({ length: 24 }, (_, i) => i);
 
 /**
  * Build a grid of Day x Hour from processed/filtered data.
- * Returns a 2D structure: for each hour and each day,
- * the **average** amount across all stores that have data for that cell.
+ *
+ * Only rows that exist in the data contribute to a cell.
+ * If no store has data for a given Day+Hour, the cell is null (not 0).
+ * null = "no store open / no data" and is displayed as "—" in the UI.
+ * This ensures missing hours never pollute averages.
  *
  * @param {Array} data - Processed data with Day, Hour, AvgAmount
- * @returns {Object} - { grid: Map<string, number>, dayOrder: string[], hours: number[] }
+ * @returns {Object} - { grid: Map<string, number|null>, dayOrder: string[], hours: number[] }
  */
 export const buildDayHourGrid = (data) => {
   const dayOrder = [
@@ -20,7 +23,7 @@ export const buildDayHourGrid = (data) => {
     "Saturday",
   ];
 
-  // Accumulator: key -> { total, count } so we can compute the average
+  // Accumulator: key -> { total, count }
   const accumulator = new Map();
 
   dayOrder.forEach((day) => {
@@ -32,7 +35,7 @@ export const buildDayHourGrid = (data) => {
   if (!data || data.length === 0) {
     const grid = new Map();
     for (const [key] of accumulator) {
-      grid.set(key, 0);
+      grid.set(key, null);
     }
     return { grid, dayOrder, hours: GRID_HOURS };
   }
@@ -46,10 +49,10 @@ export const buildDayHourGrid = (data) => {
     }
   });
 
-  // Build final grid: average = total / count (or 0 if no data)
+  // count > 0 → average; count === 0 → null (no data, not $0)
   const grid = new Map();
   for (const [key, { total, count }] of accumulator) {
-    grid.set(key, count > 0 ? Math.round((total / count) * 100) / 100 : 0);
+    grid.set(key, count > 0 ? Math.round((total / count) * 100) / 100 : null);
   }
 
   return { grid, dayOrder, hours: GRID_HOURS };

@@ -21,25 +21,25 @@ const CLOSED_6_TO_9 = [6, 7, 8];
  */
 export const STORE_CLOSED_HOURS = {
   // StoreCode → StoreName (for reference)
-  "Clinton": CLOSED_6_TO_9,          // 13589
-  "Doylestown": CLOSED_6_TO_9,       // 2444
-  "Norristown 1": CLOSED_6_TO_9,     // 8616
-  "Dresher": CLOSED_6_TO_9,          // 527  (not in current data — ready for future)
-  "Souderton": CLOSED_6_TO_9,        // 2686
-  "Morrisville": CLOSED_6_TO_9,      // 8612
-  "King of Prussia": CLOSED_6_TO_9,  // 8617
-  "Hatfield": CLOSED_6_TO_9,         // 11807
-  "Point Pleasant": CLOSED_6_TO_9,   // 8186
-  "Toms River": CLOSED_6_TO_9,       // 10803
+  Clinton: CLOSED_6_TO_9, // 13589
+  Doylestown: CLOSED_6_TO_9, // 2444
+  "Norristown 1": CLOSED_6_TO_9, // 8616
+  Dresher: CLOSED_6_TO_9, // 527  (not in current data — ready for future)
+  Souderton: CLOSED_6_TO_9, // 2686
+  Morrisville: CLOSED_6_TO_9, // 8612
+  "King of Prussia": CLOSED_6_TO_9, // 8617
+  Hatfield: CLOSED_6_TO_9, // 11807
+  "Point Pleasant": CLOSED_6_TO_9, // 8186
+  "Toms River": CLOSED_6_TO_9, // 10803
   "Point Pleasant Beach": CLOSED_6_TO_9, // 11870
-  "Horsham": CLOSED_6_TO_9,          // 1400
-  "Collegeville": CLOSED_6_TO_9,     // 1879
-  "Phoenixville": CLOSED_6_TO_9,     // 2230
-  "Exton": CLOSED_6_TO_9,            // 11228
-  "Lansdale 2": CLOSED_6_TO_9,       // 1875
-  "Norristown 2": CLOSED_6_TO_9,     // 11187
-  "Montgomeryville": CLOSED_6_TO_9,  // 11971
-  "Eatontown": CLOSED_6_TO_9,        // 13248
+  Horsham: CLOSED_6_TO_9, // 1400
+  Collegeville: CLOSED_6_TO_9, // 1879
+  Phoenixville: CLOSED_6_TO_9, // 2230
+  Exton: CLOSED_6_TO_9, // 11228
+  "Lansdale 2": CLOSED_6_TO_9, // 1875
+  "Norristown 2": CLOSED_6_TO_9, // 11187
+  Montgomeryville: CLOSED_6_TO_9, // 11971
+  Eatontown: CLOSED_6_TO_9, // 13248
 };
 
 /**
@@ -68,7 +68,6 @@ export const isStoreClosed = (storeName, hour) => {
 export const filterClosedHours = (data) => {
   let closedRowsRemoved = 0;
   const filteredData = [];
-
   for (const row of data) {
     if (isStoreClosed(row.StoreName, row.Hour)) {
       closedRowsRemoved++;
@@ -76,6 +75,5 @@ export const filterClosedHours = (data) => {
       filteredData.push(row);
     }
   }
-
   return { filteredData, closedRowsRemoved };
 };

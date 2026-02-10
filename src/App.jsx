@@ -49,14 +49,12 @@ function App() {
         setIsLoading(false);
       }
     };
-
     load();
   }, []);
 
   const handleRefreshData = async () => {
     setIsLoading(true);
     setError(null);
-
     try {
       const { data, source } = await fetchDataWithFallback();
       setRawData(data);
