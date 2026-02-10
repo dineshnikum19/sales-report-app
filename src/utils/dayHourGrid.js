@@ -1,18 +1,10 @@
-// Hours to exclude from grid: 2 AM, 3 AM, 4 AM, 5 AM, 6 AM (slots 2-3, 3-4, 4-5, 5-6, 6-7)
-const EXCLUDED_HOURS = [2, 3, 4, 5, 6];
-
-/** List of hours to display in the grid (0-23 excluding 2–6) */
-export const GRID_HOURS = Array.from({ length: 24 }, (_, i) => i).filter(
-  (h) => !EXCLUDED_HOURS.includes(h),
-);
+/** All 24 hours displayed in the grid (0-23) */
+export const GRID_HOURS = Array.from({ length: 24 }, (_, i) => i);
 
 /**
  * Build a grid of Day x Hour from processed/filtered data.
- * Returns a 2D structure: for each hour (excluding 2am–6am) and each day,
+ * Returns a 2D structure: for each hour and each day,
  * the **average** amount across all stores that have data for that cell.
- *
- * Previously this was summing AvgAmounts, which inflated values when
- * multiple stores contributed to the same Day+Hour cell.
  *
  * @param {Array} data - Processed data with Day, Hour, AvgAmount
  * @returns {Object} - { grid: Map<string, number>, dayOrder: string[], hours: number[] }
@@ -38,7 +30,6 @@ export const buildDayHourGrid = (data) => {
   });
 
   if (!data || data.length === 0) {
-    // Return grid of zeros
     const grid = new Map();
     for (const [key] of accumulator) {
       grid.set(key, 0);
@@ -53,7 +44,6 @@ export const buildDayHourGrid = (data) => {
       cell.total += row.AvgAmount;
       cell.count += 1;
     }
-    // Skip hours not in grid (2–6)
   });
 
   // Build final grid: average = total / count (or 0 if no data)

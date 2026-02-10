@@ -10,6 +10,7 @@
  */
 
 import * as XLSX from "xlsx";
+import { filterClosedHours } from "./storeClosedHours";
 
 /**
  * Parse Excel file and convert to JSON array
@@ -269,10 +270,16 @@ export const processData = (rawData) => {
   // Step 1: Validate and clean data
   const { validData, invalidCount } = validateAndCleanData(rawData);
 
-  // Step 2: Group by Store + Day + Hour and calculate averages
-  const groupedData = groupAndCalculateAverages(validData);
+  // Step 2: Remove closed-hour rows BEFORE grouping
+  // This ensures closed hours never enter the averaging pipeline —
+  // they don't count as $0 and don't inflate the denominator.
+  const { filteredData: openHoursData, closedRowsRemoved } =
+    filterClosedHours(validData);
 
-  // Step 3: Sort by lowest AvgAmount first
+  // Step 3: Group by Store + Day + Hour and calculate averages
+  const groupedData = groupAndCalculateAverages(openHoursData);
+
+  // Step 4: Sort by lowest AvgAmount first
   const sortedData = sortByLowestAvgAmount(groupedData);
 
   // Return processed data along with statistics
@@ -282,8 +289,9 @@ export const processData = (rawData) => {
       totalRawRows: rawData.length,
       validRows: validData.length,
       invalidRows: invalidCount,
+      closedHoursExcluded: closedRowsRemoved,
       uniqueGroups: sortedData.length,
-      stores: [...new Set(validData.map((r) => r.StoreCode))].length,
+      stores: [...new Set(openHoursData.map((r) => r.StoreCode))].length,
     },
   };
 };
@@ -318,7 +326,6 @@ export const getUniqueStoreNames = (data) => {
  */
 export const getUniqueDays = (data) => {
   const days = new Set(data.map((row) => row.Day));
-  // Sort days in logical order (Monday to Sunday)
   const dayOrder = [
     "Monday",
     "Tuesday",
@@ -458,26 +465,20 @@ export const prepareChartData = (data, groupBy = "hour") => {
   const grouped = new Map();
 
   if (groupBy === "hour") {
-    // Hours to exclude from chart: 2, 3, 4, 5, 6 (which show as 2-3, 3-4, 4-5, 5-6, 6-7)
-    const excludedHours = [2, 3, 4, 5, 6];
-
-    // Initialize all hours 0-23 with 0 values, except excluded hours
+    // Initialize all 24 hours (0-23) with 0 values
     for (let hour = 0; hour < 24; hour++) {
-      if (!excludedHours.includes(hour)) {
-        grouped.set(hour, { total: 0, count: 0 });
-      }
+      grouped.set(hour, { total: 0, count: 0 });
     }
 
-    // Group by hour (0-23) and accumulate data, excluding specified hours
+    // Group by hour (0-23) and accumulate data
     for (const row of data) {
       const key = row.Hour;
-      if (!excludedHours.includes(key) && grouped.has(key)) {
+      if (grouped.has(key)) {
         grouped.get(key).total += row.AvgAmount;
         grouped.get(key).count += 1;
       }
     }
 
-    // Create sorted arrays for chart (excluding hours 2, 3, 4, 5)
     const sortedEntries = [...grouped.entries()].sort((a, b) => a[0] - b[0]);
     return {
       labels: sortedEntries.map(([hour]) => formatHourToAMPM(hour)),

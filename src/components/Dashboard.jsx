@@ -145,20 +145,20 @@ const Dashboard = ({ rawData }) => {
         />
       </section>
 
-      <section aria-label="Day and hour grid">
-        <DayHourGrid
-          data={filteredData}
-          selectedStore={selectedStore}
-          fullView
-        />
-      </section>
-
       <section aria-label="Chart">
         <SalesChart
           selectedStore={selectedStore}
           chartData={chartData}
           chartOptions={chartOptions}
           chartType={chartType}
+        />
+      </section>
+
+      <section aria-label="Day and hour grid">
+        <DayHourGrid
+          data={filteredData}
+          selectedStore={selectedStore}
+          fullView
         />
       </section>
 
