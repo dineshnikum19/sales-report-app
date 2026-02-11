@@ -12,8 +12,12 @@ export const calculateStats = (filteredData) => {
   const min = Math.min(...amounts);
   const max = Math.max(...amounts);
 
-  // Find the lowest performing slot (first item since sorted by lowest)
-  const lowest = filteredData[0];
+  // Find the lowest performing slot by scanning for the minimum AvgAmount
+  // (do NOT rely on sort order — the caller may sort ascending or descending)
+  const lowest = filteredData.reduce(
+    (min, row) => (!min || row.AvgAmount < min.AvgAmount ? row : min),
+    null,
+  );
 
   return {
     totalRecords: filteredData.length,
