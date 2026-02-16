@@ -116,10 +116,7 @@ const DaypartGrid = ({ data, selectedStore }) => {
                 className="hover:bg-blue-50/50 transition-colors duration-150"
               >
                 <td className="px-4 py-3 border-b border-r border-gray-200 font-medium text-slate-700 whitespace-nowrap bg-slate-50 sticky left-0 z-[5]">
-                  <span className="font-semibold">{dp.name}</span>
-                  <span className="text-gray-500 font-normal ml-1">
-                    ({dp.label})
-                  </span>
+                  {dp.name}
                 </td>
                 {dayOrder.map((day) => {
                   const value = grid.get(`${day}_${dp.name}`) ?? null;
