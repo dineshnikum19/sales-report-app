@@ -19,6 +19,7 @@ import {
 import SummaryCards from "./SummaryCards";
 import Filters from "./Filters";
 import SalesChart from "./SalesChart";
+import DaypartGrid from "./DaypartGrid";
 import DayHourGrid from "./DayHourGrid";
 import DataTable from "./DataTable";
 import EmptyState from "./EmptyState";
@@ -148,6 +149,13 @@ const Dashboard = ({ rawData }) => {
           chartData={chartData}
           chartOptions={chartOptions}
           chartType={chartType}
+        />
+      </section>
+
+      <section aria-label="Daypart grid">
+        <DaypartGrid
+          data={filteredData}
+          selectedStore={selectedStore}
         />
       </section>
 
